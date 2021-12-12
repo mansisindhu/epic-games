@@ -1,0 +1,19 @@
+{
+  "name": "epic-games",
+  "version": "1.0.0",
+  "description": "epic games clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mansisindhu/epic-games.git"
+  },
+  "author": "Mansi Sindhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mansisindhu/epic-games/issues"
+  },
+  "homepage": "https://github.com/mansisindhu/epic-games#readme"
+}
