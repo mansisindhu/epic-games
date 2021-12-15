@@ -35,7 +35,6 @@
   display: flex;
   color: var(--gray-text);
   font-size: 14px;
-  line-height: 20px;
   gap: 15px;
   line-height: 1.25rem;
   letter-spacing: 0.1px;
@@ -44,6 +43,7 @@
 .underline {
   color: #fff;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .button {
@@ -64,5 +64,6 @@
     max-width: 470px;
     margin: 50px auto;
     padding: 45px 60px 20px;
+    border-radius: 4px;
   }
 }
