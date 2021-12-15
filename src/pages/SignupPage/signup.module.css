@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  background-color: var(--light-black);
+  height: 100vh;
+  flex-direction: column;
+  padding: 50px 15px;
+  align-items: center;
+  gap: 30px;
+}
+
+.icon > img {
+  height: 50px;
+}
+
+.form {
+  display: flex;
+  background-color: var(--light-black);
+  height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.names {
+  display: flex;
+  gap: 16px;
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checkbox {
+  display: flex;
+  color: var(--gray-text);
+  font-size: 14px;
+  line-height: 20px;
+  gap: 15px;
+  line-height: 1.25rem;
+  letter-spacing: 0.1px;
+}
+
+.underline {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.button {
+  width: 100%;
+  background-color: var(--main-blue);
+  padding: 5px 20px;
+  height: 54px;
+  color: #fff;
+  border: none;
+  min-width: 40px;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 470px;
+    margin: 50px auto;
+    padding: 45px 60px 20px;
+  }
+}
