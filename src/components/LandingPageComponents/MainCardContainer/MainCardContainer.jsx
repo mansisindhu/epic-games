@@ -11,13 +11,15 @@ const MainCardContainer = ({ data, heading }) => {
         {data.map((el) => {
           return (
             <>
-              <MainCard
-                image={el.cardImage}
-                title={el.title}
-                tagline={el.cardTagline}
-                discount={el.price.discount}
-                price={el.price.mainPrice}
-              />
+              <div className={styles.card}>
+                <MainCard
+                  image={el.cardImage}
+                  title={el.title}
+                  tagline={el.cardTagline}
+                  discount={el.price.discount}
+                  price={el.price.mainPrice}
+                />
+              </div>
             </>
           );
         })}
