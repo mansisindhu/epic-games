@@ -1,4 +1,3 @@
-// import SignupPage from "./pages/SignupPage/SignupPage";
 import "./index.css";
 import LandingPage from "./pages/LandingPage";
 
@@ -9,6 +8,4 @@ const App = () => {
       <LandingPage />
     </div>
   );
-};
-
 export default App;
