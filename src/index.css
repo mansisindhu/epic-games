@@ -4,3 +4,17 @@
   box-sizing: border-box;
   font-family: "Brutal Type";
 }
+
+:root {
+  --main-black: #121212;
+  --light-black: #202020;
+  --main-gray: #2b2b2b;
+  --gray-text: rgba(255, 255, 255, 0.72);
+  --main-blue: #0074e4;
+  --disabled-state-opacity: 0.5;
+}
+
+body {
+  background-color: var(--main-black);
+  color: #fff;
+}
