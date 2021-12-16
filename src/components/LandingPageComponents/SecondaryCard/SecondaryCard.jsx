@@ -1,22 +1,22 @@
-import styles from "./mainCard.module.css";
-const MainCard = (props) => {
-  const { image, title, tagline, price, discount } = props;
-  console.log(image);
+import styles from "./secondaryCard.module.css";
+
+const SecondaryCard = (props) => {
+  const { image, title, description, price, discount } = props;
 
   return (
     <>
-      <div className={styles.card}>
-        <a className={styles.card} href="">
+      <a className={styles.card} href="#">
+        <div className={styles.card}>
           <div className={styles.image_div}>
             <img className={styles.banner} src={image} alt="cardImage" />
             <div className={styles.icon}>
               <img src="./icons/Add_to_Wishlist.svg" alt="wishlistIcon" />
             </div>
           </div>
-          <div>
-            <p className={styles.title}>{title}</p>
-            <div className={styles.tagline_cont}>
-              <p className={styles.tagline}> {tagline}</p>
+          <div className={styles.content}>
+            <p className={styles.title}>{title} Available Now.</p>
+            <div className={styles.description_cont}>
+              <p className={styles.description}> {description}</p>
             </div>
             <div className={styles.price_div}>
               <div className={styles.discount}>
@@ -25,10 +25,10 @@ const MainCard = (props) => {
               <p className={styles.mrp}>₹{price}</p>
             </div>
           </div>
-        </a>
-      </div>
+        </div>
+      </a>
     </>
   );
 };
 
-export default MainCard;
+export default SecondaryCard;

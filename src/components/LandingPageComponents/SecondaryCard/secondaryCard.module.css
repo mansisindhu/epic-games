@@ -5,21 +5,24 @@
   --gray-text: rgba(255, 255, 255, 0.72);
   --main-blue: #0074e4;
   --disabled-state-opacity: 0.5;
+  --seconday-text: rgba(245, 245, 245, 0.6);
+  --hover: rgba(255, 255, 255, 0.836);
 }
 
 .card {
-  color: var(--grey-text);
+  width: 300px;
+  color: var(--seconday-text);
   text-decoration: none;
-  width: 210px;
+  /* background-color: cadetblue; */
 }
 
 .title {
-  font-size: 16px;
+  font-size: 20px;
   margin: 5px 0px;
   color: white;
 }
 
-.tagline {
+.description {
   color: var(--gray-text);
   font-size: 16px;
   margin-bottom: 5px;
@@ -28,20 +31,21 @@
   text-overflow: ellipsis;
 }
 
-.tagline_cont {
+.description_cont {
   width: 100%;
-  padding: 1%;
+  height: 20px;
 }
 
 .price_div {
   margin: 5px 0px;
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 
 .discount {
-  width: 50px;
-  height: 20px;
+  width: 60px;
+  height: 30px;
   background-color: #0078f2;
   color: white;
   padding-top: 5px;
@@ -49,7 +53,7 @@
   padding-left: 10px;
   padding-right: 10px;
   letter-spacing: 2px;
-  border-radius: 5px;
+  border-radius: 4px;
   font-size: 10px;
   text-align: center;
 }
@@ -57,11 +61,12 @@
 .mrp {
   text-decoration: line-through;
   color: var(--gray-text);
+  font-size: 20px;
 }
 
 .banner {
   width: 100%;
-  border-radius: 4px;
+  border-radius: 20px;
 }
 
 .image_div {
@@ -85,44 +90,39 @@
   color: #fff;
 }
 
+.content {
+  padding: 0px 20px;
+}
+
 @media screen and (min-width: 768px) {
   .card {
-    color: var(--grey-text);
-    text-decoration: none;
-    width: 230px;
+    width: 580px;
+    padding-top: 10px;
+  }
+
+  .content {
+    padding: 0px 30px;
   }
 
   .title {
-    font-size: 16px;
-    margin: 5px 0px;
-    color: white;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    font-size: 20px;
+    margin: 30px 0px 10px 0px;
   }
 
-  .tagline {
-    color: var(--gray-text);
+  .description {
     font-size: 16px;
     margin-bottom: 5px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  .tagline_cont {
-    width: 100%;
   }
 
   .price_div {
-    margin: 5px 0px;
+    margin: 15px 0px;
     display: flex;
     gap: 10px;
   }
 
   .discount {
     width: 50px;
-    height: 20px;
+    height: 25px;
     background-color: #0078f2;
     color: white;
     padding-top: 5px;
@@ -130,7 +130,7 @@
     padding-left: 10px;
     padding-right: 10px;
     letter-spacing: 2px;
-    border-radius: 5px;
+    border-radius: 4px;
     font-size: 10px;
     text-align: center;
   }
@@ -142,7 +142,7 @@
 
   .banner {
     width: 100%;
-    border-radius: 4px;
+    border-radius: 20px;
   }
   .image_div {
     position: relative;
@@ -163,5 +163,11 @@
 
   .icon img {
     color: #fff;
+    display: none;
+  }
+
+  .icon img:hover {
+    color: #fff;
+    display: block;
   }
 }

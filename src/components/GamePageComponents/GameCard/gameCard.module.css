@@ -1,0 +1,14 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: plum;
+}
+
+.container img {
+  width: 100%;
+}
+
+.gameCard {
+  display: flex;
+}
