@@ -1,0 +1,50 @@
+.filter {
+  padding: 16px;
+}
+
+.heading {
+  margin: 0 28px;
+  font-size: 14px;
+}
+
+.search_box {
+  margin: 28px;
+  color: rgb(245, 245, 245);
+  background-color: rgb(32, 32, 32);
+  border-radius: 4px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-left: 16px;
+}
+
+.search_box > input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: 500;
+}
+
+.search_box > input:focus {
+  outline: none;
+}
+
+.filter_cont {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0;
+}
+
+.line {
+  background-color: rgb(245, 245, 245);
+  opacity: 0.1;
+  height: 1px;
+}
+
+
+@media (min-width: 768px) {
+  .bottom_navbar {
+    display: none;
+  }
+}
