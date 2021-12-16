@@ -1,11 +1,8 @@
 .container {
   overflow-x: scroll;
   display: flex;
-  gap: 10px;
+  gap: 20px;
   width: 100%;
-  /* border: 1px solid red; */
-  padding: 20px;
-  margin-top: 20px;
   align-items: center;
 }
 
@@ -20,16 +17,9 @@
 
 @media screen and (min-width: 768px) {
   .container {
+    overflow-x: none;
     display: flex;
     gap: 10px;
     width: 100%;
-    padding: 20px;
-    margin-top: 20px;
-    align-items: center;
-  }
-
-  .card {
-    border: 1px solid palevioletred;
-    width: 300px;
   }
 }
