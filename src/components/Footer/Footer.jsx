@@ -1,17 +1,18 @@
 import styles from './Footer.module.css'
 
+// import "../../..//icons/facebook.svg"
 export default function Footer(){
     return(
        <>
        
            <div className={styles.footer1}>
                <div className={styles.footer2}>
-                   <img  className={styles.img1} src="Vector4.svg"></img>
-                   <img  className={styles.img2} src="Vector5.svg"></img>
-                   <img  className={styles.img3} src="Vector6.svg"></img>
+                   <img  className={styles.img1} src="./icons/facebook.svg"></img>
+                   <img  className={styles.img2} src="./icons/twitter.svg"></img>
+                   <img  className={styles.img3} src="./icons/youtube.svg"></img>
               </div>
               <div className={styles.footerright}>
-                   <img  className={styles.img4} src="Vector7.svg"></img>
+                   <img  className={styles.img4} src="./icons/Vector7.svg"></img>
                    </div>
                    <div className={styles.footer12}>
                <p>Resources</p>
@@ -64,8 +65,8 @@ export default function Footer(){
                         </div>
 
                         <div className={styles.lastimg}>
-                            <img src="shape.svg"></img>
-                            <img src="path72.svg"></img>
+                            <img src="./icons/Epic_games_white.svg"></img>
+                            <img src="./icons/unreal_Engine_Logo.svg"></img>
                         </div>
            </div>
          

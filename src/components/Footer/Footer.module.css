@@ -8,14 +8,14 @@
   .footer2{
    margin-left:70px;
     display:flex;
-    gap:5px;
+    gap:12px;
      
   }
   
    .img1{
      margin-top:30px;
      width:40px;
-     background-color:#202020;
+     background-color:#F5F5F5;
  }
 
  
@@ -36,10 +36,12 @@
  .img2{
      margin-top:30px;
      width:40px;
+     background-color:#F5F5F5;
  }
  .img3{
      margin-top:30px;
      width:40px;
+     background-color:#F5F5F5;
  }
  
 .img4{
@@ -237,9 +239,10 @@
    letter-spacing: 0.0105em;
    display: flex;
    align-items: center;
-   
+   text-align: center;
     color: #F5F5F5;
-
+    text-justify: inter-word;
+      text-align: justify;
    flex: none;
    order: 0;
    flex-grow: 0;
@@ -251,14 +254,14 @@
   .threeline{
       display:flex;
       flex-direction:column;
-      margin-left:30%;
-      margin-bottom:5px !important;
+      text-align:center;
+      
   }
 
   .lastimg{
-      margin-left:45%;
       display:flex;
       gap:5px;
+     margin-left:50%;
       margin-top:0px;
   }
 
