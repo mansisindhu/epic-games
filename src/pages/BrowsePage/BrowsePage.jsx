@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IoFilterSharp } from "react-icons/io5";
 
 import PopularGenre from "../../components/BrowsePageComponents/PopularGenre";
@@ -11,6 +11,14 @@ const BrowsePage = () => {
   const [sortingModal, setSortingModalState] = useState(false);
 
   const [filterModal, setFilterModal] = useState(false);
+
+  useEffect(() => {
+    if (filterModal) {
+      document.body.setAttribute("class", "overflow-hidden");
+    } else {
+      document.body.removeAttribute("class", "overflow-hidden");
+    }
+  }, [filterModal]);
 
   return (
     <>

@@ -54,7 +54,7 @@
 .modal_container {
   background-color: var(--main-black);
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .bottom_navbar {
@@ -97,7 +97,6 @@
 }
 
 .data_wrapper {
-  
 }
 
 @media (min-width: 768px) {
