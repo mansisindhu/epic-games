@@ -10,6 +10,10 @@ import FilterModal from "../../components/BrowsePageComponents/Filters/FilterMod
 const BrowsePage = () => {
   const [sortingModal, setSortingModalState] = useState(false);
 
+  const closeSortingModal = () => {
+    setSortingModalState((prev) => !prev);
+  };
+
   const [filterModal, setFilterModal] = useState(false);
 
   useEffect(() => {
@@ -30,8 +34,24 @@ const BrowsePage = () => {
               <div className={styles.filters_sorting_container}>
                 <div className={styles.sorting}>
                   <p className={styles.sorting_para}>
-                    Sort By: <span>New release</span>
+                    Sort By:{" "}
+                    <span onClick={closeSortingModal}>New release</span>
                   </p>
+                  {sortingModal ? (
+                    <div
+                      onClick={closeSortingModal}
+                      className={styles.sorting_modal}
+                    >
+                      <p className={styles.sorting_option}>New Release</p>
+                      <p className={styles.sorting_option}>Alphabetical</p>
+                      <p className={styles.sorting_option}>
+                        Price: Low to High
+                      </p>
+                      <p className={styles.sorting_option}>
+                        Price: Hight to Low
+                      </p>
+                    </div>
+                  ) : null}
                 </div>
                 <div
                   onClick={() => setFilterModal(true)}
@@ -54,9 +74,9 @@ const BrowsePage = () => {
                   </div>
                 ))}
               </div>
-              <div className={styles.filters_desktop}>
-                <FilterModal />
-              </div>
+            </div>
+            <div className={styles.filters_desktop}>
+              <FilterModal />
             </div>
           </div>
         </div>
