@@ -1,14 +1,42 @@
 .container {
-  max-width: 1200px;
-  margin: auto;
-  margin-top: 50px;
-  background-color: plum;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  height: 100vh;
 }
 
-.container img {
+.card {
+  margin: auto;
+  height: 100vh;
+  width: 50%;
+}
+
+.card img {
   width: 100%;
 }
 
-.gameCard {
+.features_div {
   display: flex;
+  gap: 50px;
+  background-color: green;
+}
+
+.specifications {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+  }
+  .card {
+    margin: auto;
+    background-color: plum;
+  }
+
+  .card img {
+    width: 100%;
+  }
 }
