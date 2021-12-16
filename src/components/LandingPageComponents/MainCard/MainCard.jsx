@@ -10,9 +10,7 @@ const MainCard = (props) => {
           <div className={styles.image_div}>
             <img className={styles.banner} src={image} alt="cardImage" />
             <div className={styles.icon}>
-              <a href="#">
-                <i class="fa fa-pencil fa-lg"></i>
-              </a>
+              <img src="./icons/Add_to_Wishlist.svg" alt="wishlistIcon" />
             </div>
           </div>
           <div>
