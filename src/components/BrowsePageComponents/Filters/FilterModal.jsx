@@ -42,7 +42,30 @@ const FilterModal = () => {
                   PRICE
                 </Typography>
               </AccordionSummary>
-              <AccordionDetails></AccordionDetails>
+              <AccordionDetails>
+                <div className={styles.checkboxes}>
+                  <div className={styles.checkbox}>
+                    <input id="price" type="radio" name="price" />
+                    <label htmlFor="price">Free</label>
+                  </div>
+                  <div className={styles.checkbox}>
+                    <input type="radio" name="price" />
+                    <label htmlFor="price">Under Rs. 750.00</label>
+                  </div>
+                  <div className={styles.checkbox}>
+                    <input type="radio" name="price" />
+                    <label htmlFor="price">Under Rs. 1,500.00</label>
+                  </div>
+                  <div className={styles.checkbox}>
+                    <input type="radio" name="price" />
+                    <label htmlFor="price">Under Rs. 2,500.00</label>
+                  </div>
+                  <div className={styles.checkbox}>
+                    <input type="radio" name="price" />
+                    <label htmlFor="price">Rs. 1,099.00 and above</label>
+                  </div>
+                </div>
+              </AccordionDetails>
             </Accordion>
           </ThemeProvider>
         </div>
@@ -69,7 +92,46 @@ const FilterModal = () => {
                   GENRE
                 </Typography>
               </AccordionSummary>
-              <AccordionDetails></AccordionDetails>
+              <AccordionDetails>
+                <div className={styles.checkboxes}>
+                  <div className={styles.checkbox}>
+                    <input id="genre" type="checkbox" name="genre" />
+                    <label htmlFor="genre">Action</label>
+                  </div>
+                  <div className={styles.checkbox}>
+                    <input type="checkbox" name="genre" />
+                    <label htmlFor="genre">Adventure</label>
+                  </div>
+                  <div className={styles.checkbox}>
+                    <input type="checkbox" name="genre" />
+                    <label htmlFor="genre">Strategy</label>
+                  </div>
+                  <div className={styles.checkbox}>
+                    <input type="checkbox" name="genre" />
+                    <label htmlFor="genre">Shooter</label>
+                  </div>
+                  <div className={styles.checkbox}>
+                    <input type="checkbox" name="genre" />
+                    <label htmlFor="genre">Puzzle</label>
+                  </div>
+                  <div className={styles.checkbox}>
+                    <input type="checkbox" name="genre" />
+                    <label htmlFor="genre">Indie</label>
+                  </div>
+                  <div className={styles.checkbox}>
+                    <input type="checkbox" name="genre" />
+                    <label htmlFor="genre">Casual</label>
+                  </div>
+                  <div className={styles.checkbox}>
+                    <input type="checkbox" name="genre" />
+                    <label htmlFor="genre">Survival</label>
+                  </div>
+                  <div className={styles.checkbox}>
+                    <input type="checkbox" name="genre" />
+                    <label htmlFor="genre">Horror</label>
+                  </div>
+                </div>
+              </AccordionDetails>
             </Accordion>
           </ThemeProvider>
         </div>
@@ -94,10 +156,33 @@ const FilterModal = () => {
                     letterSpacing: "0.5px",
                   }}
                 >
-                  GENRE
+                  FEATURES
                 </Typography>
               </AccordionSummary>
-              <AccordionDetails></AccordionDetails>
+              <AccordionDetails>
+                <div className={styles.checkboxes}>
+                  <div className={styles.checkbox}>
+                    <input id="features" type="checkbox" name="features" />
+                    <label htmlFor="features">Single Player</label>
+                  </div>
+                  <div className={styles.checkbox}>
+                    <input type="checkbox" name="features" />
+                    <label htmlFor="features">Controller Support</label>
+                  </div>
+                  <div className={styles.checkbox}>
+                    <input type="checkbox" name="features" />
+                    <label htmlFor="features">Mutiplayer</label>
+                  </div>
+                  <div className={styles.checkbox}>
+                    <input type="checkbox" name="features" />
+                    <label htmlFor="features">Co-op</label>
+                  </div>
+                  <div className={styles.checkbox}>
+                    <input type="checkbox" name="features" />
+                    <label htmlFor="features">Competitive</label>
+                  </div>
+                </div>
+              </AccordionDetails>
             </Accordion>
           </ThemeProvider>
         </div>
@@ -125,7 +210,18 @@ const FilterModal = () => {
                   PLATFORM
                 </Typography>
               </AccordionSummary>
-              <AccordionDetails></AccordionDetails>
+              <AccordionDetails>
+                <div className={styles.checkboxes}>
+                  <div className={styles.checkbox}>
+                    <input id="platform" type="checkbox" name="platform" />
+                    <label htmlFor="platform">Windows</label>
+                  </div>
+                  <div className={styles.checkbox}>
+                    <input type="checkbox" name="platform" />
+                    <label htmlFor="platform">Mac OS</label>
+                  </div>
+                </div>
+              </AccordionDetails>
             </Accordion>
           </ThemeProvider>
         </div>
