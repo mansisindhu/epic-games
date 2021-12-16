@@ -153,12 +153,12 @@
   }
 
   .containter {
-    margin: 74px;
+    margin: 0 74px;
   }
 
   .filters_desktop {
     display: unset;
-    width: 25%;
+    width: 20%;
   }
 
   .main_container {
@@ -167,7 +167,7 @@
   }
 
   .data_wrapper {
-    width: 75%;
+    width: 80%;
   }
 
   .sorting_para {
@@ -178,5 +178,9 @@
 @media (min-width: 1120px) {
   .card_container {
     width: calc(25% - 16px);
+  }
+
+  .containter {
+    margin: 0 132px;
   }
 }
