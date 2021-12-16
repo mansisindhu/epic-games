@@ -16,7 +16,7 @@
 
 .image_div {
   background: linear-gradient(324.69deg, #0074e4 0%, #000005 89.06%);
-  width: 400px;
+  width: 100%;
   height: 224px;
   border-radius: 20px;
   background-position: center;
@@ -48,7 +48,11 @@
   .container {
     flex-direction: row;
     margin: auto;
-    gap: 30px;
+    gap: 50px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
   }
 
   .image_div {
@@ -67,6 +71,11 @@
     width: 100%;
   }
 
+  .heading {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
   .btn {
     display: block;
     height: 50px;
@@ -74,8 +83,8 @@
     border-radius: 4px;
     padding: 5px, 26px, 5px, 26px;
     font-size: 14px;
-    margin-top: 30px;
+    margin-top: 80px;
     font-weight: 400;
-    outline: none;
+    border: none;
   }
 }
