@@ -1,0 +1,19 @@
+.container {
+  /* overflow-x: scroll; */
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  border: 1px solid red;
+  padding: 20px;
+  margin-top: 20px;
+  align-items: top;
+}
+
+.card {
+  flex-shrink: 0;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
