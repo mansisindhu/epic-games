@@ -1,0 +1,158 @@
+:root {
+  --main-black: #121212;
+  --light-black: #202020;
+  --main-gray: #2b2b2b;
+  --gray-text: rgba(255, 255, 255, 0.72);
+  --main-blue: #0074e4;
+  --disabled-state-opacity: 0.5;
+  --seconday-text: rgba(245, 245, 245, 0.6);
+  --hover: rgba(255, 255, 255, 0.836);
+}
+
+.card {
+  width: 300px;
+  color: var(--seconday-text);
+  text-decoration: none;
+  /* background-color: cadetblue; */
+}
+
+.title {
+  font-size: 20px;
+  margin: 5px 0px;
+  color: white;
+}
+
+.description {
+  color: var(--gray-text);
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.price_div {
+  margin: 5px 0px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.discount {
+  width: 60px;
+  height: 30px;
+  background-color: #0078f2;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.mrp {
+  text-decoration: line-through;
+  color: var(--gray-text);
+  font-size: 20px;
+}
+
+.banner {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.image_div {
+  position: relative;
+  display: inline-block;
+}
+
+.image_div .icon {
+  display: block;
+}
+
+.icon {
+  padding-top: 7px;
+  padding-right: 7px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.icon img {
+  color: #fff;
+}
+
+.content {
+  padding: 0px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+  }
+
+  .title {
+    font-size: 16px;
+    margin: 5px 0px;
+  }
+
+  .description {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .price_div {
+    margin: 5px 0px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .discount {
+    width: 50px;
+    height: 20px;
+    background-color: #0078f2;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .mrp {
+    text-decoration: line-through;
+    color: var(--gray-text);
+  }
+
+  .banner {
+    width: 100%;
+    border-radius: 4px;
+  }
+  .image_div {
+    position: relative;
+    display: inline-block;
+  }
+
+  .image_div .icon {
+    display: block;
+  }
+
+  .icon {
+    padding-top: 7px;
+    padding-right: 7px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .icon img {
+    color: #fff;
+  }
+
+  .banner:hover {
+    background: linear-gradient(#fff, rgba(0, 0, 0, 0.18)
+);
+  }
+}
