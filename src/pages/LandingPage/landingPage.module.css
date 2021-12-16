@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) {
+  .landing_container {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .heading_div {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon {
+    background-color: pink;
+  }
+
+  .mainCardContainer {
+    background-color: palevioletred;
+  }
+}
