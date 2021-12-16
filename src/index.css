@@ -19,3 +19,7 @@ body {
   background-color: var(--main-black);
   color: #fff;
 }
+
+.overflow-hidden {
+  overflow: hidden;
+}
