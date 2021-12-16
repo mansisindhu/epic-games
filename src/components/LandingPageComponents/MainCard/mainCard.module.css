@@ -10,6 +10,7 @@
 .card {
   color: var(--grey-text);
   text-decoration: none;
+  width: 210px;
 }
 
 .title {
@@ -62,6 +63,7 @@
   width: 100%;
   border-radius: 4px;
 }
+
 .image_div {
   position: relative;
   display: inline-block;
@@ -87,13 +89,16 @@
   .card {
     color: var(--grey-text);
     text-decoration: none;
-    background-color: powderblue;
+    width: 230px;
   }
 
   .title {
     font-size: 16px;
     margin: 5px 0px;
     color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .tagline {
@@ -107,7 +112,6 @@
 
   .tagline_cont {
     width: 100%;
-    padding: 1%;
   }
 
   .price_div {
