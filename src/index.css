@@ -12,6 +12,7 @@
   --gray-text: rgba(255, 255, 255, 0.72);
   --main-blue: #0074e4;
   --disabled-state-opacity: 0.5;
+  --seconday-text: rgba(245, 245, 245, 0.6);
 }
 
 body {
