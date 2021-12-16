@@ -1,11 +1,10 @@
 import "./index.css";
-import LandingPage from "./pages/LandingPage";
+import GamePage from "./pages/GamePage/GamePage";
 
 const App = () => {
   return (
     <div className="App">
-      {/* <SignupPage /> */}
-      <LandingPage />
+      <GamePage />
     </div>
   );
 };
