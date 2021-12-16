@@ -1,12 +1,9 @@
 .container {
-  /* overflow-x: scroll; */
+  overflow-x: scroll;
   display: flex;
-  gap: 10px;
+  gap: 20px;
   width: 100%;
-  border: 1px solid red;
-  padding: 20px;
-  margin-top: 20px;
-  align-items: top;
+  align-items: center;
 }
 
 .card {
@@ -16,4 +13,14 @@
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    overflow-x: none;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    /* background-color: papayawhip; */
+  }
 }
