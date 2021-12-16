@@ -47,7 +47,6 @@
 @media screen and (min-width: 768px) {
   .container {
     flex-direction: row;
-    margin: auto;
     gap: 50px;
     max-width: 1200px;
     margin: auto;
