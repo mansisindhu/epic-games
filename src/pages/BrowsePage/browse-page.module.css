@@ -1,0 +1,186 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.data_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.card_container {
+  width: calc(50% - 16px);
+  margin-bottom: 28px;
+}
+
+.filters_sorting_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px;
+}
+
+.sorting_para {
+  font-size: 14px;
+  color: var(--gray-text);
+}
+
+.filters {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.sorting_para > span {
+  color: #fff;
+  cursor: pointer;
+}
+
+.modal_overlay {
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.modal_container {
+  background-color: var(--main-black);
+  width: 100%;
+  min-height: 100vh;
+}
+
+.bottom_navbar {
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+  background: rgb(32, 32, 32);
+  display: flex;
+  height: 98px;
+  justify-content: center;
+  padding: 30px;
+  width: 100%;
+}
+
+.clear {
+  color: rgb(245, 245, 245);
+  text-align: center;
+  align-items: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 13px 48px;
+  line-height: 15px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.done {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 15px;
+  padding: 0px 56px;
+  height: 50px;
+  background-color: var(--main-blue);
+  color: #fff;
+  border: none;
+}
+
+.sorting {
+  position: relative;
+}
+
+.sorting_modal {
+  color: rgb(245, 245, 245);
+  background-color: rgb(32, 32, 32);
+  border-radius: 3px;
+  width: 116%;
+  margin-top: 5px;
+  padding: 8px 14px;
+  position: absolute;
+  z-index: 1;
+  box-shadow: rgb(0 0 0 / 50%) 0px 2px 35px 0px;
+  font-size: 14px;
+  top: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sorting_option {
+  margin: 12px 0;
+  color: var(--gray-text);
+  transition: color 125ms ease-in-out 0s;
+}
+
+.sorting_option:hover {
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.filters_desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .card_container {
+    width: calc(33.333% - 16px);
+  }
+
+  .modal_overlay {
+    display: none;
+  }
+
+  .filters {
+    display: none;
+  }
+
+  .main {
+    max-width: 1600px;
+    margin: auto;
+  }
+
+  .containter {
+    margin: 0 74px;
+  }
+
+  .filters_desktop {
+    display: unset;
+    width: 20%;
+  }
+
+  .main_container {
+    display: flex;
+    gap: 24px;
+  }
+
+  .data_wrapper {
+    width: 80%;
+  }
+
+  .sorting_para {
+    margin: 0 0 8px 0;
+  }
+}
+
+@media (min-width: 1120px) {
+  .card_container {
+    width: calc(25% - 16px);
+  }
+
+  .containter {
+    margin: 0 132px;
+  }
+}

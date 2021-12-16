@@ -1,0 +1,167 @@
+:root {
+  --main-black: #121212;
+  --light-black: #202020;
+  --main-gray: #2b2b2b;
+  --gray-text: rgba(255, 255, 255, 0.72);
+  --main-blue: #0074e4;
+  --disabled-state-opacity: 0.5;
+}
+
+.card {
+  color: var(--grey-text);
+  text-decoration: none;
+  width: 210px;
+}
+
+.title {
+  font-size: 16px;
+  margin: 5px 0px;
+  color: white;
+}
+
+.tagline {
+  color: var(--gray-text);
+  font-size: 16px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tagline_cont {
+  width: 100%;
+  padding: 1%;
+}
+
+.price_div {
+  margin: 5px 0px;
+  display: flex;
+  gap: 10px;
+}
+
+.discount {
+  width: 50px;
+  height: 20px;
+  background-color: #0078f2;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.mrp {
+  text-decoration: line-through;
+  color: var(--gray-text);
+}
+
+.banner {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.image_div {
+  position: relative;
+  display: inline-block;
+}
+
+.image_div .icon {
+  display: block;
+}
+
+.icon {
+  padding-top: 7px;
+  padding-right: 7px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.icon img {
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    color: var(--grey-text);
+    text-decoration: none;
+    width: 230px;
+  }
+
+  .title {
+    font-size: 16px;
+    margin: 5px 0px;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .tagline {
+    color: var(--gray-text);
+    font-size: 16px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .tagline_cont {
+    width: 100%;
+  }
+
+  .price_div {
+    margin: 5px 0px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .discount {
+    width: 50px;
+    height: 20px;
+    background-color: #0078f2;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .mrp {
+    text-decoration: line-through;
+    color: var(--gray-text);
+  }
+
+  .banner {
+    width: 100%;
+    border-radius: 4px;
+  }
+  .image_div {
+    position: relative;
+    display: inline-block;
+  }
+
+  .image_div .icon {
+    display: block;
+  }
+
+  .icon {
+    padding-top: 7px;
+    padding-right: 7px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .icon img {
+    color: #fff;
+  }
+}
