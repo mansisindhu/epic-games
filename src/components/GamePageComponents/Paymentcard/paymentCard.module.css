@@ -1,3 +1,83 @@
 .main {
-  background: plum;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.basegame {
+  padding: 6px 10px;
+  text-align: center;
+  height: 30px;
+  width: 100px;
+  color: white;
+  background: #2a2a2a;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.price_div {
+  margin: 5px 0px;
+  display: flex;
+  gap: 10px;
+}
+
+.discount {
+  width: 50px;
+  height: 20px;
+  background-color: #0078f2;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.mrp {
+  text-decoration: line-through;
+  color: var(--gray-text);
+}
+
+.buy_btn {
+  height: 48px;
+  width: 100%;
+  background: #0078f2;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.wishlist_btn {
+  height: 32px;
+  /* width: 310px; */
+  width: 100%;
+  padding: 5px, 16px, 5px, 16px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background: none;
+  color: #fff;
+  margin-top: 10px;
+}
+.game_info {
+  margin-top: 10px;
+}
+.game_details {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--light-black);
+  padding: 10px 0px;
+}
+
+.title {
+  text-align: right;
+}
+
+.logo img {
+  width: 100%;
+  border: 1px solid red;
 }

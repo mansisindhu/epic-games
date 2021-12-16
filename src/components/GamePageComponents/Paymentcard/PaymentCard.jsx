@@ -6,39 +6,51 @@ const PaymentCard = (props) => {
   return (
     <>
       <div className={styles.main}>
-        <div>
+        <div className={styles.logo}>
           <img src={logo} alt="logo" />
         </div>
 
+        <div className={styles.basegame}>Base Game</div>
+
         <div className={styles.price_div}>
-          <p>-{discount}%</p>
-          <p>₹{price}</p>
+          <div className={styles.discount}>
+            <p>-{discount}%</p>
+          </div>
+          <p className={styles.mrp}>₹{price}</p>
         </div>
 
-        <div>
-          <button>BUY NOW</button>
-          <button>ADD TO WISHLIST</button>
+        <div className={styles.buttons}>
+          <button className={styles.buy_btn}>BUY NOW</button>
+          <button className={styles.wishlist_btn}>ADD TO WISHLIST</button>
         </div>
 
-        <div>
-          <div>
-            <p>Developer</p>
-            <div>{developer}</div>
+        <div className={styles.game_info}>
+          <div className={styles.game_details}>
+            <p className={styles.details_title}>Developer</p>
+            <div className={styles.title}>
+              <p>{developer}</p>
+            </div>
           </div>
 
-          <div>
-            <p>Publisher</p>
-            <div>{publisher}</div>
+          <div className={styles.game_details}>
+            <p className={styles.details_title}>Publisher</p>
+            <div className={styles.title}>
+              <p>{publisher}</p>
+            </div>
           </div>
 
-          <div>
-            <p>Release Date</p>
-            <div>{releaseDate}</div>
+          <div className={styles.game_details}>
+            <p className={styles.details_title}>Release Date</p>
+            <div className={styles.title}>
+              <p>{releaseDate}</p>
+            </div>
           </div>
 
-          <div>
-            <p>Platform</p>
-            <div>{platform}</div>
+          <div className={styles.game_details}>
+            <p className={styles.details_title}>Platform</p>
+            <div className={styles.title}>
+              <p>{platform}</p>
+            </div>
           </div>
         </div>
       </div>
