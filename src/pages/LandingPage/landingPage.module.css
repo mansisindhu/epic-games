@@ -17,8 +17,16 @@
   align-items: center;
 }
 
-.mainCardContainer {
+.mainCardContainer,
+.secondaryCardContainer,
+.freeCardContainer {
   padding: 10px;
+}
+
+.freeCardContainer {
+  background-color: var(--light-black);
+  border-radius: 6px;
+  padding-top: 20px;
 }
 
 .data_cont {
@@ -57,6 +65,15 @@
     max-width: 1200px;
     margin: auto;
     margin-top: 40px;
+  }
+
+  .freeCardContainer {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: var(--light-black);
+    border-radius: 6px;
   }
   .arrowIcon_div {
     display: flex;

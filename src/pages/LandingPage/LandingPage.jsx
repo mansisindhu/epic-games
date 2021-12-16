@@ -10,6 +10,7 @@ import {
   MdKeyboardArrowLeft,
   MdKeyboardArrowRight,
 } from "react-icons/md";
+import FreeCardContainer from "../../components/LandingPageComponents/FreeCardContainer";
 
 const LandingPage = () => {
   const sale = Data;
@@ -53,91 +54,21 @@ const LandingPage = () => {
             />
           </div>
 
-          <div className={styles.mainCardContainer}>
-            <div className={styles.heading_div}>
-              <div className={styles.title}>
-                <p className={styles.heading}>Games on Sale</p>
-                <div className={styles.icon}>
-                  <MdOutlineKeyboardArrowRight />
-                </div>
-              </div>
-
-              <div className={styles.arrowIcon_div}>
-                <div className={styles.arrowicon}>
-                  <MdKeyboardArrowLeft />
-                </div>
-
-                <div className={styles.arrowicon}>
-                  <MdKeyboardArrowRight />
-                </div>
-              </div>
-            </div>
-
-            <div className={styles.data_cont}>
-              <MainCardContainer data={sale} />
-            </div>
+          <div className={styles.freeCardContainer}>
+            <FreeCardContainer />
           </div>
 
-          <div className={styles.secondaryCardContainer}>
+          {/* <div className={styles.secondaryCardContainer}>
             <SecondaryCardContainer
               data={[SecondaryCardData[2], SecondaryCardData[3]]}
             />
           </div>
 
-          <div className={styles.mainCardContainer}>
-            <div className={styles.heading_div}>
-              <div className={styles.title}>
-                <p className={styles.heading}>Games on Sale</p>
-                <div className={styles.icon}>
-                  <MdOutlineKeyboardArrowRight />
-                </div>
-              </div>
-
-              <div className={styles.arrowIcon_div}>
-                <div className={styles.arrowicon}>
-                  <MdKeyboardArrowLeft />
-                </div>
-
-                <div className={styles.arrowicon}>
-                  <MdKeyboardArrowRight />
-                </div>
-              </div>
-            </div>
-
-            <div className={styles.data_cont}>
-              <MainCardContainer data={sale} />
-            </div>
-          </div>
           <div className={styles.secondaryCardContainer}>
             <SecondaryCardContainer
               data={[SecondaryCardData[4], SecondaryCardData[5]]}
             />
-          </div>
-
-          <div className={styles.mainCardContainer}>
-            <div className={styles.heading_div}>
-              <div className={styles.title}>
-                <p className={styles.heading}>Games on Sale</p>
-                <div className={styles.icon}>
-                  <MdOutlineKeyboardArrowRight />
-                </div>
-              </div>
-
-              <div className={styles.arrowIcon_div}>
-                <div className={styles.arrowicon}>
-                  <MdKeyboardArrowLeft />
-                </div>
-
-                <div className={styles.arrowicon}>
-                  <MdKeyboardArrowRight />
-                </div>
-              </div>
-            </div>
-
-            <div className={styles.data_cont}>
-              <MainCardContainer data={sale} />
-            </div>
-          </div>
+          </div> */}
           <BrowseLink />
         </div>
       </div>
