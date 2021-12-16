@@ -70,4 +70,20 @@
   .bottom_navbar {
     display: none;
   }
+
+  .filter_cont {
+    padding: 0;
+  }
+
+  .heading {
+    margin: 0;
+  }
+
+  .filter {
+    padding: 16px 0;
+  }
+
+  .search_box {
+    margin: 28px 0;
+  }
 }
