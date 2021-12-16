@@ -1,24 +1,38 @@
-
-
-
- 
-.footer-top{
+.footer1{
        width:100%;
        height:650px;
        background-color:#202020;
      
  }
 
-  .footer-icon{
+  .footer2{
    margin-left:70px;
     display:flex;
-    gap:5px;   
+    gap:5px;
+     
   }
   
    .img1{
      margin-top:30px;
      width:40px;
+     background-color:#202020;
  }
+
+ 
+ .img1:hover {
+    background-color: blue;
+  
+  }
+  .img2:hover {
+    background-color: blue;
+    
+  }
+  .img3:hover {
+    background-color: blue;
+  }
+  .img4:hover {
+    background-color: blue;
+  }
  .img2{
      margin-top:30px;
      width:40px;
@@ -34,11 +48,11 @@
  
 
     
- .footer-right{
+ .footerright{
     margin-left:93%;  
     margin-top:-40px;
  }
- .footer-12{
+ .footer12{
    font-family: Open Sans;
    font-style: normal;
    font-weight: normal;
@@ -50,14 +64,14 @@
    margin-top:30px;
 
  }
- .footer-war{
+ .footerwar{
      margin-left:70px;
      display:flex;
      gap:10px;
      color: #F5F5F5;
      margin-top:5px;
  }
- .footer-war > p{
+ .footerwar > p{
  font-family: Open Sans;
   font-style: normal;
    font-weight: normal;
@@ -69,6 +83,9 @@
   }
   .para p{
       padding:5px;
+  }
+  .para p:hover{
+      color: rgb(63, 63, 204);
   }
   .line{
       width:90%;
@@ -106,6 +123,9 @@
       margin-top:30px;
       margin-left:70px;
   }
+  .threeline a:hover{
+    color: rgb(63, 63, 204);
+  }
   .lastimg{
       margin-left:92%;
       display:flex;
@@ -116,14 +136,14 @@
 
 
   @media (max-width: 768px){
-   .footer-top{
+   .footer1{
        width:100%;
        height:900px;
        background-color:#202020;
      
    }
 
-  .footer-icon{
+  .footer2{
    margin-left:30px;
     display:flex;
     gap:5px;   
@@ -146,13 +166,25 @@
     width:40px;
 }
  
+.img1:hover {
+    color: blue;
+  }
+  .img2:hover {
+    color: blue;
+  }
+  .img3:hover {
+    color: blue;
+  }
+  .img4:hover {
+    color: blue;
+  }
 
     
- .footer-right{
+ .footerright{
     margin-left:88%;  
     margin-top:-40px;
  }
- .footer-12{
+ .footer12{
    font-family: Open Sans;
    font-style: normal;
    font-weight: normal;
@@ -164,14 +196,14 @@
    margin-top:30px;
 
  }
- .footer-war{
+ .footerwar{
      margin-left:30px;
      display:flex;
      gap:10px;
      color: #F5F5F5;
      margin-top:5px;
  }
- .footer-war > p{
+ .footerwar > p{
  font-family: Open Sans;
   font-style: normal;
    font-weight: normal;
@@ -184,6 +216,9 @@
   .para p{
       padding:5px;
   }
+  .para p:hover{
+    color: blue;
+}
   .line{
       width:85%;
       height:1px;
