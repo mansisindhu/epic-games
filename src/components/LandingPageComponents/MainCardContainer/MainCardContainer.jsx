@@ -1,4 +1,4 @@
-import MainCard from "../MainCard/MainCard";
+import MainCard from "../MainCard";
 import styles from "./mainCardContainer.module.css";
 
 const MainCardContainer = ({ data, heading }) => {

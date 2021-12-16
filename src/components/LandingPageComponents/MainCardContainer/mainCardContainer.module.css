@@ -1,9 +1,9 @@
 .container {
-  /* overflow-x: scroll; */
+  overflow-x: scroll;
   display: flex;
   gap: 10px;
   width: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 20px;
   margin-top: 20px;
   align-items: center;
@@ -16,4 +16,20 @@
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .card {
+    border: 1px solid palevioletred;
+    width: 300px;
+  }
 }
