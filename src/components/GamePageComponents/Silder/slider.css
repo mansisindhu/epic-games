@@ -1,0 +1,48 @@
+.carousel .control-disabled.control-arrow {
+  display: none;
+}
+
+.carousel img {
+  border-radius: 8px;
+}
+
+.carousel .thumbs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.carousel .thumb {
+  border-radius: 4px;
+  border: 1px solid transparent !important;
+}
+.carousel .thumb:focus {
+  border: 1px solid #fff !important;
+}
+.carousel .thumb.selected,
+.carousel .thumb:hover {
+  border: 1px solid #fff !important;
+}
+
+.carousel .thumb img {
+  border-radius: 4px;
+}
+
+.carousel.carousel-slider .control-arrow {
+  display: none;
+}
+
+.carousel .slide img {
+  border-radius: 8px;
+}
+
+.carousel .control-dots {
+  display: none;
+}
+.control-dots {
+  display: none;
+}
+@media (min-width: 960px) {
+  .control-dots {
+    display: none;
+  }
+}

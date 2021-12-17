@@ -1,7 +1,9 @@
 import React, { useState } from "react";
-import styles from "./styles/header.module.css";
+import { Link } from "react-router-dom";
 
-export const Header = () => {
+import styles from "./header.module.css";
+
+const Header = () => {
   const [toggle, setToggle] = useState(false);
 
   const handleToggle = () => {
@@ -19,13 +21,21 @@ export const Header = () => {
   return (
     <div className={styles.header__main__div}>
       <div className={styles.header__first}>
-        <div className={styles.header__logo}>
-          <img src="/icons/Epic_Games_white.svg" alt="epic" />
-        </div>
+        <Link to="/">
+          <div className={styles.header__logo}>
+            <img
+              style={{ height: "36px" }}
+              src="/icons/Epic_Games_white.svg"
+              alt="epic"
+            />
+          </div>
+        </Link>
 
         <div className={styles.header__navigations}>
           <div className={styles.header__navigations__div}>
-            <p className={styles.onhover__color__white}>STORE</p>
+            <Link to="/">
+              <p className={styles.onhover__color__white}>STORE</p>
+            </Link>
           </div>
           <div className={styles.header__navigations__div}>
             <p className={styles.onhover__color__white}>FAQ</p>
@@ -41,28 +51,32 @@ export const Header = () => {
 
       <div className={styles.header__second}>
         <div
-          className={`${styles.padding__left} ${styles.padding__right} ${styles.display__none} ${styles.onhover__color__white}`}
+          className={`${styles.padding__left} ${styles.icon} ${styles.padding__right} ${styles.display__none} ${styles.onhover__color__white}`}
         >
           <img src="/icons/header_global.svg" alt="global" />
         </div>
 
-        <div
-          className={`${styles.header__second__user} ${styles.padding__left} ${styles.padding__right} ${styles.display__none}}`}
-        >
+        <Link to="/signup">
           <div
-            className={`${styles.padding__left} ${styles.padding__right} ${styles.onhover__color__white} ${styles.display__none}`}
+            className={`${styles.header__second__user} ${styles.padding__left} ${styles.padding__right} ${styles.display__none}}`}
           >
-            <img src="/icons/header_user_offline.svg" alt="offline user" />
+            <div
+              className={`${styles.padding__left} ${styles.padding__right} ${styles.icon} ${styles.onhover__color__white} ${styles.display__none}`}
+            >
+              <img src="/icons/header_user_offline.svg" alt="offline user" />
+            </div>
+            <div
+              id={styles.header__rewrite}
+              className={`${styles.padding__right} ${styles.display__none}`}
+            >
+              <p className={styles.onhover__color__white}>SIGN IN</p>
+            </div>
           </div>
-          <div
-            id={styles.header__rewrite}
-            className={`${styles.padding__right} ${styles.display__none}`}
-          >
-            <p className={styles.onhover__color__white}>SIGN IN</p>
-          </div>
-        </div>
+        </Link>
 
-        <div className={`${styles.padding__left} ${styles.display__none}`}>
+        <div
+          className={`${styles.padding__left} ${styles.display__none} ${styles.download_btn}`}
+        >
           <button
             className={`${styles.header__button} ${styles.onhover__color__blue}`}
           >
@@ -125,3 +139,5 @@ export const Header = () => {
     </div>
   );
 };
+
+export default Header;
