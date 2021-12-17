@@ -1,0 +1,11 @@
+.card {
+  /* background-color: deepskyblue; */
+  border: 1px solid rebeccapurple;
+  background-color: var(--main-gray);
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
