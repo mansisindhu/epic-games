@@ -7,6 +7,7 @@ import Data from "../../Data.json";
 import GameCard from "../../components/BrowsePageComponents/GameCard";
 import FilterModal from "../../components/BrowsePageComponents/Filters/FilterModal";
 import Header from "../../components/header";
+import SubNavbar from "../../components/SubNavbar";
 
 const BrowsePage = () => {
   const [sortingModal, setSortingModalState] = useState(false);
@@ -30,6 +31,7 @@ const BrowsePage = () => {
       <Header />
       <div className={styles.main}>
         <div className={styles.containter}>
+          <SubNavbar />
           <PopularGenre />
           <div className={styles.main_container}>
             <div className={styles.data_wrapper}>
