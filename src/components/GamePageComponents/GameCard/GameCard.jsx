@@ -3,7 +3,7 @@ import styles from "./gameCard.module.css";
 import LinksCard from "../LinksCard";
 import SimpleAccordion from "../Accordion/Accordion";
 import Specifications from "../SpecificationsCard/Specifications";
-import ReviewCard from "../ReviewCard/ReviewCard";
+import ReviewCardContainer from "../ReviewCardContainer/ReviewCardContainer";
 
 const GameCard = ({ data }) => {
   console.log(data);
@@ -12,53 +12,49 @@ const GameCard = ({ data }) => {
       <div className={styles.main}>
         <div className={styles.container}>
           <div className={styles.card}>
-            <p>{data.title}</p>
+            <p className={styles.heading}>{data.title}</p>
             <div>
               <img src={data.thumbnail} alt="banner" />
             </div>
 
             <div>
-              <p>{data.description}</p>
+              <p className={styles.description}>{data.description}</p>
             </div>
 
             <div className={styles.features_div}>
               <div className={styles.genres}>
-                <p>Genre</p>
-                {data.genres.map((e) => (
-                  <>
-                    <p>{e}</p>
-                  </>
-                ))}
+                <p className={styles.features_title}>Genre</p>
+                <div className={styles.features_points_div}>
+                  {data.genres.map((e) => (
+                    <>
+                      <p className={styles.features_points}>{e} </p>
+                    </>
+                  ))}
+                </div>
               </div>
 
               <div className={styles.features}>
-                <p>Features</p>
-                {data.features.map((e) => (
-                  <>
-                    <p>{e}</p>
-                  </>
-                ))}
+                <p className={styles.features_title}>Features</p>
+                <div className={styles.features_points_div}>
+                  {data.features.map((e) => (
+                    <>
+                      <p className={styles.features_points}>{e} </p>
+                    </>
+                  ))}
+                </div>
               </div>
             </div>
 
-            <SimpleAccordion />
+            <div className={styles.accordion}>
+              <SimpleAccordion />
+            </div>
 
             <div className={styles.links}>
               <LinksCard />
             </div>
 
-            <div>
-              {data.reviews.map((e) => (
-                <>
-                  <ReviewCard
-                    orgaisation={e.orgaisation}
-                    author={e.author}
-                    rating={e.rating}
-                    description={e.description}
-                    link={e.link}
-                  />
-                </>
-              ))}
+            <div className={styles.reviews}>
+              <ReviewCardContainer data={data.reviews} />
             </div>
 
             <div className={styles.specifications}>

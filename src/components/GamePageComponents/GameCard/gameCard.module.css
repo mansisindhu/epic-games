@@ -2,13 +2,12 @@
   display: flex;
   gap: 40px;
   flex-direction: column;
-  height: 100vh;
 }
 
 .card {
   margin: auto;
   height: 100vh;
-  width: 50%;
+  width: 100%;
 }
 
 .card img {
@@ -17,8 +16,35 @@
 
 .features_div {
   display: flex;
-  gap: 50px;
-  background-color: green;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.features_title {
+  margin-bottom: 10px;
+  color: var(--seconday-text);
+}
+
+.features_points_div {
+  display: flex;
+  gap: 10px;
+}
+.features_points {
+  text-decoration: underline;
+}
+
+.genres {
+  border-left: 1px solid red;
+  padding-left: 20px;
+
+  width: 50%;
+}
+
+.features {
+  border-left: 1px solid red;
+  padding-left: 20px;
+
+  width: 50%;
 }
 
 .specifications {
@@ -33,10 +59,40 @@
   }
   .card {
     margin: auto;
-    background-color: plum;
   }
 
   .card img {
     width: 100%;
+  }
+
+  .main {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .heading {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  /* Description */
+
+  .description {
+    font-size: 18px;
+  }
+
+  /* Features Points */
+  .features_div {
+    margin-top: 30px;
+  }
+
+  /* accordion */
+  .accordion {
+    margin-top: 30px;
+  }
+
+  /* Links section */
+  .links {
+    margin-top: 30px;
   }
 }
