@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import styles from "./styles/header.module.css";
+import styles from "./header.module.css";
 
-export const Header = () => {
+const Header = () => {
   const [toggle, setToggle] = useState(false);
 
   const handleToggle = () => {
@@ -125,3 +125,5 @@ export const Header = () => {
     </div>
   );
 };
+
+export default Header;
