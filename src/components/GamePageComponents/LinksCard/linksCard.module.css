@@ -20,7 +20,7 @@
 
   .main {
     display: flex;
-    gap: 70px;
+    gap: 50px;
     max-width: 1200px;
     margin: auto;
     height: 100px;
