@@ -6,6 +6,7 @@
   margin: auto;
   background-color: var(--main-gray);
   padding: 40px;
+  border-radius: 4px;
 }
 
 .details_heading {
