@@ -9,6 +9,7 @@
   background-color: var(--light-black);
   border-radius: 6px;
   padding-top: 20px;
+  margin-bottom: 10px;
 }
 
 .data_cont {
@@ -63,6 +64,7 @@
     margin-top: 40px;
     background-color: var(--light-black);
     border-radius: 6px;
+    margin-bottom: 40px;
   }
 
   .miniCardContainer {
