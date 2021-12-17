@@ -4,7 +4,7 @@ const SignupOptionsPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.icon}>
-        <img src="/icons/Epic_games_white.svg" alt="" />
+        <img src="/icons/Epic_games_white.svg" alt="logo-img" />
       </div>
 
       <p className={styles.heading}>
@@ -17,19 +17,19 @@ const SignupOptionsPage = () => {
           <p className={styles.text}>SIGN IN WITH EPIC GAMES</p>
         </div>
         <div className={styles.option}>
-          <img src="/social-icons/Facebook.svg" />
+          <img src="/social-icons/Facebook.svg" alt="logo-img" />
           <p className={styles.text}>SIGN IN WITH FACEBOOK</p>
         </div>
         <div className={[styles.option, styles.abled].join(" ")}>
-          <img src="/social-icons/Google.svg" />
+          <img src="/social-icons/Google.svg" alt="logo-img" />
           <p className={styles.text}>SIGN IN WITH GOOGLE</p>
         </div>
         <div className={styles.option}>
-          <img src="/social-icons/Nintendo.svg" />
+          <img src="/social-icons/Nintendo.svg" alt="logo-img" />
           <p className={styles.text}>SIGN IN WITH NINTENDO ACCOUNT</p>
         </div>
         <div className={styles.option}>
-          <img src="/social-icons/Xbox.svg" />
+          <img src="/social-icons/Xbox.svg" alt="logo-img" />
           <p className={styles.text}>SIGN IN WITH XBOX LIVE</p>
         </div>
         <div className={styles.option}>
@@ -37,11 +37,11 @@ const SignupOptionsPage = () => {
           <p className={styles.text}>SIGN IN WITH PLAYSTATION NETWORK</p>
         </div>
         <div className={styles.option}>
-          <img src="/social-icons/Apple.svg" />
+          <img src="/social-icons/Apple.svg" alt="logo-img" />
           <p className={styles.text}>SIGN IN WITH APPLE</p>
         </div>
         <div className={styles.option}>
-          <img src="/social-icons/Steam.svg" />
+          <img src="/social-icons/Steam.svg" alt="logo-img" />
           <p className={styles.text}>SIGN IN WITH STEAM</p>
         </div>
       </div>

@@ -1,3 +1,4 @@
+import PriceComponent from "../../PriceComponent";
 import styles from "./game-card.module.css";
 
 const GameCard = (props) => {
@@ -16,7 +17,7 @@ const GameCard = (props) => {
         </div>
       </div>
       <div className={styles.price}>
-        <p>Rs. {props.price}</p>
+        <PriceComponent price={props.price} />
       </div>
     </div>
   );

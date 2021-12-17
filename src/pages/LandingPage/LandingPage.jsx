@@ -1,7 +1,7 @@
 import BrowseLink from "../../components/LandingPageComponents/BrowseLink/BrowseLink";
 import MainCardContainer from "../../components/LandingPageComponents/MainCardContainer/MainCardContainer";
 import Data from "../../Data.json";
-import CardData from "../../CardData.json";
+import CardData from "../../Data.json";
 import SecondaryCardContainer from "../../components/LandingPageComponents/SecondaryCardContainer";
 
 import styles from "./landingPage.module.css";

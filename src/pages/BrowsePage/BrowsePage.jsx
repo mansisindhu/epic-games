@@ -72,8 +72,7 @@ const BrowsePage = () => {
                       image={el.cardImage}
                       title={el.title}
                       tagline={el.cardTagline}
-                      price={el.price.mainPrice}
-                      discount={el.price.discount}
+                      price={el.price}
                     />
                   </div>
                 ))}

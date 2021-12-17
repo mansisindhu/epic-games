@@ -1,1085 +1,7 @@
 [
   {
-    "thumbnail": "https://cdn2.unrealengine.com/egs-pinballfx-zenstudios-s1-2560x1440-2560x1440-b89a637020c2.jpg",
-    "title": "Amoug Us",
-    "logo": "https://cdn2.unrealengine.com/egs-amongus-innersloth-ic1-400x400-675402583.png?h=270&resize=1&w=480",
-    "cardImage": "https://cdn1.epicgames.com/salesEvent/salesEvent/amogusportrait_1200x1600-66ad0e4d363e1c92f9f8aae67a96dd31?h=854&resize=1&w=640",
-    "cardTagline": "Innersloth",
-    "price": {
-      "mainPrice": 119,
-      "discount": 0
-    },
-    "developer": "Innersloth",
-    "publisher": "Innersloth",
-    "releaseDate": "Jan 12, 2020",
-    "platform": ["Windows"],
-    "description": "Play with 4-15 players online or via local WiFi as you attempt to prepare your spaceship for departure, but beware as one or more random players among the Crew are Impostors bent on killing everyone!",
-    "genres": ["Casual"],
-    "features": ["Co-op", "Multiplayer"],
-    "tags": ["Most Popular"],
-    "aboutGame": "Life as a Crewmate: Complete all your tasks on the ship to win, but watch out for Impostors! Report dead bodies and call emergency meetings to vote the Impostors out. Hope you chose correctly! Play as an Impostor: Cause chaos, sneak around, and frame innocent bystanders! Winning involves killing off every Crewmate - think you’re a master of sabotage? Customization: Choose how you want to play! Add more impostors, tasks, decrease visibility and more. All in style as you get to choose your favorite color, outfit, and hat.",
-    "gameFeatures": [
-      "Cross-platform: play with your friends between PC, Android, and iOS!",
-      "Multiplayer Online game"
-    ],
-    "heroImages": [
-      "https://cdn2.unrealengine.com/amoguslandscape-2560x1440-2c59395f3208.jpg",
-      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-03-1920x1080-675402682.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-04-1920x1080-675402487.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-05-1920x1080-675402713.jpg?h=720&resize=1&w=1280"
-    ],
-    "videos": [
-      "https://media-cdn.epicgames.com/61ae3f5f20e147b4b483492a6d2c0e7c/61ae3f5f20e147b4b483492a6d2c0e7c-medium.fmp4"
-    ],
-    "images": [
-      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-00-1920x1080-675402405.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-01-1920x1080-675402518.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-02-1920x1080-675402672.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-03-1920x1080-675402682.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-04-1920x1080-675402487.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-05-1920x1080-675402713.jpg?h=720&resize=1&w=1280"
-    ],
-    "rating": {
-      "criticRecommend": 100,
-      "topCriticAverage": 93,
-      "openCriticrating": "Mighty"
-    },
-    "reviews": [
-      {
-        "organisation": "Game Informer",
-        "author": "Liana Ruppert",
-        "rating": 8.5,
-        "description": "A clever take on the \"whodunnit\" genre while a tapping into what makes meme culture so relevant and universal",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "GameGrin",
-        "author": "Danielle Winter",
-        "rating": 9.5,
-        "description": "Accessible enough for everybody, Among Us coaxes out everyone's inner psychopath and Sherlock. With short addictive bursts of gameplay that's long enough to satiate, this sleeper hit has/will become a staple in your games library and gaming nights to come.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "GamesCreed",
-        "author": "Dewan Zawad",
-        "rating": 9.5,
-        "description": "Among Us gives a genuinely necessary respite from reality without paying attention to itself as well.",
-        "link": "https://opencritic.com/"
-      }
-    ]
-  },
-  {
-    "title": "while True: learn ()",
-    "logo": "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-ic1-400x400-c1efe71ad0ac.png?h=270&resize=1&w=480",
-    "cardImage": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_whileTruelearn_Ludenio_S2_1200x1600-f1259b2f801db59d751dd5e5076b6330?h=854&resize=1&w=640",
-    "cardTagline": "Luden.io | Nival",
-    "price": {
-      "mainPrice": 309,
-      "discount": 0
-    },
-    "developer": "Luden.io",
-    "publisher": "Nival",
-    "releaseDate": "Jan 2, 2018",
-    "platform": ["Windows", "Mac"],
-    "description": "You’re a machine learning specialist who makes neural networks but your cat seems to be better at it. Now you must solve puzzles to build a cat-to-human translation system. Earn a fortune, buy kickass cat outfits and learn how machine learning really works!",
-    "genres": ["Puzzle", "Simulation"],
-    "features": ["Single Player"],
-    "tags": ["Most Popular"],
-    "aboutGame": "while True: learn() is a puzzle/simulation game about even more puzzling stuff: machine learning, neural networks, big data and AI. But most importantly, it’s about understanding your cat. In this game, you play as a coder who accidentally found out that their cat is extremely good at coding, but not as good at speaking human language. Now this coder (it’s you!) must learn all there is to know about machine learning and use visual programming to build a cat-to-human speech recognition system.",
-    "gameFeatures": [
-      "People who want to know more about how machine learning and related technologies work",
-      "Parents and teachers who are looking for a fun and easy way to make an intro to logical thinking, programming, and technologies for kids",
-      "Players who like to keep their brains busy and working in different ways, while still having fun",
-      "Gamers looking to improve their problem-solving skills and feel immense sense of satisfaction and achievement that comes along with it",
-      "People who like smart cats",
-      "Learn how machine learning works in real life!",
-      "Train yourself into a data science wizard!",
-      "Embrace an adventurous lifestyle of a machine learning specialist!",
-      "Coding just got real!",
-      "Improve your gear, improve your life!"
-    ],
-    "heroImages": [
-      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-01-1920x1080-9ecc89a7115d.jpg",
-      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-02-1920x1080-34249db9ba34.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-02-1920x1080-34249db9ba34.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-04-1920x1080-6b252d902064.jpg",
-      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-05-1920x1080-d84f57ac18f1.jpg",
-      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-06-1920x1080-f758bddf5ae2.jpg"
-    ],
-    "videos": [
-      "https://media-cdn.epicgames.com/e3ce30b737754d8085af80cadbb9f823/e3ce30b737754d8085af80cadbb9f823-high.fmp4"
-    ],
-    "images": [
-      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-10-1920x1080-55d97faaf967.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-11-1920x1080-caadcdd55bb8.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-15-1920x1080-f41809ba2c5f.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-16-1920x1080-07bebd935f8b.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-18-1920x1080-0b47f1847abe.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-17-1920x1080-2693687eb243.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-14-1920x1080-09c184d6886d.jpg?h=720&resize=1&w=1280"
-    ],
-    "rating": {
-      "criticRecommend": 100,
-      "topCriticAverage": 93,
-      "openCriticrating": "Mighty"
-    },
-    "reviews": [
-      {
-        "organisation": "Game Informer",
-        "author": "Liana Ruppert",
-        "rating": 8.5,
-        "description": "A clever take on the \"whodunnit\" genre while a tapping into what makes meme culture so relevant and universal",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "GameGrin",
-        "author": "Danielle Winter",
-        "rating": 9.5,
-        "description": "Accessible enough for everybody, Among Us coaxes out everyone's inner psychopath and Sherlock. With short addictive bursts of gameplay that's long enough to satiate, this sleeper hit has/will become a staple in your games library and gaming nights to come.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "GamesCreed",
-        "author": "Dewan Zawad",
-        "rating": 9.5,
-        "description": "Among Us gives a genuinely necessary respite from reality without paying attention to itself as well.",
-        "link": "https://opencritic.com/"
-      }
-    ]
-  },
-
-  {
-    "title": "Fortnite",
-    "logo": "https://cdn2.unrealengine.com/Diesel%2Fproduct%2Ffn%2FFortnite-Logo_w-Shadow-1778x811-ed23fe8dea13f030db120b226f9d2a101560bde2.png?h=270&resize=1&w=480",
-    "cardImage": "https://cdn1.epicgames.com/offer/fn/19BR_KeyArt_EGS_Launcher_Blade_1200x1600_1200x1600-b49da2ae039bd0adb44171318c91787b?h=854&resize=1&w=640",
-    "cardTagline": "Luden.io | Nival",
-    "price": {
-      "mainPrice": 200,
-      "discount": 0
-    },
-    "developer": "Epic Games",
-    "publisher": "Epic Games",
-    "releaseDate": "Jul 25, 2017",
-    "platform": ["Windows"],
-    "description": "The Island you once knew has been turned upside down...literally. Step foot onto the new Island and explore every corner of an undiscovered world in Fortnite Chapter 3 Season 1: Flipped.",
-    "genres": ["Action", "Shooter"],
-    "features": ["Co-op", "Multiplayer", "Single Player", "Controller Support"],
-    "tags": ["Free"],
-    "aboutGame": "The Island you once knew has been turned upside down...literally. Step foot onto the new Island and explore every corner of an undiscovered world in Fortnite Swing through the iconic Daily Bugle or slide into Sanctuary, homebase of The Foundation and The Seven. Join The Seven as they prepare for a looming war against the Imagined Order across a once-frozen landscape filled with new POIs and dangerous new weather conditions to test your skills. Plus earn XP beyond Battle Royale to level up your Battle Pass and unlock Spider-Man, The Foundation, and all the new Battle Pass cosmetics.",
-    "gameFeatures": [
-      "Battle Pass Included for the full Season - As a member of the Fortnite Crew, you’ll always have access to the current season’s Battle Pass!",
-      "1,000 V-Bucks Each Month - Fortnite Crew members will receive 1,000 V-Bucks every month. Spend it on your favorite Item Shop content!",
-      " Get A Monthly Crew Pack! - Get an exclusive Fortnite Crew Pack, an always-new Outfit Bundle that only Fortnite Crew members can get.",
-      "Recurring fee charged monthly until cancelled. Cancel anytime."
-    ],
-    "heroImages": [
-      "https://cdn2.unrealengine.com/19br-keyart-egs-launcher-pdp-2560x1440-2560x1440-7cd2d7f2b140.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/01-masterstill002-3840x2160-3840x2160-418b0812b546.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/02-still003-3840x2160-3840x2160-d2bced3e5e15.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/03-still013-3840x2160-3840x2160-2472eb70a29b.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/04-still015-3840x2160-3840x2160-44c3a162454e.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/06-still021-3840x2160-3840x2160-1c7e15b4affb.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/07-still004-3840x2160-3840x2160-9ea32ff653a9.jpg?h=720&resize=1&w=1280"
-    ],
-    "videos": [
-      "https://media-cdn.epicgames.com/e3ce30b737754d8085af80cadbb9f823/e3ce30b737754d8085af80cadbb9f823-high.fmp4"
-    ],
-    "images": [
-      "https://cdn2.unrealengine.com/01-masterstill002-3840x2160-3840x2160-418b0812b546.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/02-still003-3840x2160-3840x2160-d2bced3e5e15.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/03-still013-3840x2160-3840x2160-2472eb70a29b.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/04-still015-3840x2160-3840x2160-44c3a162454e.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/05-still019-3840x2160-3840x2160-3b9a3b7bfc82.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/06-still021-3840x2160-3840x2160-1c7e15b4affb.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/07-still004-3840x2160-3840x2160-9ea32ff653a9.jpg?h=720&resize=1&w=1280"
-    ],
-    "rating": {
-      "criticRecommend": 100,
-      "topCriticAverage": 93,
-      "openCriticrating": "Mighty"
-    },
-    "reviews": [
-      {
-        "organisation": "IGN",
-        "author": "Austen Goslin",
-        "rating": 8.5,
-        "description": "Thanks to the freedom of its outstanding building mechanic, Fortnite Battle Royale isn't just a great battle royale game – it's one of the best multiplayer games in recent history.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "GamesRadar+",
-        "author": "GamesRadar+",
-        "rating": 9.5,
-        "description": "Nobody thought Fortnite would still be popular this late on, but it's continued to adapt and fight for its spot at the top of the battle royale ladder.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "Digital Trends",
-        "author": "Dewan Zawad",
-        "rating": 9.5,
-        "description": "Nothing offers the lighthearted, fun for all ages battle royale that Fortnite does..",
-        "link": "https://opencritic.com/"
-      }
-    ]
-  },
-  {
-    "title": "F.I.S.T.: Forged In Shadow Torch",
-    "logo": "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-ic1-400x133-cc113b12150a.png?h=270&resize=1&w=480",
-    "cardImage": "https://cdn1.epicgames.com/offer/a7e2a2c51b9149c097b771926ed91877/EGS_FISTForgedInShadowTorch_TiGames_S6_1200x1600-b0ce396c042359ad9a7b2ca50726cac1?h=854&resize=1&w=640",
-    "cardTagline": "TiGames | Antiidelay",
-    "price": {
-      "mainPrice": 1299,
-      "discount": 0
-    },
-    "developer": "TiGames",
-    "publisher": "Antiidelay",
-    "releaseDate": "Oct 3, 2021",
-    "platform": ["Windows"],
-    "description": "Explore more than a dozen unique areas in a Metroidvania style map. The Fist, Drill, and Whip are three weapons with completely different fighting styles that offer seamless switching between high combo, high damage, and long range attacks.",
-    "genres": ["Action", "Platformer"],
-    "features": ["Single Player"],
-    "tags": ["Top Seller", "New Release"],
-    "aboutGame": "Six years ago, the Machine Legion invaded and colonized the Torch City, which was originally inhabited by animals. Rayton, the former soldier in the resistance war, has been living in seclusion since then. After his friend is forcibly arrested, Rayton reclaims his mechanical fist and steps to his journey fighting back. And he never expects that he has been involved in a bigger scheme between the mafia, the rebellion, and the legion.",
-    "gameFeatures": [
-      "A Metroidvania action game featuring exploration, intense combat and challenging platforming.",
-      "Unique Dieselpunk Aesthetic Powered by Unreal Engine 4",
-      "Arcade-styled Combat System with Three Unique Weapons",
-      "Sophisticated and Interconnected Game Map with Countless Secrets"
-    ],
-    "heroImages": [
-      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-00-1920x1080-1a9368fc8440.jpg",
-      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-03-1920x1080-23f1a151ac7d.jpg",
-      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-02-1920x1080-ce0acefa164e.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-01-1920x1080-f88f253aae1f.jpg",
-      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-04-1920x1080-a89daa84ab92.jpg",
-      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-03-1920x1080-23f1a151ac7d.jpg"
-    ],
-    "videos": [
-      "https://media-cdn.epicgames.com/3b824588a1014200b184842b7fb2a6bb/3b824588a1014200b184842b7fb2a6bb-high.fmp4"
-    ],
-    "images": [
-      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-00-1920x1080-1a9368fc8440.jpg",
-      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-03-1920x1080-23f1a151ac7d.jpg",
-      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-02-1920x1080-ce0acefa164e.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-01-1920x1080-f88f253aae1f.jpg",
-      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-04-1920x1080-a89daa84ab92.jpg",
-      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-03-1920x1080-23f1a151ac7d.jpg"
-    ],
-    "rating": {
-      "criticRecommend": 100,
-      "topCriticAverage": 93,
-      "openCriticrating": "Mighty"
-    },
-    "reviews": [
-      {
-        "organisation": "IGN",
-        "author": "Austen Goslin",
-        "rating": 8.5,
-        "description": "Thanks to the freedom of its outstanding building mechanic, Fortnite Battle Royale isn't just a great battle royale game – it's one of the best multiplayer games in recent history.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "GamesRadar+",
-        "author": "GamesRadar+",
-        "rating": 9.5,
-        "description": "Nobody thought Fortnite would still be popular this late on, but it's continued to adapt and fight for its spot at the top of the battle royale ladder.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "Digital Trends",
-        "author": "Dewan Zawad",
-        "rating": 9.5,
-        "description": "Nothing offers the lighthearted, fun for all ages battle royale that Fortnite does..",
-        "link": "https://opencritic.com/"
-      }
-    ]
-  },
-  {
-    "title": "Shadow Tactics - Aiko's Choice",
-    "logo": "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-logo-19tqz.png?h=270&resize=1&w=480",
-    "cardImage": "https://cdn1.epicgames.com/undefined/offer/EGS_MimimiGames_ShadowTacticsBladesoftheShogun_S4-510x680-f62935abb1b2bd42b2f19f9385da7fe7.jpg?h=854&resize=1&w=640",
-    "cardTagline": "Mimimi Games Daedalic Entertainment",
-    "price": {
-      "mainPrice": 459,
-      "discount": 10
-    },
-    "developer": "Mimimi Games",
-    "publisher": "Daedalic Entertainment",
-    "releaseDate": "Dec 6, 2021",
-    "platform": ["Windows"],
-    "description": "Aiko's Choice is a brand-new standalone addon to the beloved stealth tactics game Shadow Tactics. Set in Japan around the Edo period, you take control of kunoichi adept Aiko and her deadly assassin friends to hunt down the ghosts of her past.",
-    "genres": ["Action", "Strategy", "Stealth"],
-    "features": ["Single Player", "Controller Support"],
-    "tags": ["New Release"],
-    "aboutGame": "Aiko's Choice is a brand-new standalone addon to the beloved stealth tactics game Shadow Tactics. Set in Japan around the Edo period, you take control of kunoichi adept Aiko and her deadly assassin friends to hunt down the ghosts of her past. Aiko's Choice is a brand-new standalone expansion to the beloved stealth tactics game Shadow Tactics: Blades of the Shogun, set in Japan around the Edo period. Shadow Tactics: Blades of the Shogun - Aiko's Choice focuses on one of the main game's protagonists: the kunoichi adept Aiko. She is a master of camouflage and distracts enemies disguised as a Geisha.",
-    "gameFeatures": [
-      "Return to the beautiful world of Shadow Tactics set in Japan, early Edo period.",
-      "Rejoin your favorite characters for another adventure set within the story of the main game Shadow Tactics: Blades of the Shogun.",
-      "Experience a previously untold tale centered around the kunoichi adept Aiko, who has to face a vicious enemy connected to her past.",
-      "Explore three fully fledged main missions, located in brand-new environments, and three shorter interlude missions.",
-      "Synchronize your team's actions to strike down your enemies at once with the Shadow Mode feature.",
-      "Choose from three difficulty levels to match your skill."
-    ],
-    "heroImages": [
-      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-r4iy4.jpg?h=720&resize=1&w=1280",
-      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-1tlse.jpg?h=720&resize=1&w=1280",
-      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-tzym3.jpg?h=720&resize=1&w=1280",
-      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-1b9u5.jpg?h=720&resize=1&w=1280",
-      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-1bhya.jpg?h=720&resize=1&w=1280",
-      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-1rlid.jpg?h=720&resize=1&w=1280",
-      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-l2ibw.jpg?h=720&resize=1&w=1280"
-    ],
-    "videos": [
-      "https://media-cdn.epicgames.com/a5ee0ed6d8164e66b139c7ba730c42e8/a5ee0ed6d8164e66b139c7ba730c42e8-high.fmp4"
-    ],
-    "images": [
-      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-1tlse.jpg?h=720&resize=1&w=1280",
-      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-tzym3.jpg?h=720&resize=1&w=1280",
-      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-1b9u5.jpg?h=720&resize=1&w=1280",
-      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-1bhya.jpg?h=720&resize=1&w=1280",
-      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-1rlid.jpg?h=720&resize=1&w=1280",
-      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-l2ibw.jpg?h=720&resize=1&w=1280"
-    ],
-    "rating": {
-      "criticRecommend": 100,
-      "topCriticAverage": 93,
-      "openCriticrating": "Mighty"
-    },
-    "reviews": [
-      {
-        "organisation": "IGN",
-        "author": "Leana Hafer",
-        "rating": 9,
-        "description": "Aiko's Choice is a polished, challenging, and welcome – though a bit short – standalone expansion to the exceptional Shadow Tactics: Blades of the Shogun.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "GamesRadar+",
-        "author": "Ron",
-        "rating": 9.5,
-        "description": "hadow Tactics: Blades of the Shogun was one of my favorite games of 2017, and Aiko's Choice is a return to form. Mimimi Games continues to deliver tight gameplay, incredible stealth, and a compelling story to tie it all together.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "Digital Trends",
-        "author": "John Zawad",
-        "rating": 7.7,
-        "description": "Aiko’s Choice is utterly unconcerned with critics of the base game, and instead focuses entirely on giving fans a more intense version of its concepts.",
-        "link": "https://opencritic.com/"
-      }
-    ]
-  },
-  {
-    "title": "Horror Story: Hallowseed",
-    "logo": "https://cdn2.unrealengine.com/egs-horrorstoryhallowseed-jeffwinner-ic1-400x400-3040bec28845.png?h=270&resize=1&w=480",
-    "cardImage": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_HorrorStoryHallowseed_JeffWinner_S2_1200x1600-f5e817cf7d7b0ab4fe02b2734ad08fbb?h=854&resize=1&w=640",
-    "cardTagline": "Mimimi Games Daedalic Entertainment",
-    "price": {
-      "mainPrice": 589,
-      "discount": 10
-    },
-    "developer": "Jeff Winner",
-    "publisher": "IC Entertainment",
-    "releaseDate": "Oct 29, 2021",
-    "platform": ["Windows"],
-    "description": "A story-driven psychological horror game. An obscure event causes your friends to disappear while you were camping in the woods. Alone and stranded in an unknown place, you need to seek the answers about what happened, face the horror and find your friends.",
-    "genres": ["Horror"],
-    "features": ["Single Player"],
-    "tags": ["New Release"],
-    "aboutGame": "Horror Story: Hallowseed is a single-player story-driven psychological horror adventure game that takes place in the fictional location, Hallowseed. Viewed from first-person perspective, the beautifully rendered environment not only contains various puzzles but is also controlled by an advanced AI that reacts to the player’s choices and actions and activates random scare events.",
-    "gameFeatures": [
-      "Rich story - The player is driven by the story of a village whose inhabitants were seduced by an obscure power and condemned to darkness. While seeking to save his friends, the protagonist, Michael, will uncover what role he plays in all this tragedy.",
-      "Uncanny puzzles – You will encounter and need to solve various puzzles in order to progress the story. Stay vigilant and always on the lookout for clues anywhere around you!",
-      "Tense atmosphere - Immersive sound design and stunning visuals that will always keep you on your toes.",
-      "Micro-scares system - A system of random scary events that activate based on how you interact with the environment and will make you jump from your chair (or couch). Try different playthroughs with different choices to experience different scares!",
-      "Inspired by Horror Movie Classics - Insidious, The Conjuring and The Exorcism of Emily Rose.",
-      "Terrifying AI – It’s not easy to escape the horrors around you. There’s always a way to survive, but you may need several tries to get it right"
-    ],
-    "heroImages": [
-      "https://cdn2.unrealengine.com/egs-horrorstoryhallowseed-jeffwinner-g1a-03-1920x1080-2d6b11dff3ec.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-horrorstoryhallowseed-jeffwinner-g1a-04-1920x1080-bd7455e67e01.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-horrorstoryhallo…-1920x1080-38a7082ab1f4.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-horrorstoryhallo…-1920x1080-803d4abc30b3.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-horrorstoryhallo…-1920x1080-3927dfe39917.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-horrorstoryhallo…-1920x1080-0259112d91cd.jpg?h=720&resize=1&w=1280"
-    ],
-    "videos": [
-      "https://media-cdn.epicgames.com/a5ee0ed6d8164e66b139c7ba730c42e8/a5ee0ed6d8164e66b139c7ba730c42e8-high.fmp4"
-    ],
-    "images": [
-      "https://cdn2.unrealengine.com/egs-horrorstoryhallowseed-jeffwinner-g1a-03-1920x1080-2d6b11dff3ec.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-horrorstoryhallowseed-jeffwinner-g1a-04-1920x1080-bd7455e67e01.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-horrorstoryhallo…-1920x1080-38a7082ab1f4.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-horrorstoryhallo…-1920x1080-803d4abc30b3.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-horrorstoryhallo…-1920x1080-3927dfe39917.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-horrorstoryhallo…-1920x1080-0259112d91cd.jpg?h=720&resize=1&w=1280"
-    ],
-    "rating": {
-      "criticRecommend": 100,
-      "topCriticAverage": 93,
-      "openCriticrating": "Mighty"
-    },
-    "reviews": [
-      {
-        "organisation": "IGN",
-        "author": "Leana Hafer",
-        "rating": 9,
-        "description": "Aiko's Choice is a polished, challenging, and welcome – though a bit short – standalone expansion to the exceptional Shadow Tactics: Blades of the Shogun.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "GamesRadar+",
-        "author": "Ron",
-        "rating": 9.5,
-        "description": "hadow Tactics: Blades of the Shogun was one of my favorite games of 2017, and Aiko's Choice is a return to form. Mimimi Games continues to deliver tight gameplay, incredible stealth, and a compelling story to tie it all together.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "Digital Trends",
-        "author": "John Zawad",
-        "rating": 7.7,
-        "description": "Aiko’s Choice is utterly unconcerned with critics of the base game, and instead focuses entirely on giving fans a more intense version of its concepts.",
-        "link": "https://opencritic.com/"
-      }
-    ]
-  },
-  {
-    "title": "Teamfight Tactics",
-    "logo": "https://cdn2.unrealengine.com/6b467866-621b-4caa-b2db-1e07f1304394-400x114-102a7514f5de.png?h=270&resize=1&w=480",
-    "cardImage": "https://cdn1.epicgames.com/offer/ada73cc2d68a46a18f529ebb87328dee/EGS_TeamfightTactics_RiotGames_S2_1200x1600-4b2338d65c5ebafc8056c0629601e33b?h=854&resize=1&w=640",
-    "cardTagline": "Riot Games",
-    "price": {
-      "mainPrice": 0,
-      "discount": 0
-    },
-    "developer": "Riot Games",
-    "publisher": "Riot Games",
-    "releaseDate": "Jun 26, 2019",
-    "platform": ["Windows", "Mac"],
-    "description": "Draft, deploy, and dominate with a revolving roster of League of Legends champions in a round-based battle for supremacy. Outsmart your opponents and adapt as you go—the strategy is all up to you",
-    "genres": ["Strategy"],
-    "features": ["Single Player", "Multiplayer", "Competitive"],
-    "tags": ["Free"],
-    "aboutGame": "Put your team-building skills to the test in Teamfight Tactics, the ultimate PvP strategy game from the studio behind League of Legends. Bust out the big-brain strats as you draft, position, and fight your way to victory in an 8-way free-for-all battle. With hundreds of team combinations and an ever-evolving meta, any strategy goes—but only one can win.Queue up across a variety of social and competitive modes, then outsmart and outlast your enemies to take your place at the top!",
-    "gameFeatures": [
-      "EXPLORE THE NEW SET",
-      "Discover your inner mad scientist with Gizmos & Gadgets, the latest update featuring a new champion roster and set mechanic: Hextech Augments. Also making their debut this set? Bite-sized versions of your favorite champs, Chibi Champions Vi, Jinx, and Ekko!",
-      "BUILD YOUR TEAM",
-      "Assemble an unstoppable army from a shared pool of champions, then battle it out round by round to become the last player standing. Random drafts and in-game events mean no two matches play out exactly the same, so use your creativity and cunning to turn the tides in your favor.",
-      "PICK UP AND GO",
-      "Challenge your friends and destroy your foes across PC, Mac, and mobile. Queue up together and find out if you and your friends have what it takes to become the top tactician.",
-      "RISE UP THE RANKS",
-      "Full competitive support and matchmaking means there are countless ways to outplay your opponents. From Iron to Challenger, climb the ladder based on your final standing in every game. Keep climbing for exclusive Ranked rewards at the end of every set!",
-      "STYLE ON 'EM",
-      "Make every match your own with personalized arenas, booms, and emotes. Then take to the battlefield with your favorite Chibi Champion or Little Legend! Collect new looks just by playing games, or by purchasing them in the TFT store.",
-      "EARN AS YOU PLAY",
-      "Collect free loot with the all-new Gizmos & Gadgets Pass, or upgrade to Pass+ to unlock set-exclusive rewards!",
-      "Download and play Teamfight Tactics today!"
-    ],
-    "heroImages": [
-      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-01-1920x1080-8de95288efb3.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-02-1920x1080-d9d5f60f7fe0.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-03-1920x1080-5d673ccd6a0d.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-04-1920x1080-82d66083c77e.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-05-1920x1080-e268b051323a.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-06-1920x1080-a76712488115.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-07-1920x1080-1f5da60c2d91.jpg?h=720&resize=1&w=1280"
-    ],
-    "videos": [
-      "https://media-cdn.epicgames.com/c481acab95eb444e9520ef57f0185120/c481acab95eb444e9520ef57f0185120-high.fmp4"
-    ],
-    "images": [
-      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-01-1920x1080-8de95288efb3.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-02-1920x1080-d9d5f60f7fe0.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-03-1920x1080-5d673ccd6a0d.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-04-1920x1080-82d66083c77e.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-05-1920x1080-e268b051323a.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-06-1920x1080-a76712488115.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-07-1920x1080-1f5da60c2d91.jpg?h=720&resize=1&w=1280"
-    ],
-    "rating": {
-      "criticRecommend": 6,
-      "topCriticAverage": 5,
-      "openCriticrating": "Strong"
-    },
-    "reviews": [
-      {
-        "organisation": "Metro GameCentral",
-        "author": "Leana Hafer",
-        "rating": 5,
-        "description": "Catching, training, and trading ",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "Game Revolution",
-        "author": "Jason Faulkner",
-        "rating": 8,
-        "description": "A wonderfully crafted follow-up to a fantastic first game.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "Digital Trends",
-        "author": "John Zawad",
-        "rating": 7.7,
-        "description": "Aiko’s Choice is utterly unconcerned with critics of the base game, and instead focuses entirely on giving fans a more intense version of its concepts.",
-        "link": "https://opencritic.com/"
-      }
-    ]
-  },
-
-  {
-    "title": "Chivalry 2",
-    "logo": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fchivalry-2%2Fhome%2FChivalry-2-Full-Brand-Colour-5239x1781-3716225e30b3211e1df95e0f119c54c214883583.png?h=270&resize=1&w=480",
-    "cardImage": "https://cdn1.epicgames.com/offer/bd46d4ce259349e5bd8b3ded20274737/EGS_Chivalry2_TornBannerStudios_S2_1200x1600-eb2e6db88cbcc42e13c091eb8a656a29?h=854&resize=1&w=640",
-    "cardTagline": "Torn Banner Studios | Tripwire Interactive",
-    "price": {
-      "mainPrice": 934,
-      "discount": 0
-    },
-    "developer": "Torn Banner Studios",
-    "publisher": "Tripwire Interactive",
-    "releaseDate": "Jun 8, 2021",
-    "platform": ["Windows"],
-    "description": "Chivalry 2 is a multiplayer first person slasher inspired by epic medieval movie battles. Players are thrust into the action of every iconic moment of the era - from clashing swords, to storms of flaming arrows, to sprawling castle sieges and more.",
-    "genres": ["Fighting", "First Person"],
-    "features": ["Multiplayer"],
-    "tags": ["Top Seller", "On Sale"],
-    "aboutGame": "Chivalry 2 is a multiplayer first person slasher inspired by epic medieval movie battles. Players are thrust into the action of every iconic moment of the era - from clashing swords, to storms of flaming arrows, to sprawling castle sieges and more. Dominate massive, 64-player battlefields. Catapults tear the earth apart as you lay siege to castles, set fire to villages and slaughter filthy peasants in the return of Team Objective maps.",
-    "gameFeatures": [
-      "Return to the ultimate medieval battlefield",
-      "Chivalry 2 is a multiplayer first person slasher inspired by epic medieval movie battles. Players are thrust into the action of every iconic moment of the era - from clashing swords, to storms of flaming arrows, to sprawling castle sieges and more.",
-      "Dominate massive, 64-player battlefields. Catapults tear the earth apart as you lay siege to castles, set fire to villages and slaughter filthy peasants in the return of Team Objective maps."
-    ],
-    "heroImages": [
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-16-1920x1080-fbb4c25e13a8.jpg",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-15-1920x1080-a2d04ac77794.jpg",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-14-1920x1080-595c6aed045c.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-13-1920x1080-1555435dd71c.jpg",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-12-1920x1080-d92524938042.jpg",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-11-1920x1080-3ae09555ff66.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-10-1920x1080-4edf42ed7938.jpg",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-09-1920x1080-951ff2e70273.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-08-1920x1080-5c630719dc47.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-07-1920x1080-9b2efa3133d4.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-07-1920x1080-9b2efa3133d4.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-06-1920x1080-81a2177e57d8.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-04-1920x1080-93c483d9c98a.jpg?h=720&resize=1&w=1280"
-    ],
-    "videos": [
-      "https://media-cdn.epicgames.com/1f011f13843443b180ea633c60f22fb0/1f011f13843443b180ea633c60f22fb0-high.fmp4",
-      "https://media-cdn.epicgames.com/1f011f13843443b180ea633c60f22fb0/1f011f13843443b180ea633c60f22fb0-high.fmp4",
-      "https://media-cdn.epicgames.com/95871d4a97f54d699794d6bcce8e8a80/95871d4a97f54d699794d6bcce8e8a80-high.fmp4"
-    ],
-    "images": [
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-16-1920x1080-fbb4c25e13a8.jpg",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-15-1920x1080-a2d04ac77794.jpg",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-14-1920x1080-595c6aed045c.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-13-1920x1080-1555435dd71c.jpg",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-12-1920x1080-d92524938042.jpg",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-11-1920x1080-3ae09555ff66.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-10-1920x1080-4edf42ed7938.jpg",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-09-1920x1080-951ff2e70273.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-08-1920x1080-5c630719dc47.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-07-1920x1080-9b2efa3133d4.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-07-1920x1080-9b2efa3133d4.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-06-1920x1080-81a2177e57d8.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-04-1920x1080-93c483d9c98a.jpg?h=720&resize=1&w=1280"
-    ],
-    "rating": {
-      "criticRecommend": 86,
-      "topCriticAverage": 98,
-      "openCriticrating": "Strong"
-    },
-    "reviews": [
-      {
-        "organisation": "IGN",
-        "author": "Ian Sandhu",
-        "rating": 10,
-        "description": "An axe-cellent compromise between hack-and-slash fun and skill-based medieval melee makes Chivalry 2's 64-player medieval brawls a ton of fun.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "GamesRadar Evolution",
-        "author": "Steve Hems",
-        "rating": 9.5,
-        "description": "A brilliant mix of high skill and low comedy, and the best medieval combat game out there.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "Digital Games",
-        "author": "Faran Khan",
-        "rating": 10,
-        "description": "The melee combat may not be as technical or strategic as some hardcore fans might like, yet it's hard to deny the appeal of Chivalry 2's dismembering deathmatches. Those first few sieges are truly enthralling as watch waves of red and blue troops smash against each other. Over time it may lose its edge though Chivalry 2 is still one of the most fun and unique multiplayer games out there.",
-        "link": "https://opencritic.com/"
-      }
-    ]
-  },
-  {
-    "title": "Core",
-    "logo": "https://cdn2.unrealengine.com/egs-core-manticoregames-ic1-350x100-a33efd1883d9.png?h=270&resize=1&w=480",
-    "cardImage": "https://cdn1.epicgames.com/salesEvent/salesEvent/landscape_1200x1600-f03a54780389cfea9ea8228f982d7c39?h=854&resize=1&w=640",
-    "cardTagline": "Manticore Games | Manticore Games",
-    "price": {
-      "mainPrice": 0,
-      "discount": 0
-    },
-    "developer": "Manticore Games",
-    "publisher": "Manticore Games",
-    "releaseDate": "Apr 16, 2021",
-    "platform": ["Windows"],
-    "description": "Core is a multiverse of free games to play and worlds to explore designed by a global community of developers. Play thousands of Unreal-powered games from every genre, or create and earn from your own! Download now to get a limited-time free reward bundle.",
-    "genres": ["Action", "RPG", "Shooter"],
-    "features": ["Multiplayer", "Competitive"],
-    "tags": ["Free"],
-    "aboutGame": "Core From shooters, survival, and action-adventure to MMORPGs, platformers, and party games, Core has something new for every gamer, every day. Core has over 20,000 free games.",
-    "gameFeatures": [
-      "New Games, New Worlds, Every Day",
-      "From shooters, survival, and action-adventure to MMORPGs, platformers, and party games, Core has something new for every gamer, every day. Core has over 20,000 free games.",
-      "Download and play now to unlock a free reward bundle, exclusively for Epic Games Store users. Get 8 heroes, 3 mounts and more - a limited time, $200 value!",
-      "Stake Your Claim in the Multiverse",
-      "Hang out in a massive social space of connected worlds. Feast at a castle banquet, swim in zero-G at an orbiting space station, or visit a virtual theme park. Stake your claim, build your own homeworld, and connect to others.",
-      "Create, Publish, and Earn",
-      "Want to make your own game? Core makes it possible by giving beginners and pros alike the power of Unreal in an accessible interface. You have access to hundreds of free, high quality music, sound, and art assets, and built in 3D modeling and terrain sculpting tools. One-button publishing makes it easy to share your game, find players, and potentially earn money."
-    ],
-    "heroImages": [
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-02-1920x1080-6ca4423ea150.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-04-1920x1080-0e092337070e.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-05-1920x1080-496606c24ad8.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-07-1920x1080-4c3266991b74.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-08-1920x1080-6b4bd2f44cb3.jpg"
-    ],
-    "videos": [
-      "https://media-cdn.epicgames.com/64e68e8ac9ce4080b0204bc06dacac29/64e68e8ac9ce4080b0204bc06dacac29-high.fmp4"
-    ],
-    "images": [
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-10-1920x1080-aace2959621f.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-11-1920x1080-5a44a8f49714.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-12-2-1920x1080-3a10c22e711b.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-12-1920x1080-971d706285f2.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-13-1920x1080-36734e8b5524.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-14-1920x1080-9c99c60af02c.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g2-00-1920x1080-e46421defc46.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g2-03-1920x1080-1edfd84d7b72.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-18-1920x1080-7a20158914e2.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-19-2-1920x1080-318f60286bd7.jpg?h=720&resize=1&w=1280"
-    ],
-    "rating": {
-      "criticRecommend": 86,
-      "topCriticAverage": 98,
-      "openCriticrating": "Strong"
-    },
-    "reviews": [
-      {
-        "organisation": "IGN",
-        "author": "Ian Sandhu",
-        "rating": 10,
-        "description": "An axe-cellent compromise between hack-and-slash fun and skill-based medieval melee makes Core's 64-player medieval brawls a ton of fun.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "GamesRadar Evolution",
-        "author": "Steve Hems",
-        "rating": 9.5,
-        "description": "A brilliant mix of high skill and low comedy, and the best medieval combat game out there.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "Digital Games",
-        "author": "Faran Khan",
-        "rating": 10,
-        "description": "The melee combat may not be as technical or strategic as some hardcore fans might like, yet it's hard to deny the appeal of Core's dismembering deathmatches. Those first few sieges are truly enthralling as watch waves of red and blue troops smash against each other. Over time it may lose its edge though Core is still one of the most fun and unique multiplayer games out there.",
-        "link": "https://opencritic.com/"
-      }
-    ]
-  },
-
-  {
-    "title": "ChromaGun",
-    "logo": "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-ic1-400x400-583ee94c9800.png?h=270&resize=1&w=480",
-    "cardImage": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_ChromaGun_PixelManiacs_S2_1200x1600-08050de046d806741411675a7ca51eb6?h=854&resize=1&w=640",
-    "cardTagline": "Pixel Maniacs | Pixel Maniacs",
-    "price": {
-      "mainPrice": 309,
-      "discount": 0
-    },
-    "developer": "Pixel Maniacs",
-    "publisher": "Pixel Maniacs",
-    "releaseDate": "Feb 16, 2016",
-    "platform": ["Windows"],
-    "description": "Welcome! You’re here to test our state-of-the-art military-grade color-technology: The ChromaGun! Use it to solve our meticulously designed chambers by painting the walls and droids. Remember how to mix colors from pre-school? Congratulations, you qualify!",
-    "genres": ["Puzzle", "First Person", "Indie"],
-    "features": ["Single player"],
-    "tags": ["Recently Updated"],
-    "aboutGame": "Welcome to ChromaTec’s test lab! You’re here to test our newest, state-of-the-art military-grade color-technology: The ChromaGun (patent pending)! Use it to try and solve our meticulously designed test chambers. The basic principle is as easy as applying it is complex: Exit the chambers via the exit doors. But be weary of the WorkerDroids in charge of maintaining the chambers. They’re not exactly what you and I would call “human friendly”.",
-    "gameFeatures": [
-      "Use the ChromaGun",
-      "Use the ChromaGun to colorize walls and WorkerDroids to progress in the chambers. WorkerDroids are attracted to walls of the same color. Using that mechanic, try to reach the exit door of each chamber. Some doors are more complicated to use than others: They can only be opened using door triggers and only stay open as long as the triggers are occupied."
-    ],
-    "heroImages": [
-      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-07-1920x1080-ceda18e93019.jpg",
-      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-06-1920x1080-98b265e6a89a.jpg",
-      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-05-1920x1080-2d894ea4a404.jpg",
-      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-04-1920x1080-fa178338017e.jpg",
-      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-03-1920x1080-a77c47270db1.jpg",
-      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-02-1920x1080-49fbc32d8c67.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-01-1920x1080-7321a98a3e9f.jpg?h=720&resize=1&w=1280"
-    ],
-    "videos": [
-      "https://media-cdn.epicgames.com/e5045e911fe0401882ffbf3f0d4b701b/e5045e911fe0401882ffbf3f0d4b701b-high.fmp4"
-    ],
-    "images": [
-      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g2-00-1200x400-b9ae8f700da7.jpg",
-      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-06-1920x1080-98b265e6a89a.jpg",
-      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-05-1920x1080-2d894ea4a404.jpg",
-      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-04-1920x1080-fa178338017e.jpg",
-      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-03-1920x1080-a77c47270db1.jpg",
-      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-02-1920x1080-49fbc32d8c67.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-01-1920x1080-7321a98a3e9f.jpg?h=720&resize=1&w=1280"
-    ],
-    "rating": {
-      "criticRecommend": 33,
-      "topCriticAverage": 46,
-      "openCriticrating": "Fair"
-    },
-    "reviews": [
-      {
-        "organisation": "IGN",
-        "author": "Ian Sandhu",
-        "rating": 10,
-        "description": "ChromaGun is a great port, but it doesn't fix issues like the difficulty spikes that have always been present in the game. ",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "GamesRadar Evolution",
-        "author": "Steve Hems",
-        "rating": 9.5,
-        "description": "ChromaGun is, for the most part, a great port, but it doesn't fix issues like the difficulty spikes that have always been present in the game.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "Destructoid",
-        "author": "Chris Carter",
-        "rating": 6,
-        "description": "There just isn't a whole lot to say outside of what's already been said. ChromaGun is a competent puzzler that's only firing on a few cylinders and not much has changed in the several years since its launch. If you haven't pulled the trigger yet and are an avid puzzle fan the VR-ification is the excuse you need, just don't expect a whole lot.",
-        "link": "https://opencritic.com/"
-      }
-    ]
-  },
-
-  {
-    "title": "Unspottable",
-    "logo": "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-ic1-400x225-a053dc88d51a.png?h=270&resize=1&w=480",
-    "cardImage": "https://cdn1.epicgames.com/offer/bc00696af836471cbacfd496e9e5f877/EGS_Unspottable_GrosChevaux_S2_1200x1600-1cbb009ccd899f1f40cf290c7906fac3?h=854&resize=1&w=640",
-    "cardTagline": "Gros Chevaux | Gros Chevaux",
-    "price": {
-      "mainPrice": 349,
-      "discount": 10
-    },
-    "developer": "Gros Chevaux",
-    "publisher": "Gros Chevaux",
-    "releaseDate": "Jan 10, 2022",
-    "platform": ["Windows", "Mac"],
-    "description": "Unspottable is a competitive couch party game for 2 to 4 players. Blend in the crowd of AI characters, hunt down the other players and use the many different environment specific rules to win the game. Walk like a robot and punch like a human!",
-    "genres": ["Casual", "Indie"],
-    "features": ["Single player", "Co-op"],
-    "tags": ["New Release"],
-    "aboutGame": "Unspottable is a competitive couch party game for two to four players. Blend in the crowd of AI characters, hunt down the other players and use the many different environment specific rules to win the game. 'Walk like a robot and punch like a human!'",
-    "gameFeatures": [
-      "Simple controls:",
-      "easy to learn, hard to master.",
-      "Competition based on observation rather than action.",
-      "Tutorial to explain game mechanics to first time players.",
-      "Fun feedback. Ragdoll / Endgame nicknames based on stats / Camera shakes / Funny animations and designs.",
-      "Competitive party game:",
-      "Competition from the start: in the home screen, players can already get used to the controls and fight each other.",
-      "No information given to the players about their position to push them to discuss, lie and add bluffing to their",
-      "strategies.",
-      "All the players can control the level selection and fight to select the one they want.",
-      " Different side quests and mechanics with each level, to create new strategies!",
-      "Expert mode for more advanced players"
-    ],
-    "heroImages": [
-      "https://cdn2.unrealengine.com/multi-sofa-1382x778-7c3f90a5d8c8.png",
-      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-05-1920x1080-45017114f781.jpg",
-      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-06-1920x1080-0b91a2640fad.jpg",
-      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-04-1920x1080-80c336f7a6b5.jpg",
-      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-03-1920x1080-5b7059af23be.jpg",
-      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-02-1920x1080-45cdbd6d16bc.jpg"
-    ],
-    "videos": [
-      "https://media-cdn.epicgames.com/e5045e911fe0401882ffbf3f0d4b701b/e5045e911fe0401882ffbf3f0d4b701b-high.fmp4"
-    ],
-    "images": [
-      "https://cdn2.unrealengine.com/multi-sofa-1382x778-7c3f90a5d8c8.png",
-      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-05-1920x1080-45017114f781.jpg",
-      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-06-1920x1080-0b91a2640fad.jpg",
-      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-04-1920x1080-80c336f7a6b5.jpg",
-      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-03-1920x1080-5b7059af23be.jpg",
-      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-02-1920x1080-45cdbd6d16bc.jpg",
-      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-01-1920x1080-865917f0a2ff.jpg"
-    ],
-    "rating": {
-      "criticRecommend": 33,
-      "topCriticAverage": 46,
-      "openCriticrating": "Fair"
-    },
-    "reviews": [
-      {
-        "organisation": "IGN",
-        "author": "Ian Sandhu",
-        "rating": 10,
-        "description": "ChromaGun is a great port, but it doesn't fix issues like the difficulty spikes that have always been present in the game. ",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "GamesRadar Evolution",
-        "author": "Steve Hems",
-        "rating": 9.5,
-        "description": "ChromaGun is, for the most part, a great port, but it doesn't fix issues like the difficulty spikes that have always been present in the game.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "Destructoid",
-        "author": "Chris Carter",
-        "rating": 6,
-        "description": "There just isn't a whole lot to say outside of what's already been said. ChromaGun is a competent puzzler that's only firing on a few cylinders and not much has changed in the several years since its launch. If you haven't pulled the trigger yet and are an avid puzzle fan the VR-ification is the excuse you need, just don't expect a whole lot.",
-        "link": "https://opencritic.com/"
-      }
-    ]
-  },
-
-  {
-    "title": "Tribes of Midgard",
-    "logo": "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-ic1-300x150-eb23eb77b095.png?h=270&resize=1&w=480",
-    "cardImage": "https://cdn1.epicgames.com/offer/6774af9524fe4f63b2a6717d04269cd6/EGS_TribesofMidgard_Norsfell_S2_12_1200x1600-c4a5986e60d17828ad1f0d5b9d6fdcc1?h=854&resize=1&w=640",
-    "cardTagline": "Gros Chevaux | Gros Chevaux",
-    "price": {
-      "mainPrice": 699,
-      "discount": 10
-    },
-    "developer": "Bad Dream Games",
-    "publisher": "Gros Chevaux",
-    "releaseDate": "Jan 10, 2022",
-    "platform": ["Windows", "Mac"],
-    "description": "Form a tribe with up to 10 players to defend your village from the relentless onslaught of deadly spirits and gigantic brutes Hel-bent on bringing on the end of the world in this game with a unique blend of action, survival, and roguelite elements.",
-    "genres": ["Action", "Rogue-Lite"],
-    "features": ["Single player", "Co-op", "Multiplayer"],
-    "tags": ["New Release"],
-    "aboutGame": "Tribes of Midgard is a co-op blend of action, survival, and roguelite elements. Players must balance defending a sacred tree – the Seed of Yggdrasil – from nightly attacks, with exploring and powering up their Viking to battle powerful Giants and Saga Bosses.",
-    "gameFeatures": [
-      "Roguelite Meets Survival Action",
-      "Face Colossal Game-Changers",
-      "Forge Your Viking Legend",
-      "Rally the Tribe",
-      "Explore a Bright Norse Realm"
-    ],
-    "heroImages": [
-      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g1a-00-12-13-21-1920x1080-cd9a4b01fbb6.jpg",
-      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-00-1920x1080-d1890529790d.jpg",
-      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-01-1920x1080-915463ef2fd0.jpg",
-      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-02-1920x1080-d5fc79f75695.jpg",
-      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-04-1920x1080-f4fdb9e4d4fa.jpg",
-      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-03-1920x1080-ce9b5bbc588f.jpg"
-    ],
-    "videos": [
-      "https://media-cdn.epicgames.com/e5045e911fe0401882ffbf3f0d4b701b/e5045e911fe0401882ffbf3f0d4b701b-high.fmp4"
-    ],
-    "images": [
-      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g1a-00-12-13-21-1920x1080-cd9a4b01fbb6.jpg",
-      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-00-1920x1080-d1890529790d.jpg",
-      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-01-1920x1080-915463ef2fd0.jpg",
-      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-02-1920x1080-d5fc79f75695.jpg",
-      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-04-1920x1080-f4fdb9e4d4fa.jpg",
-      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-03-1920x1080-ce9b5bbc588f.jpg"
-    ],
-    "rating": {
-      "criticRecommend": 59,
-      "topCriticAverage": 76,
-      "openCriticrating": "Strong"
-    },
-    "reviews": [
-      {
-        "organisation": "IGN",
-        "author": "Mona hemsworth",
-        "rating": 9,
-        "description": "Tribes of Midgard is a hectic, exciting, Norse-flavored action RPG that is best faced with a shield wall full of friends.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "God is a Geek",
-        "author": "Steve Hems",
-        "rating": 9.5,
-        "description": "A mashup of many genres, Tribes of Midgard manages to do many things well. It does ask a great deal from you, and it offers little in the way of instruction, but if cooperation and discovery under pressure is your jam, this is the game for you.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "Game Rant",
-        "author": "Nina Dobrav",
-        "rating": 6,
-        "description": "Tribes of Midgard has some great ideas, but the cosmetic rewards, short skill trees and difficulty in unlocking new classes makes it feel a little 'early access'.",
-        "link": "https://opencritic.com/"
-      }
-    ]
-  },
-
-  {
-    "title": "One Hand Clapping",
-    "logo": "https://cdn2.unrealengine.com/ohc-logo-400-w-400x113-c9ab19de5960.png?h=270&resize=1&w=480",
-    "cardImage": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_OneHandClapping_BadDreamGames_S2_1200x1600-c7d8505f584c3a50a69299b99f71d3ba?h=854&resize=1&w=640",
-    "cardTagline": "Gros Chevaux | HandyGames",
-    "price": {
-      "mainPrice": 699,
-      "discount": 10
-    },
-    "developer": "Gros Chevaux",
-    "publisher": "HandyGames",
-    "releaseDate": "Dec 14, 2021",
-    "platform": ["Windows", "Mac"],
-    "description": "One Hand Clapping is a 2D platformer that invites you to sing into your microphone to solve musical puzzles and discover the power of your voice as it changes the world.",
-    "genres": ["Casual", "Puzzle", "Indie"],
-    "features": ["Single player", "Controller Support"],
-    "tags": ["New Release"],
-    "aboutGame": "One Hand Clapping is a 2D platformer that invites you to sing into your microphone to solve musical puzzles and discover the power of your voice as it changes the world. This exceptionally unique game provides you the freedom to express yourself through its mechanics, helping you build confidence in both your singing voice and the voice within you.Don't worry about hitting the wrong notes, One Hand Clapping is all about taking risks and learning from your mistakes. Find out just how far your voice can take you! The world of One Hand Clapping is full of vibrant landscapes and mysterious characters portrayed through a warm, minimalist aesthetic that inspires self-expression without overwhelming the senses.",
-    "gameFeatures": [
-      " Escape the judgemental eyes of Silent City's hostile inhabitants",
-      "Wander through six expansive, multicolored biomes and sing to change the world",
-      "Sing along with three whimsical hermits throughout your musical journey",
-      "5 hours of creative and cacophonic gameplay"
-    ],
-    "heroImages": [
-      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-s1-2560x1440-f6c000c0a317.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-05-1920x1080-d75962218b5b.jpg",
-      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-04-1920x1080-2f9896a1f082.jpg",
-      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-03-1920x1080-b0588202be88.jpg",
-      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-02-1920x1080-09613aaf2d85.jpg",
-      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-01-1920x1080-d760e87e62be.jpg"
-    ],
-    "videos": [
-      "https://media-cdn.epicgames.com/9d8f3c5cbae94e8098de87a4cc064c05/9d8f3c5cbae94e8098de87a4cc064c05-high.fmp4",
-      "https://media-cdn.epicgames.com/7395646df3314a62ada84e09860c6ef0/7395646df3314a62ada84e09860c6ef0-high.fmp4"
-    ],
-    "images": [
-      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g2-00-700x182-07e47396120e.jpg",
-      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-s1-2560x1440-f6c000c0a317.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-00-1920x1080-b5b83f92bace.jpg",
-      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-05-1920x1080-d75962218b5b.jpg",
-      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-04-1920x1080-2f9896a1f082.jpg",
-      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-03-1920x1080-b0588202be88.jpg",
-      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-02-1920x1080-09613aaf2d85.jpg",
-      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-01-1920x1080-d760e87e62be.jpg"
-    ],
-    "rating": {
-      "criticRecommend": 59,
-      "topCriticAverage": 76,
-      "openCriticrating": "Strong"
-    },
-    "reviews": [
-      {
-        "organisation": "IGN",
-        "author": "Mona hemsworth",
-        "rating": 9,
-        "description": "Tribes of Midgard is a hectic, exciting, Norse-flavored action RPG that is best faced with a shield wall full of friends.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "God is a Geek",
-        "author": "Steve Hems",
-        "rating": 9.5,
-        "description": "A mashup of many genres, Tribes of Midgard manages to do many things well. It does ask a great deal from you, and it offers little in the way of instruction, but if cooperation and discovery under pressure is your jam, this is the game for you.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "Game Rant",
-        "author": "Nina Dobrav",
-        "rating": 6,
-        "description": "Tribes of Midgard has some great ideas, but the cosmetic rewards, short skill trees and difficulty in unlocking new classes makes it feel a little 'early access'.",
-        "link": "https://opencritic.com/"
-      }
-    ]
-  },
-
-  {
-    "title": "Dead by Daylight",
-    "logo": "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-ic1-200x200-5a5957eb6ddd.png?h=270&resize=1&w=480",
-    "cardImage": "https://cdn1.epicgames.com/offer/611482b8586142cda48a0786eb8a127c/EGS_DeadbyDaylight_BehaviourInteractive_S4_1200x1600-f2a7ae8676457d052c1344ce717dfb7a?h=854&resize=1&w=640",
-    "cardTagline": "Behaviour Interactive | Behaviour Interactive",
-    "price": {
-      "mainPrice": 699,
-      "discount": 10
-    },
-    "developer": "Behaviour Interactive",
-    "publisher": "Behaviour Interactive",
-    "releaseDate": "Dec 14, 2014",
-    "platform": ["Windows"],
-    "description": "Dead by Daylight is a multiplayer (4vs1) horror game where one player takes on the role of the savage Killer, and the other four players play as Survivors, trying to escape the Killer and avoid being caught and killed",
-    "genres": ["Action", "Survival"],
-    "features": ["Multiplayer"],
-    "tags": ["Top Seller", "Most Popular"],
-    "aboutGame": "Dead by Daylight is a multiplayer (4vs1) horror game where one player takes on the role of the savage Killer, and the other four players play as Survivors, trying to escape the Killer and avoid being caught, tortured and killed. Survivors play in third-person and have the advantage of better situational awareness. The Killer plays in first-person and is more focused on their prey. The Survivors' goal in each encounter is to escape the Killing Ground without getting caught by the Killer - something that sounds easier than it is, especially when the environment changes every time you play.",
-    "gameFeatures": [
-      "Survive Together… Or Not",
-      "Survivors can either cooperate with the others or be selfish. Your chance of survival will vary depending on whether you work together as a team or if you go at it alone. Will you be able to outwit the Killer and escape their Killing Ground?",
-      "Where Am I?",
-      "Each level is procedurally generated, so you'll never know what to expect. Random spawn points mean you will never feel safe as the world and its danger change every time you play.",
-      "A Feast for Killers",
-      "Dead by Daylight draws from all corners of the horror world. As a Killer you can play as anything from a powerful Slasher to terrifying paranormal entities. Familiarize yourself with your Killing Grounds and master each Killer's unique power to be able to hunt, catch and sacrifice your victims.",
-      "Deeper and Deeper",
-      "Each Killer and Survivor has their own deep progression system and plenty of unlockables that can be customized to fit your own personal strategy. Experience, skills and understanding of the environment are key to being able to hunt or outwit the Killer.",
-      "Real People, Real Fear",
-      "The procedural levels and real human reactions to pure horror makes each game session an unexpected scenario. You will never be able to tell how it's going to turn out. Ambience, music, and chilling environments combine into a terrifying experience. With enough time, you might even discover what's hiding in the Fog."
-    ],
-    "heroImages": [
-      "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-02-1920x1080-794afd5fc6e8.jpg",
-      "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-11-1920x1080-9582b20d1891.jpg",
-      "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-10-1920x1080-5f36b5b21c8c.jpg",
-      "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-09-1920x1080-012623cb34fd.jpg",
-      "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-08-1920x1080-64cdea825713.jpg",
-      "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-07-1920x1080-653cc7b8169b.jpg",
-      "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-06-1920x1080-b19d0cc6fec2.jpg",
-      "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-05-1920x1080-56f57be8934d.jpg"
-    ],
-    "videos": [
-      "https://media-cdn.epicgames.com/7e7ae134321e4762ab6b8778a2a7d8ee/7e7ae134321e4762ab6b8778a2a7d8ee-high.fmp4",
-      "https://media-cdn.epicgames.com/71f1d4acba4a46f0a2b7bd2c834e3bd9/71f1d4acba4a46f0a2b7bd2c834e3bd9-high.fmp4"
-    ],
-    "images": [
-      "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-04-1920x1080-f989400d3b09.jpg",
-      "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-03-1920x1080-aef32ee4a4ad.jpg",
-      "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-07-1920x1080-653cc7b8169b.jpg",
-      "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-06-1920x1080-b19d0cc6fec2.jpg",
-      "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-05-1920x1080-56f57be8934d.jpg"
-    ],
-    "rating": {
-      "criticRecommend": 46,
-      "topCriticAverage": 80,
-      "openCriticrating": "Fair"
-    },
-    "reviews": [
-      {
-        "organisation": "IGN",
-        "author": "Mona hemsworth",
-        "rating": 9,
-        "description": "It's shocking how much depth Dead By Daylight packs into its systems.",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "God is a Geek",
-        "author": "Steve Hems",
-        "rating": 9.5,
-        "description": "The tension is high in every match, with jump scares and thrilling chases peppering each encounter with the killer",
-        "link": "https://opencritic.com/"
-      },
-      {
-        "organisation": "Game Rant",
-        "author": "Nina Dobrav",
-        "rating": 6,
-        "description": "After almost five years, Dead by Daylight has grown into an incredible slasher film simulator, and the best asymmetrical multiplayer game around.'.",
-        "link": "https://opencritic.com/"
-      }
-    ]
-  },
-  {
     "title": "Wolfstride",
+    "thumbnail": "https://cdn2.unrealengine.com/egs-wolfstride-otaimonstudios-g1c-00-1920x1080-4dce48abe31d.jpg?h=720&resize=1&w=1280",
     "logo": "https://cdn2.unrealengine.com/egs-wolfstride-otaimonstudios-ic1-400x400-2f996f18ac5f.png?h=270&resize=1&w=480",
     "cardImage": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_Wolfstride_OTAIMONStudios_S2_1200x1600-14373bfd96e9b6a77e4a41925cc90030?h=854&resize=1&w=640",
     "cardTagline": "OTA IMON Studios | Raw Fury  ",
@@ -1093,7 +15,7 @@
     "platform": ["Windows", "Mac"],
     "description": "Get wrecked in this immature grown-up RPG about a trio of troublemakers stumbling their way through a giant mecha tournament. Repair, upgrade, pick up odd jobs, and battle the best all while running from the regrettable choices of the past.",
     "genres": ["Action", "Strategy", "Adventure"],
-    "features": ["Single Player", "Controller Support"],
+    "features": ["single-player", "controller-support"],
     "tags": ["On Sale"],
     "aboutGame": "Wolfstride is a role-playing game about three former partners-in-crime coming to a turning point in their lives. When they inherit a junkyard mecha called Cowboy, they reunite to enter the planet’s most elite mecha competition: the Ultimate Golden God Tournament. Each member of the team lends their unique experience as they prepare to outwit the best mecha opponents from around the world. Between dog-mechanic Duque, mecha pilot Knife Leopard, and jack-of-all-trades Dominic Shade, the core crew’s got just about everything covered.That is… until their simple mission to make money unfolds into a deep, slow-burning exploration of their complex lives, the dark choices of their past, and their inevitable fate.",
     "gameFeatures": [
@@ -1103,14 +25,14 @@
     ],
 
     "heroImages": [
-      "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fgrand-theft-auto-v%2Fhome%2FGTAV_EGS_Artwork_1920x1080_Hero-Carousel_V06-1920x1080-1503e4b1320d5652dd4f57466c8bcb79424b3fc0.jpg"
+      "https://cdn2.unrealengine.com/egs-wolfstride-otaimonstudios-g1a-02-1920x1080-ede8ade1623a.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-wolfstride-otaimonstudios-g1a-03-1920x1080-b085265fe76f.jpg",
+      "https://cdn2.unrealengine.com/egs-wolfstride-otaimonstudios-g1a-05-1920x1080-44e44a4a59d9.jpg",
+      "https://cdn2.unrealengine.com/egs-wolfstride-otaimonstudios-g1a-06-1920x1080-3bf8000d5943.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-wolfstride-otaimonstudios-g1a-07-1920x1080-a439e456da31.jpg"
     ],
-    "videos": [
-      "https://media-cdn.epicgames.com/fed698ced56b4c0abd178e66ae30a8cd/fed698ced56b4c0abd178e66ae30a8cd-high.fmp4",
-      "https://media-cdn.epicgames.com/fed698ced56b4c0abd178e66ae30a8cd/fed698ced56b4c0abd178e66ae30a8cd-medium.fmp4"
-    ],
+
     "images": [
-      "https://cdn2.unrealengine.com/egs-wolfstride-otaimonstudios-g1c-00-1920x1080-4dce48abe31d.jpg?h=720&resize=1&w=1280",
       "https://cdn2.unrealengine.com/egs-wolfstride-otaimonstudios-g1a-02-1920x1080-ede8ade1623a.jpg?h=720&resize=1&w=1280",
       "https://cdn2.unrealengine.com/egs-wolfstride-otaimonstudios-g1a-03-1920x1080-b085265fe76f.jpg",
       "https://cdn2.unrealengine.com/egs-wolfstride-otaimonstudios-g1a-05-1920x1080-44e44a4a59d9.jpg",
@@ -1149,33 +71,42 @@
 
   {
     "title": "Grand Theft Auto V",
-    "logo": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fgrand-theft-auto-v%2Fhome%2FGTAV_EGS_Artwork_400x400_GameLogo-1000x1000-f6c47a98454049a5e63959f7b6f898c4fc22829c.png?h=270&resize=1&w=480",
-    "cardImage": "https://cdn1.epicgames.com/0584d2013f0149a791e7b9bad0eec102/offer/GTAV_EGS_Artwork_1200x1600_Portrait%20Store%20Banner-1200x1600-382243057711adf80322ed2aeea42191.jpg?h=854&resize=1&w=640",
-    "cardTagline": "Rockstar Games",
+    "thumbnail": "https://cdn1.epicgames.com/0a84818055e740a7be21a2e5b6162703/offer/WatchDogs_Legion_Store_Landscape_2560x1440-2560x1440-6564aab7daeb17650e7fc190714bba76.jpg?h=270&resize=1&w=480",
+    "logo": "https://cdn2.unrealengine.com/Diesel%2Fproduct%2Fhawk%2Fhome%2FGame_Logo_Color_1000x375-1000x375-94f2d7f7fd84d184525764206e17b9da99570029.png?h=270&resize=1&w=480",
+    "cardImage": "https://cdn1.epicgames.com/0a84818055e740a7be21a2e5b6162703/offer/WatchDogs_Legion_Store_Portrait_1200x1600-1200x1600-a6b2d4cce489aeeb87bad4a6db168bed.jpg?h=854&resize=1&w=640",
+    "cardTagline": "Ubisoft Toronto | Ubisoft ",
     "price": {
-      "mainPrice": 349,
-      "discount": 10
+      "mainPrice": 2999,
+      "discount": 100
     },
-    "developer": "Rockstar Games",
-    "publisher": "Rockstar Games",
-    "releaseDate": "Sep 17, 2013",
+    "developer": "Ubisoft Toronto",
+    "publisher": "Ubisoft Toronto",
+    "releaseDate": "Jun 29, 2020",
     "platform": ["Windows"],
-    "description": "The Grand Theft Auto V: Premium Edition includes the complete GTAV story, Grand Theft Auto Online and all existing gameplay upgrades and content. You’ll also get the Criminal Enterprise Starter Pack, the fastest way to jumpstart your criminal empire in GTA Online.",
+    "description": "In Watch Dogs Legion, you get to build a resistance to take back a near-future London that is facing its downfall.",
     "genres": ["Action", "Adventure"],
-    "features": ["Competitive"],
+    "features": ["single-player", "co-op"],
     "tags": ["Most Popular", "Top Seller"],
-    "aboutGame": "Grand Theft Auto V: Premium Edition The Grand Theft Auto V: Premium Edition includes the complete Grand Theft Auto V story experience, free access to the ever evolving Grand Theft Auto Online and all existing gameplay upgrades and content including The Doomsday Heist, Gunrunning, Smuggler’s Run, Bikers and much more. You’ll also get the Criminal Enterprise Starter Pack, the fastest way to jumpstart your criminal empire in Grand Theft Auto Online.",
+    "aboutGame": "Watch Dogs: Legion (stylised as WATCH DOGS LΞGION) is a 2020 action-adventure game developed by Ubisoft Toronto and published by Ubisoft. It is the third instalment in the Watch Dogs series and the sequel to 2016's Watch Dogs 2. Set within a fictionalised representation of a futuristic, dystopian London, the game's story follows the hacker syndicate DedSec as they seek to clear their names after being framed for a series of terrorist bombings.",
     "gameFeatures": [
-      "A FLEET OF POWERFUL VEHICLES",
-      "WEAPONS, CLOTHING & TATTOOS",
-      "LAUNCH YOUR CRIMINAL EMPIRE."
+      "Hack armed drones, deploy spider-bots, and take down enemies using an Augmented Reality Cloak.",
+      "Explore a massive urban open world featuring London’s many iconic landmarks and fun side activities.",
+      "Take your recruits online and team up with your friends as you complete missions and challenging endgame content."
     ],
     "heroImages": [
-      "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fgrand-theft-auto-v%2Fhome%2FGTAV_EGS_Artwork_1920x1080_Hero-Carousel_V06-1920x1080-1503e4b1320d5652dd4f57466c8bcb79424b3fc0.jpg"
+      "https://cdn2.unrealengine.com/Diesel%2Fproduct%2Fhawk%2Fhome%2FOrwell-drone2_EPIC_1920x1080-1920x1080-817dd3baca1a19f62c88fb326ed5f1bc4a0a5a11.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/Diesel%2Fproduct%2Fhawk%2Fhome%2FOrwell-action2_EPIC_1920x1080-1920x1080-edfece048d5a2457c75ccd4660afba623217890e.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/Diesel%2Fproduct%2Fhawk%2Fhome%2FOrwell-kick2_EPIC_1920x1080-1920x1080-16e305a88e9642a44e40805f9e4bf4b4a8c2e803.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/Diesel%2Fproduct%2Fhawk%2Fhome%2FOrwell-spiderbot_EPIC_1920x1080-1920x1080-5ee0488b29db71252a19752bfe7594a11e95c470.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/Diesel%2Fproduct%2Fhawk%2Fhome%2FOrwell-co-op_EPIC_1920x1080-1920x1080-e58989922d5ddd220a3a855e4ec37cba0ae52559.jpg?h=720&resize=1&w=1280"
     ],
-    "videos": [],
+
     "images": [
-      "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fgrand-theft-auto-v%2Fhome%2FGTAV_EGS_Artwork_1920x1080_Hero-Carousel_V06-1920x1080-1503e4b1320d5652dd4f57466c8bcb79424b3fc0.jpg"
+      "https://cdn2.unrealengine.com/Diesel%2Fproduct%2Fhawk%2Fhome%2FOrwell-drone2_EPIC_1920x1080-1920x1080-817dd3baca1a19f62c88fb326ed5f1bc4a0a5a11.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/Diesel%2Fproduct%2Fhawk%2Fhome%2FOrwell-action2_EPIC_1920x1080-1920x1080-edfece048d5a2457c75ccd4660afba623217890e.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/Diesel%2Fproduct%2Fhawk%2Fhome%2FOrwell-kick2_EPIC_1920x1080-1920x1080-16e305a88e9642a44e40805f9e4bf4b4a8c2e803.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/Diesel%2Fproduct%2Fhawk%2Fhome%2FOrwell-spiderbot_EPIC_1920x1080-1920x1080-5ee0488b29db71252a19752bfe7594a11e95c470.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/Diesel%2Fproduct%2Fhawk%2Fhome%2FOrwell-co-op_EPIC_1920x1080-1920x1080-e58989922d5ddd220a3a855e4ec37cba0ae52559.jpg?h=720&resize=1&w=1280"
     ],
     "rating": {
       "criticRecommend": 97,
@@ -1209,12 +140,13 @@
 
   {
     "title": "Godfall Deluxe Edition",
+    "thumbnail": "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-s1-2560x1440-bcb522dab252.jpg",
     "logo": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fgodfall%2Fhome%2Flogopng_400x400-367x116-fd65c2a6baa05eb1b6a4a99fe865ef63f9858b00.png?h=270&resize=1&w=480",
     "cardImage": "https://cdn1.epicgames.com/b6b2ef0cc19a4adaaa1cf6c7ed000dfa/offer/EGS_GodfallDeluxeEdition_CounterplayGames_Editions_S2-1200x1600-cf6fd58587ad8e228c7253e3094c4879.jpg",
     "cardTagline": "Counterplay Games | Gearbox Publishin",
     "price": {
       "mainPrice": 349,
-      "discount": 10
+      "discount": 100
     },
     "developer": "Counterplay Games",
     "publisher": "Gearbox Publishing",
@@ -1222,7 +154,7 @@
     "platform": ["Windows"],
     "description": "Save Aperion. You are the last of the Valorian knights, masters of combat equipped with legendary armor called Valorplates. Ascend in Godfall, a first-of-its-kind, looter-slasher, melee action-RPG.",
     "genres": ["Action", "Adventure"],
-    "features": ["Co-op", "Single Player"],
+    "features": ["co-op", "single-player"],
     "tags": ["Most Popular", "Free"],
     "aboutGame": "Aperion is on the precipice of ruin. You are the last of the Valorian knights, god-like warriors able to equip Valorplates, legendary armor sets that transform wielders into unstoppable masters of melee combat. Tear through foes as you climb through the elemental realms and challenge the mad god, Macros who awaits you at the top. Ascend in Godfall, the first-of-its-kind, looter-slasher, melee action-RPG.",
     "gameFeatures": [
@@ -1234,29 +166,18 @@
       "Fight solo, or alongside friends with three-player PvE online co-op play"
     ],
     "heroImages": [
-      "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fgrand-theft-auto-v%2Fhome%2FGTAV_EGS_Artwork_1920x1080_Hero-Carousel_V06-1920x1080-1503e4b1320d5652dd4f57466c8bcb79424b3fc0.jpg",
-      "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-03-1920x1080-441561745.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-04-1920x1080-441562063.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-05-1920x1080-441562186.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-06-1920x1080-441562309.jpg?h=720&resize=1&w=1280",
       "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-07-1920x1080-441562381.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-08-1920x1080-441562682.jpg?h=720&resize=1&w=1280"
-    ],
-    "videos": [
-      "https://media-cdn.epicgames.com/fed698ced56b4c0abd178e66ae30a8cd/fed698ced56b4c0abd178e66ae30a8cd-high.fmp4",
-      "https://media-cdn.epicgames.com/fed698ced56b4c0abd178e66ae30a8cd/fed698ced56b4c0abd178e66ae30a8cd-medium.fmp4"
+      "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-08-1920x1080-441562682.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-09-1920x1080-441562676.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-10-1920x1080-441562720.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-11-1920x1080-441562882.jpg?h=720&resize=1&w=1280"
     ],
     "images": [
       "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-02-1920x1080-441561615.jpg?h=720&resize=1&w=1280",
       "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-03-1920x1080-441561745.jpg?h=720&resize=1&w=1280",
       "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-04-1920x1080-441562063.jpg?h=720&resize=1&w=1280",
       "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-05-1920x1080-441562186.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-06-1920x1080-441562309.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-07-1920x1080-441562381.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-08-1920x1080-441562682.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-09-1920x1080-441562676.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-10-1920x1080-441562720.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-11-1920x1080-441562882.jpg?h=720&resize=1&w=1280"
+      "https://cdn2.unrealengine.com/egs-godfall-counterplaygames-g1a-06-1920x1080-441562309.jpg?h=720&resize=1&w=1280"
     ],
     "rating": {
       "criticRecommend": 100,
@@ -1287,9 +208,885 @@
       }
     ]
   },
+  {
+    "title": "Amoug Us",
+    "thumbnail": "https://cdn2.unrealengine.com/amoguslandscape-2560x1440-2c59395f3208.jpg",
+    "logo": "https://cdn2.unrealengine.com/egs-amongus-innersloth-ic1-400x400-675402583.png?h=270&resize=1&w=480",
+    "cardImage": "https://cdn1.epicgames.com/salesEvent/salesEvent/amogusportrait_1200x1600-66ad0e4d363e1c92f9f8aae67a96dd31?h=854&resize=1&w=640",
+    "cardTagline": "Innersloth",
+    "price": {
+      "mainPrice": 119,
+      "discount": 0
+    },
+    "developer": "Innersloth",
+    "publisher": "Innersloth",
+    "releaseDate": "Jan 12, 2020",
+    "platform": ["Windows"],
+    "description": "Play with 4-15 players online or via local WiFi as you attempt to prepare your spaceship for departure, but beware as one or more random players among the Crew are Impostors bent on killing everyone!",
+    "genres": ["Casual"],
+    "features": ["co-op", "multiplayer"],
+    "tags": ["Most Popular"],
+    "aboutGame": "Life as a Crewmate: Complete all your tasks on the ship to win, but watch out for Impostors! Report dead bodies and call emergency meetings to vote the Impostors out. Hope you chose correctly! Play as an Impostor: Cause chaos, sneak around, and frame innocent bystanders! Winning involves killing off every Crewmate - think you’re a master of sabotage? Customization: Choose how you want to play! Add more impostors, tasks, decrease visibility and more. All in style as you get to choose your favorite color, outfit, and hat.",
+    "gameFeatures": [
+      "Cross-platform: play with your friends between PC, Android, and iOS!",
+      "Multiplayer Online game"
+    ],
+    "heroImages": [
+      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-03-1920x1080-675402682.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-04-1920x1080-675402487.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-05-1920x1080-675402713.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-00-1920x1080-675402405.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-01-1920x1080-675402518.jpg?h=720&resize=1&w=1280"
+    ],
+
+    "images": [
+      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-00-1920x1080-675402405.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-01-1920x1080-675402518.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-02-1920x1080-675402672.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-03-1920x1080-675402682.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-amongus-innersloth-g2-04-1920x1080-675402487.jpg?h=720&resize=1&w=1280"
+    ],
+    "rating": {
+      "criticRecommend": 100,
+      "topCriticAverage": 93,
+      "openCriticrating": "Mighty"
+    },
+    "reviews": [
+      {
+        "organisation": "Game Informer",
+        "author": "Liana Ruppert",
+        "rating": 8.5,
+        "description": "A clever take on the \"whodunnit\" genre while a tapping into what makes meme culture so relevant and universal",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "GameGrin",
+        "author": "Danielle Winter",
+        "rating": 9.5,
+        "description": "Accessible enough for everybody, Among Us coaxes out everyone's inner psychopath and Sherlock. With short addictive bursts of gameplay that's long enough to satiate, this sleeper hit has/will become a staple in your games library and gaming nights to come.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "GamesCreed",
+        "author": "Dewan Zawad",
+        "rating": 9.5,
+        "description": "Among Us gives a genuinely necessary respite from reality without paying attention to itself as well.",
+        "link": "https://opencritic.com/"
+      }
+    ]
+  },
+  {
+    "title": "while True: learn ()",
+    "thumbnail": "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-s1-2560x1440-8cecfa3af953.jpg?h=480&resize=1&w=854",
+    "logo": "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-ic1-400x400-c1efe71ad0ac.png?h=270&resize=1&w=480",
+    "cardImage": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_whileTruelearn_Ludenio_S2_1200x1600-f1259b2f801db59d751dd5e5076b6330?h=854&resize=1&w=640",
+    "cardTagline": "Luden.io | Nival",
+    "price": {
+      "mainPrice": 309,
+      "discount": 0
+    },
+    "developer": "Luden.io",
+    "publisher": "Nival",
+    "releaseDate": "Jan 2, 2018",
+    "platform": ["Windows", "Mac"],
+    "description": "You’re a machine learning specialist who makes neural networks but your cat seems to be better at it. Now you must solve puzzles to build a cat-to-human translation system. Earn a fortune, buy kickass cat outfits and learn how machine learning really works!",
+    "genres": ["Puzzle", "Simulation"],
+    "features": ["single-player"],
+    "tags": ["Most Popular"],
+    "aboutGame": "while True: learn() is a puzzle/simulation game about even more puzzling stuff: machine learning, neural networks, big data and AI. But most importantly, it’s about understanding your cat. In this game, you play as a coder who accidentally found out that their cat is extremely good at coding, but not as good at speaking human language. Now this coder (it’s you!) must learn all there is to know about machine learning and use visual programming to build a cat-to-human speech recognition system.",
+    "gameFeatures": [
+      "People who want to know more about how machine learning and related technologies work",
+      "Parents and teachers who are looking for a fun and easy way to make an intro to logical thinking, programming, and technologies for kids",
+      "Players who like to keep their brains busy and working in different ways, while still having fun",
+      "Gamers looking to improve their problem-solving skills and feel immense sense of satisfaction and achievement that comes along with it",
+      "People who like smart cats",
+      "Learn how machine learning works in real life!",
+      "Train yourself into a data science wizard!",
+      "Embrace an adventurous lifestyle of a machine learning specialist!",
+      "Coding just got real!",
+      "Improve your gear, improve your life!"
+    ],
+    "heroImages": [
+      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-01-1920x1080-9ecc89a7115d.jpg",
+      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-02-1920x1080-34249db9ba34.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-04-1920x1080-6b252d902064.jpg",
+      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-05-1920x1080-d84f57ac18f1.jpg",
+      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-06-1920x1080-f758bddf5ae2.jpg",
+      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-17-1920x1080-2693687eb243.jpg?h=720&resize=1&w=1280"
+    ],
+
+    "images": [
+      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-10-1920x1080-55d97faaf967.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-04-1920x1080-6b252d902064.jpg",
+      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-15-1920x1080-f41809ba2c5f.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-16-1920x1080-07bebd935f8b.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-18-1920x1080-0b47f1847abe.jpg?h=720&resize=1&w=1280"
+    ],
+    "rating": {
+      "criticRecommend": 100,
+      "topCriticAverage": 93,
+      "openCriticrating": "Mighty"
+    },
+    "reviews": [
+      {
+        "organisation": "Game Informer",
+        "author": "Liana Ruppert",
+        "rating": 8.5,
+        "description": "A clever take on the \"whodunnit\" genre while a tapping into what makes meme culture so relevant and universal",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "GameGrin",
+        "author": "Danielle Winter",
+        "rating": 9.5,
+        "description": "Accessible enough for everybody, Among Us coaxes out everyone's inner psychopath and Sherlock. With short addictive bursts of gameplay that's long enough to satiate, this sleeper hit has/will become a staple in your games library and gaming nights to come.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "GamesCreed",
+        "author": "Dewan Zawad",
+        "rating": 9.5,
+        "description": "Among Us gives a genuinely necessary respite from reality without paying attention to itself as well.",
+        "link": "https://opencritic.com/"
+      }
+    ]
+  },
+
+  {
+    "title": "Fortnite",
+    "thumbnail": "https://cdn2.unrealengine.com/19br-keyart-egs-launcher-pdp-2560x1440-2560x1440-7cd2d7f2b140.jpg?h=720&resize=1&w=1280",
+    "logo": "https://cdn2.unrealengine.com/Diesel%2Fproduct%2Ffn%2FFortnite-Logo_w-Shadow-1778x811-ed23fe8dea13f030db120b226f9d2a101560bde2.png?h=270&resize=1&w=480",
+    "cardImage": "https://cdn1.epicgames.com/offer/fn/19BR_KeyArt_EGS_Launcher_Blade_1200x1600_1200x1600-b49da2ae039bd0adb44171318c91787b?h=854&resize=1&w=640",
+    "cardTagline": "Luden.io | Nival",
+    "price": {
+      "mainPrice": 200,
+      "discount": 0
+    },
+    "developer": "Epic Games",
+    "publisher": "Epic Games",
+    "releaseDate": "Jul 25, 2017",
+    "platform": ["Windows"],
+    "description": "The Island you once knew has been turned upside down...literally. Step foot onto the new Island and explore every corner of an undiscovered world in Fortnite Chapter 3 Season 1: Flipped.",
+    "genres": ["Action", "Shooter"],
+    "features": ["co-op", "multiplayer", "single-player", "controller-support"],
+    "tags": ["Free"],
+    "aboutGame": "The Island you once knew has been turned upside down...literally. Step foot onto the new Island and explore every corner of an undiscovered world in Fortnite Swing through the iconic Daily Bugle or slide into Sanctuary, homebase of The Foundation and The Seven. Join The Seven as they prepare for a looming war against the Imagined Order across a once-frozen landscape filled with new POIs and dangerous new weather conditions to test your skills. Plus earn XP beyond Battle Royale to level up your Battle Pass and unlock Spider-Man, The Foundation, and all the new Battle Pass cosmetics.",
+    "gameFeatures": [
+      "Battle Pass Included for the full Season - As a member of the Fortnite Crew, you’ll always have access to the current season’s Battle Pass!",
+      "1,000 V-Bucks Each Month - Fortnite Crew members will receive 1,000 V-Bucks every month. Spend it on your favorite Item Shop content!",
+      " Get A Monthly Crew Pack! - Get an exclusive Fortnite Crew Pack, an always-new Outfit Bundle that only Fortnite Crew members can get.",
+      "Recurring fee charged monthly until cancelled. Cancel anytime."
+    ],
+    "heroImages": [
+      "https://cdn2.unrealengine.com/06-still021-3840x2160-3840x2160-1c7e15b4affb.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/07-still004-3840x2160-3840x2160-9ea32ff653a9.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/03-still013-3840x2160-3840x2160-2472eb70a29b.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/04-still015-3840x2160-3840x2160-44c3a162454e.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/05-still019-3840x2160-3840x2160-3b9a3b7bfc82.jpg?h=720&resize=1&w=1280"
+    ],
+
+    "images": [
+      "https://cdn2.unrealengine.com/01-masterstill002-3840x2160-3840x2160-418b0812b546.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/02-still003-3840x2160-3840x2160-d2bced3e5e15.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/03-still013-3840x2160-3840x2160-2472eb70a29b.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/04-still015-3840x2160-3840x2160-44c3a162454e.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/05-still019-3840x2160-3840x2160-3b9a3b7bfc82.jpg?h=720&resize=1&w=1280"
+    ],
+    "rating": {
+      "criticRecommend": 100,
+      "topCriticAverage": 93,
+      "openCriticrating": "Mighty"
+    },
+    "reviews": [
+      {
+        "organisation": "IGN",
+        "author": "Austen Goslin",
+        "rating": 8.5,
+        "description": "Thanks to the freedom of its outstanding building mechanic, Fortnite Battle Royale isn't just a great battle royale game – it's one of the best multiplayer games in recent history.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "GamesRadar+",
+        "author": "GamesRadar+",
+        "rating": 9.5,
+        "description": "Nobody thought Fortnite would still be popular this late on, but it's continued to adapt and fight for its spot at the top of the battle royale ladder.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "Digital Trends",
+        "author": "Dewan Zawad",
+        "rating": 9.5,
+        "description": "Nothing offers the lighthearted, fun for all ages battle royale that Fortnite does..",
+        "link": "https://opencritic.com/"
+      }
+    ]
+  },
+  {
+    "title": "F.I.S.T.: Forged In Shadow Torch",
+    "thumbnail": "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-s5-1920x1080-0759c780a614.jpg?h=720&resize=1&w=1280",
+    "logo": "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-ic1-400x133-cc113b12150a.png?h=270&resize=1&w=480",
+    "cardImage": "https://cdn1.epicgames.com/offer/a7e2a2c51b9149c097b771926ed91877/EGS_FISTForgedInShadowTorch_TiGames_S6_1200x1600-b0ce396c042359ad9a7b2ca50726cac1?h=854&resize=1&w=640",
+    "cardTagline": "TiGames | Antiidelay",
+    "price": {
+      "mainPrice": 1299,
+      "discount": 0
+    },
+    "developer": "TiGames",
+    "publisher": "Antiidelay",
+    "releaseDate": "Oct 3, 2021",
+    "platform": ["Windows"],
+    "description": "Explore more than a dozen unique areas in a Metroidvania style map. The Fist, Drill, and Whip are three weapons with completely different fighting styles that offer seamless switching between high combo, high damage, and long range attacks.",
+    "genres": ["Action", "Platformer"],
+    "features": ["single-player"],
+    "tags": ["Top Seller", "New Release"],
+    "aboutGame": "Six years ago, the Machine Legion invaded and colonized the Torch City, which was originally inhabited by animals. Rayton, the former soldier in the resistance war, has been living in seclusion since then. After his friend is forcibly arrested, Rayton reclaims his mechanical fist and steps to his journey fighting back. And he never expects that he has been involved in a bigger scheme between the mafia, the rebellion, and the legion.",
+    "gameFeatures": [
+      "A Metroidvania action game featuring exploration, intense combat and challenging platforming.",
+      "Unique Dieselpunk Aesthetic Powered by Unreal Engine 4",
+      "Arcade-styled Combat System with Three Unique Weapons",
+      "Sophisticated and Interconnected Game Map with Countless Secrets"
+    ],
+    "heroImages": [
+      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-00-1920x1080-1a9368fc8440.jpg",
+      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-03-1920x1080-23f1a151ac7d.jpg",
+      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-02-1920x1080-ce0acefa164e.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-01-1920x1080-f88f253aae1f.jpg",
+      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-04-1920x1080-a89daa84ab92.jpg"
+    ],
+
+    "images": [
+      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-00-1920x1080-1a9368fc8440.jpg",
+      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-03-1920x1080-23f1a151ac7d.jpg",
+      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-02-1920x1080-ce0acefa164e.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-01-1920x1080-f88f253aae1f.jpg",
+      "https://cdn2.unrealengine.com/egs-fistforgedinshadowtorch-tigames-g1a-04-1920x1080-a89daa84ab92.jpg"
+    ],
+    "rating": {
+      "criticRecommend": 100,
+      "topCriticAverage": 93,
+      "openCriticrating": "Mighty"
+    },
+    "reviews": [
+      {
+        "organisation": "IGN",
+        "author": "Austen Goslin",
+        "rating": 8.5,
+        "description": "Thanks to the freedom of its outstanding building mechanic, Fortnite Battle Royale isn't just a great battle royale game – it's one of the best multiplayer games in recent history.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "GamesRadar+",
+        "author": "GamesRadar+",
+        "rating": 9.5,
+        "description": "Nobody thought Fortnite would still be popular this late on, but it's continued to adapt and fight for its spot at the top of the battle royale ladder.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "Digital Trends",
+        "author": "Dewan Zawad",
+        "rating": 9.5,
+        "description": "Nothing offers the lighthearted, fun for all ages battle royale that Fortnite does..",
+        "link": "https://opencritic.com/"
+      }
+    ]
+  },
+  {
+    "title": "Shadow Tactics - Aiko's Choice",
+    "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/418240/header_alt_assets_1.jpg?t=1638812863&h=720&resize=1&w=1280",
+    "logo": "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-logo-19tqz.png?h=270&resize=1&w=480",
+    "cardImage": "https://cdn1.epicgames.com/undefined/offer/EGS_MimimiGames_ShadowTacticsBladesoftheShogun_S4-510x680-f62935abb1b2bd42b2f19f9385da7fe7.jpg?h=854&resize=1&w=640",
+    "cardTagline": "Mimimi Games Daedalic Entertainment",
+    "price": {
+      "mainPrice": 459,
+      "discount": 10
+    },
+    "developer": "Mimimi Games",
+    "publisher": "Daedalic Entertainment",
+    "releaseDate": "Dec 6, 2021",
+    "platform": ["Windows"],
+    "description": "Aiko's Choice is a brand-new standalone addon to the beloved stealth tactics game Shadow Tactics. Set in Japan around the Edo period, you take control of kunoichi adept Aiko and her deadly assassin friends to hunt down the ghosts of her past.",
+    "genres": ["Action", "Strategy", "Stealth"],
+    "features": ["single-player", "controller-support"],
+    "tags": ["New Release"],
+    "aboutGame": "Aiko's Choice is a brand-new standalone addon to the beloved stealth tactics game Shadow Tactics. Set in Japan around the Edo period, you take control of kunoichi adept Aiko and her deadly assassin friends to hunt down the ghosts of her past. Aiko's Choice is a brand-new standalone expansion to the beloved stealth tactics game Shadow Tactics: Blades of the Shogun, set in Japan around the Edo period. Shadow Tactics: Blades of the Shogun - Aiko's Choice focuses on one of the main game's protagonists: the kunoichi adept Aiko. She is a master of camouflage and distracts enemies disguised as a Geisha.",
+    "gameFeatures": [
+      "Return to the beautiful world of Shadow Tactics set in Japan, early Edo period.",
+      "Rejoin your favorite characters for another adventure set within the story of the main game Shadow Tactics: Blades of the Shogun.",
+      "Experience a previously untold tale centered around the kunoichi adept Aiko, who has to face a vicious enemy connected to her past.",
+      "Explore three fully fledged main missions, located in brand-new environments, and three shorter interlude missions.",
+      "Synchronize your team's actions to strike down your enemies at once with the Shadow Mode feature.",
+      "Choose from three difficulty levels to match your skill."
+    ],
+    "heroImages": [
+      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-r4iy4.jpg?h=720&resize=1&w=1280",
+      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-1tlse.jpg?h=720&resize=1&w=1280",
+      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-tzym3.jpg?h=720&resize=1&w=1280",
+      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-1b9u5.jpg?h=720&resize=1&w=1280",
+      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-1bhya.jpg?h=720&resize=1&w=1280",
+      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-1rlid.jpg?h=720&resize=1&w=1280",
+      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-l2ibw.jpg?h=720&resize=1&w=1280"
+    ],
+
+    "images": [
+      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-1tlse.jpg?h=720&resize=1&w=1280",
+      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-tzym3.jpg?h=720&resize=1&w=1280",
+      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-1b9u5.jpg?h=720&resize=1&w=1280",
+      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-1bhya.jpg?h=720&resize=1&w=1280",
+      "https://cdn1.epicgames.com/spt-assets/24f4bf69387246819ea43509effb6ba4/shadow-tactics--aikos-choice-1rlid.jpg?h=720&resize=1&w=1280"
+    ],
+    "rating": {
+      "criticRecommend": 100,
+      "topCriticAverage": 93,
+      "openCriticrating": "Mighty"
+    },
+    "reviews": [
+      {
+        "organisation": "IGN",
+        "author": "Leana Hafer",
+        "rating": 9,
+        "description": "Aiko's Choice is a polished, challenging, and welcome – though a bit short – standalone expansion to the exceptional Shadow Tactics: Blades of the Shogun.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "GamesRadar+",
+        "author": "Ron",
+        "rating": 9.5,
+        "description": "hadow Tactics: Blades of the Shogun was one of my favorite games of 2017, and Aiko's Choice is a return to form. Mimimi Games continues to deliver tight gameplay, incredible stealth, and a compelling story to tie it all together.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "Digital Trends",
+        "author": "John Zawad",
+        "rating": 7.7,
+        "description": "Aiko’s Choice is utterly unconcerned with critics of the base game, and instead focuses entirely on giving fans a more intense version of its concepts.",
+        "link": "https://opencritic.com/"
+      }
+    ]
+  },
+
+  {
+    "title": "Teamfight Tactics",
+    "thumbnail": "https://cdn1.epicgames.com/offer/ada73cc2d68a46a18f529ebb87328dee/EGS_TeamfightTactics_RiotGames_S1_2560x1440-22b612417575690b095947019ee818ab?h=270&resize=1&w=480",
+    "logo": "https://cdn2.unrealengine.com/6b467866-621b-4caa-b2db-1e07f1304394-400x114-102a7514f5de.png?h=270&resize=1&w=480",
+    "cardImage": "https://cdn1.epicgames.com/offer/ada73cc2d68a46a18f529ebb87328dee/EGS_TeamfightTactics_RiotGames_S2_1200x1600-4b2338d65c5ebafc8056c0629601e33b?h=854&resize=1&w=640",
+    "cardTagline": "Riot Games",
+    "price": {
+      "mainPrice": 0,
+      "discount": 100
+    },
+    "developer": "Riot Games",
+    "publisher": "Riot Games",
+    "releaseDate": "Jun 26, 2019",
+    "platform": ["Windows", "Mac"],
+    "description": "Draft, deploy, and dominate with a revolving roster of League of Legends champions in a round-based battle for supremacy. Outsmart your opponents and adapt as you go—the strategy is all up to you",
+    "genres": ["Strategy"],
+    "features": ["single-player", "multiplayer", "competitive"],
+    "tags": ["Free"],
+    "aboutGame": "Put your team-building skills to the test in Teamfight Tactics, the ultimate PvP strategy game from the studio behind League of Legends. Bust out the big-brain strats as you draft, position, and fight your way to victory in an 8-way free-for-all battle. With hundreds of team combinations and an ever-evolving meta, any strategy goes—but only one can win.Queue up across a variety of social and competitive modes, then outsmart and outlast your enemies to take your place at the top!",
+    "gameFeatures": [
+      "EXPLORE THE NEW SET",
+      "Discover your inner mad scientist with Gizmos & Gadgets, the latest update featuring a new champion roster and set mechanic: Hextech Augments. Also making their debut this set? Bite-sized versions of your favorite champs, Chibi Champions Vi, Jinx, and Ekko!",
+      "BUILD YOUR TEAM",
+      "Assemble an unstoppable army from a shared pool of champions, then battle it out round by round to become the last player standing. Random drafts and in-game events mean no two matches play out exactly the same, so use your creativity and cunning to turn the tides in your favor.",
+      "PICK UP AND GO",
+      "Challenge your friends and destroy your foes across PC, Mac, and mobile. Queue up together and find out if you and your friends have what it takes to become the top tactician.",
+      "RISE UP THE RANKS",
+      "Full competitive support and matchmaking means there are countless ways to outplay your opponents. From Iron to Challenger, climb the ladder based on your final standing in every game. Keep climbing for exclusive Ranked rewards at the end of every set!",
+      "STYLE ON 'EM",
+      "Make every match your own with personalized arenas, booms, and emotes. Then take to the battlefield with your favorite Chibi Champion or Little Legend! Collect new looks just by playing games, or by purchasing them in the TFT store.",
+      "EARN AS YOU PLAY",
+      "Collect free loot with the all-new Gizmos & Gadgets Pass, or upgrade to Pass+ to unlock set-exclusive rewards!",
+      "Download and play Teamfight Tactics today!"
+    ],
+    "heroImages": [
+      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-01-1920x1080-8de95288efb3.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-02-1920x1080-d9d5f60f7fe0.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-03-1920x1080-5d673ccd6a0d.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-04-1920x1080-82d66083c77e.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-05-1920x1080-e268b051323a.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-06-1920x1080-a76712488115.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-07-1920x1080-1f5da60c2d91.jpg?h=720&resize=1&w=1280"
+    ],
+
+    "images": [
+      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-01-1920x1080-8de95288efb3.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-02-1920x1080-d9d5f60f7fe0.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-03-1920x1080-5d673ccd6a0d.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-04-1920x1080-82d66083c77e.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-teamfighttactics-riotgames-g1a-05-1920x1080-e268b051323a.jpg?h=720&resize=1&w=1280"
+    ],
+    "rating": {
+      "criticRecommend": 6,
+      "topCriticAverage": 5,
+      "openCriticrating": "Strong"
+    },
+    "reviews": [
+      {
+        "organisation": "Metro GameCentral",
+        "author": "Leana Hafer",
+        "rating": 5,
+        "description": "Catching, training, and trading ",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "Game Revolution",
+        "author": "Jason Faulkner",
+        "rating": 8,
+        "description": "A wonderfully crafted follow-up to a fantastic first game.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "Digital Trends",
+        "author": "John Zawad",
+        "rating": 7.7,
+        "description": "Aiko’s Choice is utterly unconcerned with critics of the base game, and instead focuses entirely on giving fans a more intense version of its concepts.",
+        "link": "https://opencritic.com/"
+      }
+    ]
+  },
+
+  {
+    "title": "Chivalry 2",
+    "thumbnail": "https://cdn1.epicgames.com/offer/bd46d4ce259349e5bd8b3ded20274737/EGS_Chivalry2_TornBannerStudios_S1_12_2560x1440-0a5c81d302124046398acd13d20243b8?h=270&resize=1&w=480",
+    "logo": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fchivalry-2%2Fhome%2FChivalry-2-Full-Brand-Colour-5239x1781-3716225e30b3211e1df95e0f119c54c214883583.png?h=270&resize=1&w=480",
+    "cardImage": "https://cdn1.epicgames.com/offer/bd46d4ce259349e5bd8b3ded20274737/EGS_Chivalry2_TornBannerStudios_S2_1200x1600-eb2e6db88cbcc42e13c091eb8a656a29?h=854&resize=1&w=640",
+    "cardTagline": "Torn Banner Studios | Tripwire Interactive",
+    "price": {
+      "mainPrice": 934,
+      "discount": 0
+    },
+    "developer": "Torn Banner Studios",
+    "publisher": "Tripwire Interactive",
+    "releaseDate": "Jun 8, 2021",
+    "platform": ["Windows"],
+    "description": "Chivalry 2 is a multiplayer first person slasher inspired by epic medieval movie battles. Players are thrust into the action of every iconic moment of the era - from clashing swords, to storms of flaming arrows, to sprawling castle sieges and more.",
+    "genres": ["Fighting", "First Person"],
+    "features": ["multiplayer"],
+    "tags": ["Top Seller", "On Sale"],
+    "aboutGame": "Chivalry 2 is a multiplayer first person slasher inspired by epic medieval movie battles. Players are thrust into the action of every iconic moment of the era - from clashing swords, to storms of flaming arrows, to sprawling castle sieges and more. Dominate massive, 64-player battlefields. Catapults tear the earth apart as you lay siege to castles, set fire to villages and slaughter filthy peasants in the return of Team Objective maps.",
+    "gameFeatures": [
+      "Return to the ultimate medieval battlefield",
+      "Chivalry 2 is a multiplayer first person slasher inspired by epic medieval movie battles. Players are thrust into the action of every iconic moment of the era - from clashing swords, to storms of flaming arrows, to sprawling castle sieges and more.",
+      "Dominate massive, 64-player battlefields. Catapults tear the earth apart as you lay siege to castles, set fire to villages and slaughter filthy peasants in the return of Team Objective maps."
+    ],
+    "heroImages": [
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-16-1920x1080-fbb4c25e13a8.jpg",
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-15-1920x1080-a2d04ac77794.jpg",
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-14-1920x1080-595c6aed045c.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-13-1920x1080-1555435dd71c.jpg",
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-12-1920x1080-d92524938042.jpg",
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-11-1920x1080-3ae09555ff66.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-10-1920x1080-4edf42ed7938.jpg",
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-09-1920x1080-951ff2e70273.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-08-1920x1080-5c630719dc47.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-07-1920x1080-9b2efa3133d4.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-07-1920x1080-9b2efa3133d4.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-06-1920x1080-81a2177e57d8.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-04-1920x1080-93c483d9c98a.jpg?h=720&resize=1&w=1280"
+    ],
+
+    "images": [
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-16-1920x1080-fbb4c25e13a8.jpg",
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-14-1920x1080-595c6aed045c.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-12-1920x1080-d92524938042.jpg",
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-11-1920x1080-3ae09555ff66.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-chivalry2-tornbannerstudios-g1a-10-1920x1080-4edf42ed7938.jpg"
+    ],
+    "rating": {
+      "criticRecommend": 86,
+      "topCriticAverage": 98,
+      "openCriticrating": "Strong"
+    },
+    "reviews": [
+      {
+        "organisation": "IGN",
+        "author": "Ian Sandhu",
+        "rating": 10,
+        "description": "An axe-cellent compromise between hack-and-slash fun and skill-based medieval melee makes Chivalry 2's 64-player medieval brawls a ton of fun.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "GamesRadar Evolution",
+        "author": "Steve Hems",
+        "rating": 9.5,
+        "description": "A brilliant mix of high skill and low comedy, and the best medieval combat game out there.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "Digital Games",
+        "author": "Faran Khan",
+        "rating": 10,
+        "description": "The melee combat may not be as technical or strategic as some hardcore fans might like, yet it's hard to deny the appeal of Chivalry 2's dismembering deathmatches. Those first few sieges are truly enthralling as watch waves of red and blue troops smash against each other. Over time it may lose its edge though Chivalry 2 is still one of the most fun and unique multiplayer games out there.",
+        "link": "https://opencritic.com/"
+      }
+    ]
+  },
+  {
+    "title": "Core",
+    "thumbnail": "https://cdn1.epicgames.com/salesEvent/salesEvent/portrait_2560x1440-dd304f1615669d23722f6de52b4c9100?h=270&resize=1&w=480",
+    "logo": "https://cdn2.unrealengine.com/egs-core-manticoregames-ic1-350x100-a33efd1883d9.png?h=270&resize=1&w=480",
+    "cardImage": "https://cdn1.epicgames.com/salesEvent/salesEvent/landscape_1200x1600-f03a54780389cfea9ea8228f982d7c39?h=854&resize=1&w=640",
+    "cardTagline": "Manticore Games | Manticore Games",
+    "price": {
+      "mainPrice": 0,
+      "discount": 0
+    },
+    "developer": "Manticore Games",
+    "publisher": "Manticore Games",
+    "releaseDate": "Apr 16, 2021",
+    "platform": ["Windows"],
+    "description": "Core is a multiverse of free games to play and worlds to explore designed by a global community of developers. Play thousands of Unreal-powered games from every genre, or create and earn from your own! Download now to get a limited-time free reward bundle.",
+    "genres": ["Action", "RPG", "Shooter"],
+    "features": ["multiplayer", "competitive"],
+    "tags": ["Free"],
+    "aboutGame": "Core From shooters, survival, and action-adventure to MMORPGs, platformers, and party games, Core has something new for every gamer, every day. Core has over 20,000 free games.",
+    "gameFeatures": [
+      "New Games, New Worlds, Every Day",
+      "From shooters, survival, and action-adventure to MMORPGs, platformers, and party games, Core has something new for every gamer, every day. Core has over 20,000 free games.",
+      "Download and play now to unlock a free reward bundle, exclusively for Epic Games Store users. Get 8 heroes, 3 mounts and more - a limited time, $200 value!",
+      "Stake Your Claim in the Multiverse",
+      "Hang out in a massive social space of connected worlds. Feast at a castle banquet, swim in zero-G at an orbiting space station, or visit a virtual theme park. Stake your claim, build your own homeworld, and connect to others.",
+      "Create, Publish, and Earn",
+      "Want to make your own game? Core makes it possible by giving beginners and pros alike the power of Unreal in an accessible interface. You have access to hundreds of free, high quality music, sound, and art assets, and built in 3D modeling and terrain sculpting tools. One-button publishing makes it easy to share your game, find players, and potentially earn money."
+    ],
+    "heroImages": [
+      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-02-1920x1080-6ca4423ea150.jpg",
+      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-04-1920x1080-0e092337070e.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-05-1920x1080-496606c24ad8.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-07-1920x1080-4c3266991b74.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-08-1920x1080-6b4bd2f44cb3.jpg"
+    ],
+
+    "images": [
+      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-10-1920x1080-aace2959621f.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-11-1920x1080-5a44a8f49714.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-12-2-1920x1080-3a10c22e711b.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-12-1920x1080-971d706285f2.jpg",
+      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-13-1920x1080-36734e8b5524.jpg"
+    ],
+    "rating": {
+      "criticRecommend": 86,
+      "topCriticAverage": 98,
+      "openCriticrating": "Strong"
+    },
+    "reviews": [
+      {
+        "organisation": "IGN",
+        "author": "Ian Sandhu",
+        "rating": 10,
+        "description": "An axe-cellent compromise between hack-and-slash fun and skill-based medieval melee makes Core's 64-player medieval brawls a ton of fun.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "GamesRadar Evolution",
+        "author": "Steve Hems",
+        "rating": 9.5,
+        "description": "A brilliant mix of high skill and low comedy, and the best medieval combat game out there.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "Digital Games",
+        "author": "Faran Khan",
+        "rating": 10,
+        "description": "The melee combat may not be as technical or strategic as some hardcore fans might like, yet it's hard to deny the appeal of Core's dismembering deathmatches. Those first few sieges are truly enthralling as watch waves of red and blue troops smash against each other. Over time it may lose its edge though Core is still one of the most fun and unique multiplayer games out there.",
+        "link": "https://opencritic.com/"
+      }
+    ]
+  },
+
+  {
+    "title": "ChromaGun",
+    "thumbnail": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_ChromaGun_PixelManiacs_S1_2560x1440-c6b1adbd903af1db0ec874cda7a3a027?h=270&resize=1&w=480",
+    "logo": "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-ic1-400x400-583ee94c9800.png?h=270&resize=1&w=480",
+    "cardImage": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_ChromaGun_PixelManiacs_S2_1200x1600-08050de046d806741411675a7ca51eb6?h=854&resize=1&w=640",
+    "cardTagline": "Pixel Maniacs | Pixel Maniacs",
+    "price": {
+      "mainPrice": 309,
+      "discount": 0
+    },
+    "developer": "Pixel Maniacs",
+    "publisher": "Pixel Maniacs",
+    "releaseDate": "Feb 16, 2016",
+    "platform": ["Windows"],
+    "description": "Welcome! You’re here to test our state-of-the-art military-grade color-technology: The ChromaGun! Use it to solve our meticulously designed chambers by painting the walls and droids. Remember how to mix colors from pre-school? Congratulations, you qualify!",
+    "genres": ["Puzzle", "First Person", "Indie"],
+    "features": ["single-player"],
+    "tags": ["Recently Updated"],
+    "aboutGame": "Welcome to ChromaTec’s test lab! You’re here to test our newest, state-of-the-art military-grade color-technology: The ChromaGun (patent pending)! Use it to try and solve our meticulously designed test chambers. The basic principle is as easy as applying it is complex: Exit the chambers via the exit doors. But be weary of the WorkerDroids in charge of maintaining the chambers. They’re not exactly what you and I would call “human friendly”.",
+    "gameFeatures": [
+      "Use the ChromaGun",
+      "Use the ChromaGun to colorize walls and WorkerDroids to progress in the chambers. WorkerDroids are attracted to walls of the same color. Using that mechanic, try to reach the exit door of each chamber. Some doors are more complicated to use than others: They can only be opened using door triggers and only stay open as long as the triggers are occupied."
+    ],
+    "heroImages": [
+      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-07-1920x1080-ceda18e93019.jpg",
+      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-06-1920x1080-98b265e6a89a.jpg",
+      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-05-1920x1080-2d894ea4a404.jpg",
+      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-04-1920x1080-fa178338017e.jpg",
+      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-03-1920x1080-a77c47270db1.jpg",
+      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-02-1920x1080-49fbc32d8c67.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-01-1920x1080-7321a98a3e9f.jpg?h=720&resize=1&w=1280"
+    ],
+
+    "images": [
+      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g2-00-1200x400-b9ae8f700da7.jpg",
+      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-06-1920x1080-98b265e6a89a.jpg",
+      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-05-1920x1080-2d894ea4a404.jpg",
+      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-04-1920x1080-fa178338017e.jpg",
+      "https://cdn2.unrealengine.com/egs-chromagun-pixelmaniacs-g1a-03-1920x1080-a77c47270db1.jpg"
+    ],
+    "rating": {
+      "criticRecommend": 33,
+      "topCriticAverage": 46,
+      "openCriticrating": "Fair"
+    },
+    "reviews": [
+      {
+        "organisation": "IGN",
+        "author": "Ian Sandhu",
+        "rating": 10,
+        "description": "ChromaGun is a great port, but it doesn't fix issues like the difficulty spikes that have always been present in the game. ",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "GamesRadar Evolution",
+        "author": "Steve Hems",
+        "rating": 9.5,
+        "description": "ChromaGun is, for the most part, a great port, but it doesn't fix issues like the difficulty spikes that have always been present in the game.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "Destructoid",
+        "author": "Chris Carter",
+        "rating": 6,
+        "description": "There just isn't a whole lot to say outside of what's already been said. ChromaGun is a competent puzzler that's only firing on a few cylinders and not much has changed in the several years since its launch. If you haven't pulled the trigger yet and are an avid puzzle fan the VR-ification is the excuse you need, just don't expect a whole lot.",
+        "link": "https://opencritic.com/"
+      }
+    ]
+  },
+
+  {
+    "title": "Unspottable",
+    "thumbnail": "https://cdn1.epicgames.com/offer/bc00696af836471cbacfd496e9e5f877/EGS_Unspottable_GrosChevaux_S1_2560x1440-e7910b53d41c734f1994058472490954?h=270&resize=1&w=480",
+    "logo": "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-ic1-400x225-a053dc88d51a.png?h=270&resize=1&w=480",
+    "cardImage": "https://cdn1.epicgames.com/offer/bc00696af836471cbacfd496e9e5f877/EGS_Unspottable_GrosChevaux_S2_1200x1600-1cbb009ccd899f1f40cf290c7906fac3?h=854&resize=1&w=640",
+    "cardTagline": "Gros Chevaux | Gros Chevaux",
+    "price": {
+      "mainPrice": 349,
+      "discount": 10
+    },
+    "developer": "Gros Chevaux",
+    "publisher": "Gros Chevaux",
+    "releaseDate": "Jan 10, 2022",
+    "platform": ["Windows", "Mac"],
+    "description": "Unspottable is a competitive couch party game for 2 to 4 players. Blend in the crowd of AI characters, hunt down the other players and use the many different environment specific rules to win the game. Walk like a robot and punch like a human!",
+    "genres": ["Casual", "Indie"],
+    "features": ["single-player", "co-op"],
+    "tags": ["New Release"],
+    "aboutGame": "Unspottable is a competitive couch party game for two to four players. Blend in the crowd of AI characters, hunt down the other players and use the many different environment specific rules to win the game. 'Walk like a robot and punch like a human!'",
+    "gameFeatures": [
+      "Simple controls:",
+      "easy to learn, hard to master.",
+      "Competition based on observation rather than action.",
+      "Tutorial to explain game mechanics to first time players.",
+      "Fun feedback. Ragdoll / Endgame nicknames based on stats / Camera shakes / Funny animations and designs.",
+      "Competitive party game:",
+      "Competition from the start: in the home screen, players can already get used to the controls and fight each other.",
+      "No information given to the players about their position to push them to discuss, lie and add bluffing to their",
+      "strategies.",
+      "All the players can control the level selection and fight to select the one they want.",
+      " Different side quests and mechanics with each level, to create new strategies!",
+      "Expert mode for more advanced players"
+    ],
+    "heroImages": [
+      "https://cdn2.unrealengine.com/multi-sofa-1382x778-7c3f90a5d8c8.png",
+      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-05-1920x1080-45017114f781.jpg",
+      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-06-1920x1080-0b91a2640fad.jpg",
+      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-04-1920x1080-80c336f7a6b5.jpg",
+      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-03-1920x1080-5b7059af23be.jpg",
+      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-02-1920x1080-45cdbd6d16bc.jpg"
+    ],
+
+    "images": [
+      "https://cdn2.unrealengine.com/multi-sofa-1382x778-7c3f90a5d8c8.png",
+      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-05-1920x1080-45017114f781.jpg",
+      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-06-1920x1080-0b91a2640fad.jpg",
+      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-04-1920x1080-80c336f7a6b5.jpg",
+      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-03-1920x1080-5b7059af23be.jpg"
+    ],
+    "rating": {
+      "criticRecommend": 33,
+      "topCriticAverage": 46,
+      "openCriticrating": "Fair"
+    },
+    "reviews": [
+      {
+        "organisation": "IGN",
+        "author": "Ian Sandhu",
+        "rating": 10,
+        "description": "ChromaGun is a great port, but it doesn't fix issues like the difficulty spikes that have always been present in the game. ",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "GamesRadar Evolution",
+        "author": "Steve Hems",
+        "rating": 9.5,
+        "description": "ChromaGun is, for the most part, a great port, but it doesn't fix issues like the difficulty spikes that have always been present in the game.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "Destructoid",
+        "author": "Chris Carter",
+        "rating": 6,
+        "description": "There just isn't a whole lot to say outside of what's already been said. ChromaGun is a competent puzzler that's only firing on a few cylinders and not much has changed in the several years since its launch. If you haven't pulled the trigger yet and are an avid puzzle fan the VR-ification is the excuse you need, just don't expect a whole lot.",
+        "link": "https://opencritic.com/"
+      }
+    ]
+  },
+
+  {
+    "title": "Tribes of Midgard",
+    "thumbnail": "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g1a-00-12-13-21-1920x1080-cd9a4b01fbb6.jpg",
+    "logo": "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-ic1-300x150-eb23eb77b095.png?h=270&resize=1&w=480",
+    "cardImage": "https://cdn1.epicgames.com/offer/6774af9524fe4f63b2a6717d04269cd6/EGS_TribesofMidgard_Norsfell_S2_12_1200x1600-c4a5986e60d17828ad1f0d5b9d6fdcc1?h=854&resize=1&w=640",
+    "cardTagline": "Gros Chevaux | Gros Chevaux",
+    "price": {
+      "mainPrice": 699,
+      "discount": 10
+    },
+    "developer": "Bad Dream Games",
+    "publisher": "Gros Chevaux",
+    "releaseDate": "Jan 10, 2022",
+    "platform": ["Windows", "Mac"],
+    "description": "Form a tribe with up to 10 players to defend your village from the relentless onslaught of deadly spirits and gigantic brutes Hel-bent on bringing on the end of the world in this game with a unique blend of action, survival, and roguelite elements.",
+    "genres": ["Action", "Rogue-Lite"],
+    "features": ["single-player", "co-op", "multiplayer"],
+    "tags": ["New Release"],
+    "aboutGame": "Tribes of Midgard is a co-op blend of action, survival, and roguelite elements. Players must balance defending a sacred tree – the Seed of Yggdrasil – from nightly attacks, with exploring and powering up their Viking to battle powerful Giants and Saga Bosses.",
+    "gameFeatures": [
+      "Roguelite Meets Survival Action",
+      "Face Colossal Game-Changers",
+      "Forge Your Viking Legend",
+      "Rally the Tribe",
+      "Explore a Bright Norse Realm"
+    ],
+    "heroImages": [
+      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-00-1920x1080-d1890529790d.jpg",
+      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-01-1920x1080-915463ef2fd0.jpg",
+      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-02-1920x1080-d5fc79f75695.jpg",
+      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-04-1920x1080-f4fdb9e4d4fa.jpg",
+      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-03-1920x1080-ce9b5bbc588f.jpg"
+    ],
+
+    "images": [
+      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-00-1920x1080-d1890529790d.jpg",
+      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-01-1920x1080-915463ef2fd0.jpg",
+      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-02-1920x1080-d5fc79f75695.jpg",
+      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-04-1920x1080-f4fdb9e4d4fa.jpg",
+      "https://cdn2.unrealengine.com/egs-tribesofmidgard-norsfell-g2-03-1920x1080-ce9b5bbc588f.jpg"
+    ],
+    "rating": {
+      "criticRecommend": 59,
+      "topCriticAverage": 76,
+      "openCriticrating": "Strong"
+    },
+    "reviews": [
+      {
+        "organisation": "IGN",
+        "author": "Mona hemsworth",
+        "rating": 9,
+        "description": "Tribes of Midgard is a hectic, exciting, Norse-flavored action RPG that is best faced with a shield wall full of friends.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "God is a Geek",
+        "author": "Steve Hems",
+        "rating": 9.5,
+        "description": "A mashup of many genres, Tribes of Midgard manages to do many things well. It does ask a great deal from you, and it offers little in the way of instruction, but if cooperation and discovery under pressure is your jam, this is the game for you.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "Game Rant",
+        "author": "Nina Dobrav",
+        "rating": 6,
+        "description": "Tribes of Midgard has some great ideas, but the cosmetic rewards, short skill trees and difficulty in unlocking new classes makes it feel a little 'early access'.",
+        "link": "https://opencritic.com/"
+      }
+    ]
+  },
+
+  {
+    "title": "One Hand Clapping",
+    "thumbnail": "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-s1-2560x1440-f6c000c0a317.jpg?h=720&resize=1&w=1280",
+    "logo": "https://cdn2.unrealengine.com/ohc-logo-400-w-400x113-c9ab19de5960.png?h=270&resize=1&w=480",
+    "cardImage": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_OneHandClapping_BadDreamGames_S2_1200x1600-c7d8505f584c3a50a69299b99f71d3ba?h=854&resize=1&w=640",
+    "cardTagline": "Gros Chevaux | HandyGames",
+    "price": {
+      "mainPrice": 699,
+      "discount": 10
+    },
+    "developer": "Gros Chevaux",
+    "publisher": "HandyGames",
+    "releaseDate": "Dec 14, 2021",
+    "platform": ["Windows", "Mac"],
+    "description": "One Hand Clapping is a 2D platformer that invites you to sing into your microphone to solve musical puzzles and discover the power of your voice as it changes the world.",
+    "genres": ["Casual", "Puzzle", "Indie"],
+    "features": ["single-player", "controller-support"],
+    "tags": ["New Release"],
+    "aboutGame": "One Hand Clapping is a 2D platformer that invites you to sing into your microphone to solve musical puzzles and discover the power of your voice as it changes the world. This exceptionally unique game provides you the freedom to express yourself through its mechanics, helping you build confidence in both your singing voice and the voice within you.Don't worry about hitting the wrong notes, One Hand Clapping is all about taking risks and learning from your mistakes. Find out just how far your voice can take you! The world of One Hand Clapping is full of vibrant landscapes and mysterious characters portrayed through a warm, minimalist aesthetic that inspires self-expression without overwhelming the senses.",
+    "gameFeatures": [
+      " Escape the judgemental eyes of Silent City's hostile inhabitants",
+      "Wander through six expansive, multicolored biomes and sing to change the world",
+      "Sing along with three whimsical hermits throughout your musical journey",
+      "5 hours of creative and cacophonic gameplay"
+    ],
+    "heroImages": [
+      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-05-1920x1080-d75962218b5b.jpg",
+      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-04-1920x1080-2f9896a1f082.jpg",
+      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-03-1920x1080-b0588202be88.jpg",
+      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-02-1920x1080-09613aaf2d85.jpg",
+      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-01-1920x1080-d760e87e62be.jpg"
+    ],
+
+    "images": [
+      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-00-1920x1080-b5b83f92bace.jpg",
+      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-04-1920x1080-2f9896a1f082.jpg",
+      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-03-1920x1080-b0588202be88.jpg",
+      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-02-1920x1080-09613aaf2d85.jpg",
+      "https://cdn2.unrealengine.com/egs-onehandclapping-baddreamgames-g1a-01-1920x1080-d760e87e62be.jpg"
+    ],
+    "rating": {
+      "criticRecommend": 59,
+      "topCriticAverage": 76,
+      "openCriticrating": "Strong"
+    },
+    "reviews": [
+      {
+        "organisation": "IGN",
+        "author": "Mona hemsworth",
+        "rating": 9,
+        "description": "Tribes of Midgard is a hectic, exciting, Norse-flavored action RPG that is best faced with a shield wall full of friends.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "God is a Geek",
+        "author": "Steve Hems",
+        "rating": 9.5,
+        "description": "A mashup of many genres, Tribes of Midgard manages to do many things well. It does ask a great deal from you, and it offers little in the way of instruction, but if cooperation and discovery under pressure is your jam, this is the game for you.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "Game Rant",
+        "author": "Nina Dobrav",
+        "rating": 6,
+        "description": "Tribes of Midgard has some great ideas, but the cosmetic rewards, short skill trees and difficulty in unlocking new classes makes it feel a little 'early access'.",
+        "link": "https://opencritic.com/"
+      }
+    ]
+  },
 
   {
     "title": "Dead by Daylight",
+    "thumbnail": "https://cdn1.epicgames.com/offer/611482b8586142cda48a0786eb8a127c/EGS_DeadbyDaylight_BehaviourInteractive_S3_2560x1440-9790e96a8d2a08325bd7b4dc70148127?h=270&resize=1&w=480",
     "logo": "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-ic1-200x200-5a5957eb6ddd.png?h=270&resize=1&w=480",
     "cardImage": "https://cdn1.epicgames.com/offer/611482b8586142cda48a0786eb8a127c/EGS_DeadbyDaylight_BehaviourInteractive_S4_1200x1600-f2a7ae8676457d052c1344ce717dfb7a?h=854&resize=1&w=640",
     "cardTagline": "Behaviour Interactive | Behaviour Interactive",
@@ -1301,16 +1098,22 @@
     "publisher": "Behaviour Interactive",
     "releaseDate": "Dec 14, 2014",
     "platform": ["Windows"],
-    "description": "Street Striker is an arcade game about street fighting. Choose your hero and arena, find weapons, or use your hand-to-hand combat skills to stand up against waves of bandits and complete the level.",
-    "genres": ["Fighting", "Indie", "Action"],
-    "features": ["Single Player"],
+    "description": "Dead by Daylight is a multiplayer (4vs1) horror game where one player takes on the role of the savage Killer, and the other four players play as Survivors, trying to escape the Killer and avoid being caught and killed",
+    "genres": ["Action", "Survival"],
+    "features": ["multiplayer"],
     "tags": ["Top Seller", "Most Popular"],
-    "aboutGame": "Street Striker is an arcade game about street fighting. Go through the training, choose a hero and an arena, smash crates and barrels to find weapons or use hand-to-hand combat skills to beat all the bandits and complete the level. An elementary combat system will not require in-depth study, just relax and beat a couple dozen scoundrels properly to a dynamic soundtrack.",
+    "aboutGame": "Dead by Daylight is a multiplayer (4vs1) horror game where one player takes on the role of the savage Killer, and the other four players play as Survivors, trying to escape the Killer and avoid being caught, tortured and killed. Survivors play in third-person and have the advantage of better situational awareness. The Killer plays in first-person and is more focused on their prey. The Survivors' goal in each encounter is to escape the Killing Ground without getting caught by the Killer - something that sounds easier than it is, especially when the environment changes every time you play.",
     "gameFeatures": [
-      "Spectacular animations and effects",
-      "Simple and intuitive combat system",
-      "Five visually diverse arenas",
-      "Dynamic music"
+      "Survive Together… Or Not",
+      "Survivors can either cooperate with the others or be selfish. Your chance of survival will vary depending on whether you work together as a team or if you go at it alone. Will you be able to outwit the Killer and escape their Killing Ground?",
+      "Where Am I?",
+      "Each level is procedurally generated, so you'll never know what to expect. Random spawn points mean you will never feel safe as the world and its danger change every time you play.",
+      "A Feast for Killers",
+      "Dead by Daylight draws from all corners of the horror world. As a Killer you can play as anything from a powerful Slasher to terrifying paranormal entities. Familiarize yourself with your Killing Grounds and master each Killer's unique power to be able to hunt, catch and sacrifice your victims.",
+      "Deeper and Deeper",
+      "Each Killer and Survivor has their own deep progression system and plenty of unlockables that can be customized to fit your own personal strategy. Experience, skills and understanding of the environment are key to being able to hunt or outwit the Killer.",
+      "Real People, Real Fear",
+      "The procedural levels and real human reactions to pure horror makes each game session an unexpected scenario. You will never be able to tell how it's going to turn out. Ambience, music, and chilling environments combine into a terrifying experience. With enough time, you might even discover what's hiding in the Fog."
     ],
     "heroImages": [
       "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-02-1920x1080-794afd5fc6e8.jpg",
@@ -1322,16 +1125,77 @@
       "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-06-1920x1080-b19d0cc6fec2.jpg",
       "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-05-1920x1080-56f57be8934d.jpg"
     ],
-    "videos": [
-      "https://media-cdn.epicgames.com/7e7ae134321e4762ab6b8778a2a7d8ee/7e7ae134321e4762ab6b8778a2a7d8ee-high.fmp4",
-      "https://media-cdn.epicgames.com/71f1d4acba4a46f0a2b7bd2c834e3bd9/71f1d4acba4a46f0a2b7bd2c834e3bd9-high.fmp4"
-    ],
+
     "images": [
       "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-04-1920x1080-f989400d3b09.jpg",
       "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-03-1920x1080-aef32ee4a4ad.jpg",
       "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-07-1920x1080-653cc7b8169b.jpg",
       "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-06-1920x1080-b19d0cc6fec2.jpg",
       "https://cdn2.unrealengine.com/egs-deadbydaylight-behaviourinteractive-g1a-05-1920x1080-56f57be8934d.jpg"
+    ],
+    "rating": {
+      "criticRecommend": 46,
+      "topCriticAverage": 80,
+      "openCriticrating": "Fair"
+    },
+    "reviews": [
+      {
+        "organisation": "IGN",
+        "author": "Mona hemsworth",
+        "rating": 9,
+        "description": "It's shocking how much depth Dead By Daylight packs into its systems.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "God is a Geek",
+        "author": "Steve Hems",
+        "rating": 9.5,
+        "description": "The tension is high in every match, with jump scares and thrilling chases peppering each encounter with the killer",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "Game Rant",
+        "author": "Nina Dobrav",
+        "rating": 6,
+        "description": "After almost five years, Dead by Daylight has grown into an incredible slasher film simulator, and the best asymmetrical multiplayer game around.'.",
+        "link": "https://opencritic.com/"
+      }
+    ]
+  },
+
+  {
+    "title": "Street Striker",
+    "thumbnail": "https://cdn1.epicgames.com/spt-assets/ec4f866d28344e018a4d6b01ae7efdc6/street-striker-offer-dfkd0.png?h=270&resize=1&w=480",
+    "logo": "https://cdn1.epicgames.com/spt-assets/ec4f866d28344e018a4d6b01ae7efdc6/street-striker-logo-10stn.png?h=270&resize=1&w=480",
+    "cardImage": "https://cdn1.epicgames.com/spt-assets/ec4f866d28344e018a4d6b01ae7efdc6/download-street-striker-offer-3jy90.png?h=854&resize=1&w=640",
+    "cardTagline": "Behaviour Interactive | Behaviour Interactive",
+    "price": {
+      "mainPrice": 699,
+      "discount": 10
+    },
+    "developer": "Behaviour Interactive",
+    "publisher": "Behaviour Interactive",
+    "releaseDate": "Dec 14, 2014",
+    "platform": ["Windows"],
+    "description": "Street Striker is an arcade game about street fighting. Choose your hero and arena, find weapons, or use your hand-to-hand combat skills to stand up against waves of bandits and complete the level.",
+    "genres": ["Fighting", "Indie", "Action"],
+    "features": ["single-player"],
+    "tags": ["Top Seller", "Most Popular"],
+    "aboutGame": "Street Striker is an arcade game about street fighting. Go through the training, choose a hero and an arena, smash crates and barrels to find weapons or use hand-to-hand combat skills to beat all the bandits and complete the level. An elementary combat system will not require in-depth study, just relax and beat a couple dozen scoundrels properly to a dynamic soundtrack.",
+    "gameFeatures": [
+      "Spectacular animations and effects",
+      "Simple and intuitive combat system",
+      "Five visually diverse arenas",
+      "Dynamic music"
+    ],
+    "heroImages": [
+      "https://cdn1.epicgames.com/spt-assets/ec4f866d28344e018a4d6b01ae7efdc6/street-striker-1gisg.jpg?h=720&resize=1&w=1280",
+      "https://cdn1.epicgames.com/spt-assets/ec4f866d28344e018a4d6b01ae7efdc6/street-striker-1nq10.png?h=720&resize=1&w=1280"
+    ],
+    "images": [
+      "https://cdn1.epicgames.com/spt-assets/ec4f866d28344e018a4d6b01ae7efdc6/street-striker-1gisg.jpg?h=720&resize=1&w=1280",
+      "https://cdn1.epicgames.com/spt-assets/ec4f866d28344e018a4d6b01ae7efdc6/street-striker-1nq10.png?h=720&resize=1&w=1280",
+      "https://cdn1.epicgames.com/spt-assets/ec4f866d28344e018a4d6b01ae7efdc6/street-striker-1dqk6.jpg?h=720&resize=1&w=1280"
     ],
     "rating": {
       "criticRecommend": 46,
