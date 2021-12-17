@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { BiSearch } from "react-icons/bi";
 import { MdOutlineCheckCircleOutline } from "react-icons/md";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 import styles from "./sub-navbar.module.css";
 
@@ -28,35 +29,41 @@ const SubNavbar = () => {
 
         {isAccordianOpen ? (
           <div className={styles.accordion_modal}>
-            <div
-              onClick={() => {
-                setAccoridanText("Discover");
-                setAccordianState(false);
-              }}
-              className={styles.option}
-            >
-              Discover
-            </div>
+            <Link to="/">
+              <div
+                onClick={() => {
+                  setAccoridanText("Discover");
+                  setAccordianState(false);
+                }}
+                className={styles.option}
+              >
+                Discover
+              </div>
+            </Link>
             <div className={styles.line}></div>
-            <div
-              onClick={() => {
-                setAccoridanText("Browse");
-                setAccordianState(false);
-              }}
-              className={styles.option}
-            >
-              Browse
-            </div>
+            <Link to="/browse">
+              <div
+                onClick={() => {
+                  setAccoridanText("Browse");
+                  setAccordianState(false);
+                }}
+                className={styles.option}
+              >
+                Browse
+              </div>
+            </Link>
             <div className={styles.line}></div>
-            <div
-              onClick={() => {
-                setAccoridanText("News");
-                setAccordianState(false);
-              }}
-              className={styles.option}
-            >
-              News
-            </div>
+            <Link to="/">
+              <div
+                onClick={() => {
+                  setAccoridanText("Discover");
+                  setAccordianState(false);
+                }}
+                className={styles.option}
+              >
+                News
+              </div>
+            </Link>
           </div>
         ) : null}
       </div>
@@ -67,11 +74,19 @@ const SubNavbar = () => {
             <BiSearch />
             <input type="text" placeholder="Search" />
           </div>
-          <div className={styles.option_desktop}>Discover</div>
-          <div className={styles.option_desktop}>Browse</div>
-          <div className={styles.option_desktop}>News</div>
+          <Link to="/">
+            <div className={styles.option_desktop}>Discover</div>
+          </Link>
+          <Link to="/browse">
+            <div className={styles.option_desktop}>Browse</div>
+          </Link>
+          <Link to="/">
+            <div className={styles.option_desktop}>News</div>
+          </Link>
         </div>
-        <div className={styles.wishlist}>Wishlist</div>
+        <Link to="/wishlist">
+          <div className={styles.wishlist}>Wishlist</div>
+        </Link>
       </div>
     </>
   );
