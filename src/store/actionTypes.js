@@ -1,0 +1,4 @@
+const GET_USER = "USER_LOGIN";
+const FETCH_GAMES = "FETCH_GAMES";
+
+export { GET_USER, FETCH_GAMES };
