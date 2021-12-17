@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: rgb(51, 51, 51);
+  /* background-color: rgb(51, 51, 51); */
 }
 
 .basegame {
@@ -17,7 +17,7 @@
 }
 
 .price_div {
-  margin: 5px 0px;
+  margin: 8px 0px 5px 0px;
   display: flex;
   gap: 10px;
 }
@@ -32,7 +32,7 @@
   padding-left: 10px;
   padding-right: 10px;
   letter-spacing: 2px;
-  border-radius: 5px;
+  border-radius: 4px;
   font-size: 10px;
   text-align: center;
 }
@@ -45,11 +45,14 @@
 .buy_btn {
   height: 48px;
   width: 100%;
-  background: #0078f2;
+  background: var(--main-blue);
   border-radius: 4px;
   border: none;
   color: #fff;
   margin-top: 10px;
+}
+.buy_btn:hover {
+  background-color: #1085fa;
 }
 
 .wishlist_btn {
@@ -62,16 +65,25 @@
   background: none;
   color: #fff;
   margin-top: 10px;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+
+.wishlist_btn:hover {
+  border: 1px solid #cccccc;
+  /* border: none; */
+  color: white;
+  background-color: rgba(255, 255, 255, 0.226);
 }
 .game_info {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .game_details {
   display: flex;
   gap: 40px;
   justify-content: space-between;
   border-bottom: 1px solid var(--light-black);
-  padding: 10px 0px;
+  padding: 15px 0px;
 }
 
 .title {
@@ -80,9 +92,17 @@
 
 .logo {
   background-position: center;
-  border: 1px dotted red;
+  margin-bottom: 10px;
 }
 
 .logo img {
   width: 100%;
+}
+
+.iconW {
+  margin-right: 10px;
+}
+
+.iconA {
+  font-size: 18px;
 }

@@ -1,5 +1,6 @@
 import styles from "./paymentCard.module.css";
-
+import { ImWindows8 } from "react-icons/im";
+import { FaApple } from "react-icons/fa";
 const PaymentCard = (props) => {
   const { logo, discount, price, developer, publisher, releaseDate, platform } =
     props;
@@ -49,7 +50,14 @@ const PaymentCard = (props) => {
           <div className={styles.game_details}>
             <p className={styles.details_title}>Platform</p>
             <div className={styles.title}>
-              <p>{platform}</p>
+              {platform.map((el, i) => {
+                if (el === "Windows") {
+                  return <ImWindows8 className={styles.iconW} key={i} />;
+                }
+                if (el === "Mac") {
+                  return <FaApple className={styles.iconA} key={i} />;
+                }
+              })}
             </div>
           </div>
         </div>
