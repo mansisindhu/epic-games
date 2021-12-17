@@ -9,17 +9,14 @@ const SecondaryCardContainer = ({ data }) => {
       <div className={styles.container}>
         {data.map((el, i) => {
           return (
-            <>
-              <div key={i} className={styles.card}>
-                <SecondaryCard
-                  image={el.thumbnail}
-                  title={el.title}
-                  description={el.description}
-                  discount={el.price.discount}
-                  price={el.price.mainPrice}
-                />
-              </div>
-            </>
+            <div key={i} className={styles.card}>
+              <SecondaryCard
+                image={el.thumbnail}
+                title={el.title}
+                description={el.description}
+                price={el.price}
+              />
+            </div>
           );
         })}
       </div>

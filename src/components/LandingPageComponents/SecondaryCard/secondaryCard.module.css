@@ -13,7 +13,7 @@
   width: 300px;
   color: var(--seconday-text);
   text-decoration: none;
-  /* background-color: cadetblue; */
+  background-color: cadetblue;
 }
 
 .title {
@@ -147,6 +147,10 @@
   .image_div {
     position: relative;
     display: inline-block;
+  }
+
+  .image_div img {
+    width: 100%;
   }
 
   .image_div .icon {
