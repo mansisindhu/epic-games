@@ -66,8 +66,8 @@ const BrowsePage = () => {
                 </div>
               </div>
               <div className={styles.data_container}>
-                {Data.map((el) => (
-                  <div className={styles.card_container}>
+                {Data.map((el, i) => (
+                  <div key={i} className={styles.card_container}>
                     <GameCard
                       image={el.cardImage}
                       title={el.title}

@@ -92,6 +92,29 @@
     margin-top: 30px;
   }
 
+  .about_div {
+    margin-top: 40px;
+  }
+
+  .about_game {
+    margin-bottom: 40px;
+    color: var(--seconday-text);
+    line-height: 25px;
+  }
+
+  .game_heading {
+    margin-bottom: 10px;
+  }
+
+  .game_features {
+    line-height: 25px;
+    color: var(--seconday-text);
+  }
+
+  .list {
+    margin-bottom: 10px;
+  }
+
   /* accordion */
   .accordion {
     margin-top: 30px;
@@ -104,5 +127,26 @@
 
   .reviews {
     margin-top: 30px;
+  }
+
+  .about_images {
+    margin-top: 40px;
+    width: 80%;
+  }
+  .about_images img {
+    width: 101%;
+    border-radius: 4px;
+  }
+
+  .images_div img {
+    width: 50%;
+  }
+
+  .images_div {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
   }
 }

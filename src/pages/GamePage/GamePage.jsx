@@ -2,6 +2,7 @@ import styles from "./gamePage.module.css";
 
 import Data from "../../Data.json";
 import GameCard from "../../components/GamePageComponents/GameCard";
+import Header from "../../components/Header";
 
 const GamePage = () => {
   const GameData = Data;
@@ -9,9 +10,10 @@ const GamePage = () => {
 
   return (
     <>
+      <Header />
       <div className={styles.main}>
         <div className={styles.gamePage_container}>
-          <GameCard data={GameData[0]} />
+          <GameCard data={GameData[13]} />
         </div>
       </div>
     </>

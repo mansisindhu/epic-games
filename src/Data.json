@@ -173,7 +173,13 @@
       "Recurring fee charged monthly until cancelled. Cancel anytime."
     ],
     "heroImages": [
-      "https://cdn2.unrealengine.com/19br-keyart-egs-launcher-pdp-2560x1440-2560x1440-7cd2d7f2b140.jpg?h=720&resize=1&w=1280"
+      "https://cdn2.unrealengine.com/19br-keyart-egs-launcher-pdp-2560x1440-2560x1440-7cd2d7f2b140.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/01-masterstill002-3840x2160-3840x2160-418b0812b546.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/02-still003-3840x2160-3840x2160-d2bced3e5e15.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/03-still013-3840x2160-3840x2160-2472eb70a29b.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/04-still015-3840x2160-3840x2160-44c3a162454e.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/06-still021-3840x2160-3840x2160-1c7e15b4affb.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/07-still004-3840x2160-3840x2160-9ea32ff653a9.jpg?h=720&resize=1&w=1280"
     ],
     "videos": [
       "https://media-cdn.epicgames.com/e3ce30b737754d8085af80cadbb9f823/e3ce30b737754d8085af80cadbb9f823-high.fmp4"
@@ -640,18 +646,7 @@
       "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-04-1920x1080-0e092337070e.jpg?h=720&resize=1&w=1280",
       "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-05-1920x1080-496606c24ad8.jpg?h=720&resize=1&w=1280",
       "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-07-1920x1080-4c3266991b74.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-08-1920x1080-6b4bd2f44cb3.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-09-1920x1080-553740f3b907.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-10-1920x1080-aace2959621f.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-11-1920x1080-5a44a8f49714.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-12-2-1920x1080-3a10c22e711b.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-12-1920x1080-971d706285f2.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-13-1920x1080-36734e8b5524.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-14-1920x1080-9c99c60af02c.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g2-00-1920x1080-e46421defc46.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g2-03-1920x1080-1edfd84d7b72.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-18-1920x1080-7a20158914e2.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-19-2-1920x1080-318f60286bd7.jpg?h=720&resize=1&w=1280"
+      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-08-1920x1080-6b4bd2f44cb3.jpg"
     ],
     "videos": [
       "https://media-cdn.epicgames.com/64e68e8ac9ce4080b0204bc06dacac29/64e68e8ac9ce4080b0204bc06dacac29-high.fmp4"
@@ -805,7 +800,6 @@
     ],
     "heroImages": [
       "https://cdn2.unrealengine.com/multi-sofa-1382x778-7c3f90a5d8c8.png",
-      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-01-1920x1080-865917f0a2ff.jpg",
       "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-05-1920x1080-45017114f781.jpg",
       "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-06-1920x1080-0b91a2640fad.jpg",
       "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-04-1920x1080-80c336f7a6b5.jpg",
