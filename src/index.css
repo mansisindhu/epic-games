@@ -23,3 +23,8 @@ body {
 .overflow-hidden {
   overflow: hidden;
 }
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
