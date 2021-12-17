@@ -1,7 +1,7 @@
 .main{
     width:100%;
-    height:1000px;
-    background-color:rgb(70, 67, 67);
+    height:1030px;
+    /* background-color:rgb(70, 67, 67); */
 }
 .topbar{
     margin-left: 12%;
@@ -39,15 +39,18 @@
 .name{
     margin-left: 12.5%;
     color: white;
-    margin-top:30px;
+    margin-top:20px;
     font-size: 25px;
+}
+.dropdown{
+    display:none;
 }
 .line{
     width:76%;
     height:1px;
     background-color:grey;
     margin-left:12%;
-    margin-top:17px;
+    margin-top:30px;
 }
 .imgbox{
     width: 270px;
@@ -55,6 +58,17 @@
     margin-left:12%;
     margin-top:17px;
 }
+
+.imgbox {
+    opacity: 0.8;
+    display: block;
+    transition: .9s ease;
+  
+  }
+  
+  .container:hover .imgbox {
+    opacity: 0.3;
+  }
 .day{
     margin-left:450px;
     margin-top: -150px;
@@ -64,6 +78,7 @@
     margin-left: 450px;
     margin-top:10px;
     color:white;
+    width:30%;
 }
 .read{
     margin-left:450px;
@@ -72,13 +87,164 @@
 }
 .bar2{
     width:80px;
-    height:1px;
+    height:3px;
     background-color:grey;
-    margin-left:450px;
+    margin-left:448px;
+    border-radius:1px;
 }
 .bar2:hover{
   background-color:white;
 }
 .imgbox :hover{
     background-color:grey;
+}
+.gapping{
+    padding:20px;
+}
+
+@media (max-width: 768px){
+    .main{
+        width:100%;
+        height:1030px;
+        /* background-color:rgb(70, 67, 67); */
+    }
+    .topbar{
+        margin-left: 8%;
+        display:flex;
+       flex-direction: row;
+    }
+    .search{
+         width:130px;
+        height: 45px;
+        border-radius:100px;
+        background-color: #202020;
+        margin-top:50px; 
+        
+    }
+    .icon{
+        height: 20px;
+        margin-top: 12px;
+        margin-left: 17px;
+        color: white;
+    }
+    .searchword{
+        margin-left:55px;
+        color: grey;
+        margin-top:-20px;
+    }
+    .tags{
+        display:none;
+        /* color:grey;
+        gap:40px;
+        margin-top:60px;
+        margin-left:30px; */
+    }
+    .tags> a:hover{
+        color:white;
+    }
+    .name{
+        margin-left: 6%;
+        color: white;
+        margin-top:20px;
+        font-size: 25px;
+    }
+    .line{
+        width:87%;
+        height:4px;
+        background-color:grey;
+        margin-left:6%;
+        margin-top:30px;
+    }
+    .imgbox{
+        width: 88%;
+        height: 260px;
+        margin-left:6%;
+        margin-top:17px;
+    }
+    
+    .imgbox {
+        opacity: 0.8;
+        display: block;
+        transition: .9s ease;
+      
+      }
+      
+      .container:hover .imgbox {
+        opacity: 0.3;
+      }
+    .day{
+        margin-left:6%;
+        margin-top: 10px;
+        color:white;
+    }
+    .intro{
+        margin-left: 6%;
+        margin-top:10px;
+        color:white;
+    }
+    .read{
+        margin-left:6%;
+        color:white;
+        margin-top:50px;
+    }
+    .bar2{
+        width:80px;
+        height:3px;
+        background-color:grey;
+        margin-left:6%;
+        border-radius:1px;
+    }
+    .bar2:hover{
+      background-color:white;
+    }
+    .imgbox :hover{
+        background-color:grey;
+    }  
+
+
+    .dropbtn {
+        background-color: #212121;
+        color: white;
+        padding: 5px;
+        font-size: 16px;
+        /* border: 1px solid white; */
+        border-radius:4px;
+        margin-left:170px;
+        
+      }
+      
+      .dropdown {
+       position: relative;
+        display: inline-block;
+        margin-top:-130px;
+      }
+      
+      .dropdowncontent {
+        display: none;
+        position: absolute;
+        background-color: #F1F1F1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdowncontent a {
+        color:grey;
+        padding: 20px 22px;
+        text-decoration: none;
+        display: block;
+        background-color:black;
+        border-bottom: 1px solid grey;
+      }
+      
+      .dropdowncontent a:hover {
+        color:white;
+      
+      }
+      
+      .dropdown:hover .dropdowncontent {display: block;background-color:black;width:400px;
+        margin-left:-25px;
+    }
+      
+      .dropdown:hover .dropbtn {background-color: black;}
 }
