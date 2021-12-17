@@ -7,12 +7,14 @@ const MiniCard = (props) => {
   return (
     <>
       <div className={styles.main}>
-        <div>
+        <div className={styles.image_div}>
           <img src={banner} alt="banner" />
         </div>
 
-        <div>
-          <p>{title}</p>
+        <div className={styles.content}>
+          <div className={styles.heading_div}>
+            <p className={styles.heading}>{title}</p>
+          </div>
           <div className={styles.price}>
             <PriceComponent price={price} />
           </div>
