@@ -5,20 +5,19 @@ const ReviewCardContainer = ({ data }) => {
   return (
     <>
       <div className={styles.reviewCardContainer}>
+        <p>Ratings</p>
         <div className={styles.container}>
-          {data.map((e) => {
+          {data.map((e, i) => {
             return (
-              <>
-                <div className={styles.card}>
-                  <ReviewCard
-                    organisation={e.organisation}
-                    author={e.author}
-                    rating={e.rating}
-                    description={e.description}
-                    link={e.link}
-                  />
-                </div>
-              </>
+              <div key={i} className={styles.card}>
+                <ReviewCard
+                  organisation={e.organisation}
+                  author={e.author}
+                  rating={e.rating}
+                  description={e.description}
+                  link={e.link}
+                />
+              </div>
             );
           })}
         </div>
