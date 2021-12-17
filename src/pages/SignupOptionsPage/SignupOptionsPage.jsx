@@ -33,7 +33,7 @@ const SignupOptionsPage = () => {
           <p className={styles.text}>SIGN IN WITH XBOX LIVE</p>
         </div>
         <div className={styles.option}>
-          <img src="/social-icons/Playstation_Network.svg" />
+          <img src="/social-icons/Playstation_Network.svg" alt="logo-img" />
           <p className={styles.text}>SIGN IN WITH PLAYSTATION NETWORK</p>
         </div>
         <div className={styles.option}>
