@@ -77,7 +77,7 @@
     "cardTagline": "Ubisoft Toronto | Ubisoft ",
     "price": {
       "mainPrice": 2999,
-      "discount": 6
+      "discount": 100
     },
     "developer": "Ubisoft Toronto",
     "publisher": "Ubisoft Toronto",
@@ -146,7 +146,7 @@
     "cardTagline": "Counterplay Games | Gearbox Publishin",
     "price": {
       "mainPrice": 349,
-      "discount": 10
+      "discount": 100
     },
     "developer": "Counterplay Games",
     "publisher": "Gearbox Publishing",
@@ -572,7 +572,7 @@
     "cardTagline": "Riot Games",
     "price": {
       "mainPrice": 0,
-      "discount": 0
+      "discount": 100
     },
     "developer": "Riot Games",
     "publisher": "Riot Games",
