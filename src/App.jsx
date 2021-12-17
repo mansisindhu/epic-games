@@ -1,13 +1,12 @@
 import "./index.css";
-import BrowsePage from "./pages/BrowsePage";
+import GamePage from "./pages/GamePage";
 
 const App = () => {
   return (
     <div className="App">
-      <BrowsePage />
+      <GamePage />
     </div>
   );
 };
 
 export default App;
-

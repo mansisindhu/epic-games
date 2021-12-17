@@ -3,6 +3,7 @@ import styles from "./gameCard.module.css";
 import LinksCard from "../LinksCard";
 import SimpleAccordion from "../Accordion/Accordion";
 import Specifications from "../SpecificationsCard/Specifications";
+import ReviewCard from "../ReviewCard/ReviewCard";
 
 const GameCard = ({ data }) => {
   console.log(data);
@@ -44,6 +45,20 @@ const GameCard = ({ data }) => {
 
             <div className={styles.links}>
               <LinksCard />
+            </div>
+
+            <div>
+              {data.reviews.map((e) => (
+                <>
+                  <ReviewCard
+                    orgaisation={e.orgaisation}
+                    author={e.author}
+                    rating={e.rating}
+                    description={e.description}
+                    link={e.link}
+                  />
+                </>
+              ))}
             </div>
 
             <div className={styles.specifications}>

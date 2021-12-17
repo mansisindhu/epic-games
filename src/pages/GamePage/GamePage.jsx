@@ -1,10 +1,11 @@
 import styles from "./gamePage.module.css";
 
-import Data from "../../CardData.json";
+import Data from "../../Data.json";
 import GameCard from "../../components/GamePageComponents/GameCard";
 
 const GamePage = () => {
   const GameData = Data;
+  console.log(GameData);
 
   return (
     <>
