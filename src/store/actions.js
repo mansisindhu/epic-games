@@ -140,6 +140,24 @@ const addToOrders = (id) => async (dispatch) => {
   }
 };
 
+// remove from wishlist
+const removeFromWishlist = (id) => async (dispatch) => {
+  try {
+    await axios.patch(
+      `${process.env.REACT_APP_BACKEND_URL}/user/remove-wishlist`,
+      {
+        gameId: id,
+      },
+      {
+        withCredentials: true,
+      }
+    );
+    dispatch(fetchUser());
+  } catch (err) {
+    console.log(err);
+  }
+};
+
 export {
   fetchGames,
   getGames,
@@ -152,4 +170,5 @@ export {
   sortGames,
   addToWishlist,
   addToOrders,
+  removeFromWishlist,
 };
