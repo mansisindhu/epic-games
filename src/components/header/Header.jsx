@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { useSelector, useDispatch } from "react-redux";
 
 import styles from "./header.module.css";
+import { logoutUser } from "../../store/actions";
 
 const Header = () => {
+  const user = useSelector((state) => state.user);
+  console.log(user.displayName);
+
   const [toggle, setToggle] = useState(false);
 
   const handleToggle = () => {
@@ -16,6 +21,17 @@ const Header = () => {
 
   const handleClose = () => {
     setToggle(false);
+  };
+
+  const [logoutModal, setLogoutModal] = useState(false);
+
+  const handleCloseLogoutModal = () => {
+    setLogoutModal((prev) => !prev);
+  };
+
+  const dispatch = useDispatch();
+  const logout = () => {
+    dispatch(logoutUser());
   };
 
   return (
@@ -56,23 +72,69 @@ const Header = () => {
           <img src="/icons/header_global.svg" alt="global" />
         </div>
 
-        <Link to="/signup">
-          <div
-            className={`${styles.header__second__user} ${styles.padding__left} ${styles.padding__right} ${styles.display__none}}`}
-          >
+        {!user.displayName ? (
+          <Link to="/signup">
             <div
-              className={`${styles.padding__left} ${styles.padding__right} ${styles.icon} ${styles.onhover__color__white} ${styles.display__none}`}
+              className={`${styles.header__second__user} ${styles.padding__left} ${styles.padding__right} ${styles.display__none}}`}
             >
-              <img src="/icons/header_user_offline.svg" alt="offline user" />
+              <div
+                className={`${styles.padding__left} ${styles.padding__right} ${styles.icon} ${styles.onhover__color__white} ${styles.display__none}`}
+              >
+                <img src="/icons/header_user_offline.svg" alt="offline user" />
+              </div>
+              <div
+                id={styles.header__rewrite}
+                className={`${styles.padding__right} ${styles.display__none}`}
+              >
+                <p className={styles.onhover__color__white}>SIGN IN</p>
+              </div>
             </div>
+          </Link>
+        ) : (
+          <>
             <div
-              id={styles.header__rewrite}
-              className={`${styles.padding__right} ${styles.display__none}`}
+              onClick={handleCloseLogoutModal}
+              style={{ position: "relative" }}
+              className={`${styles.header__second__user} ${styles.padding__left} ${styles.padding__right} ${styles.display__none}}`}
             >
-              <p className={styles.onhover__color__white}>SIGN IN</p>
+              <div
+                className={`${styles.padding__left} ${styles.padding__right} ${styles.icon} ${styles.onhover__color__white} ${styles.display__none}`}
+              >
+                <img
+                  style={{ height: "26px" }}
+                  src="/icons/Sign_In_Online.svg"
+                  alt="online user"
+                />
+              </div>
+              <div
+                id={styles.header__rewrite}
+                className={`${styles.padding__right} ${styles.display__none}`}
+              >
+                <p
+                  style={{ fontSize: "14px" }}
+                  className={styles.onhover__color__white}
+                >
+                  {user.displayName}
+                </p>
+              </div>
             </div>
-          </div>
-        </Link>
+            {logoutModal ? (
+              <div className={styles.logout_modal}>
+                <Link onClick={handleCloseLogoutModal} to="/wishlist">
+                  Wishlist
+                </Link>
+                <p
+                  onClick={() => {
+                    handleCloseLogoutModal();
+                    logout();
+                  }}
+                >
+                  Sign out
+                </p>
+              </div>
+            ) : null}
+          </>
+        )}
 
         <div
           className={`${styles.padding__left} ${styles.display__none} ${styles.download_btn}`}
@@ -111,18 +173,40 @@ const Header = () => {
             </div>
 
             <div>
-              <div className={styles.slider__botton}>
-                <div className={styles.slider__botton__first}>
-                  <img
-                    src="/icons/header_user_offline.svg"
-                    alt="offline user"
-                  />
-                  <p className={styles.onhover__color__white}>SIGN IN</p>
+              {user.displayName ? (
+                <div className={styles.slider__botton}>
+                  <div className={styles.slider__botton__first}>
+                    <img
+                      src="/icons/header_user_offline.svg"
+                      alt="offline user"
+                    />
+                    <p className={styles.onhover__color__white}>SIGN IN</p>
+                  </div>
+                  <div className={styles.slider__botton__second}>
+                    <img src="/icons/header_global.svg" alt="global" />
+                  </div>
                 </div>
-                <div className={styles.slider__botton__second}>
-                  <img src="/icons/header_global.svg" alt="global" />
-                </div>
-              </div>
+              ) : (
+                <>
+                  <div
+                    className={`${styles.header__second__user} ${styles.padding__left} ${styles.padding__right} ${styles.display__none}}`}
+                  >
+                    <div
+                      className={`${styles.padding__left} ${styles.padding__right} ${styles.icon} ${styles.onhover__color__white} ${styles.display__none}`}
+                    >
+                      <img src="/icons/Sign_In_Online.svg" alt="online user" />
+                    </div>
+                    <div
+                      id={styles.header__rewrite}
+                      className={`${styles.padding__right} ${styles.display__none}`}
+                    >
+                      <p className={styles.onhover__color__white}>
+                        {user.displayName}
+                      </p>
+                    </div>
+                  </div>
+                </>
+              )}
 
               <div>
                 <button

@@ -7,10 +7,6 @@
   display: inline-block;
 }
 
-.image_div .icon {
-  display: block;
-}
-
 .icon {
   padding-top: 4px;
   padding-right: 4px;
@@ -52,4 +48,14 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+@media (min-width: 768px) {
+  .icon {
+    display: none;
+  }
+
+  .image_div:hover .icon {
+    display: block;
+  }
 }
