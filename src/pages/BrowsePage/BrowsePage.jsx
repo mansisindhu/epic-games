@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { IoFilterSharp } from "react-icons/io5";
+import { useSelector } from "react-redux";
 
 import PopularGenre from "../../components/BrowsePageComponents/PopularGenre";
 import styles from "./browse-page.module.css";
-import Data from "../../Data.json";
 import GameCard from "../../components/BrowsePageComponents/GameCard";
 import FilterModal from "../../components/BrowsePageComponents/Filters/FilterModal";
 import Header from "../../components/header";
@@ -11,6 +11,7 @@ import SubNavbar from "../../components/SubNavbar";
 
 const BrowsePage = () => {
   const [sortingModal, setSortingModalState] = useState(false);
+  const data = useSelector((state) => state.games);
 
   const closeSortingModal = () => {
     setSortingModalState((prev) => !prev);
@@ -66,7 +67,7 @@ const BrowsePage = () => {
                 </div>
               </div>
               <div className={styles.data_container}>
-                {Data.map((el, i) => (
+                {data.map((el, i) => (
                   <div key={i} className={styles.card_container}>
                     <GameCard
                       image={el.cardImage}
