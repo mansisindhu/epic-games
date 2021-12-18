@@ -116,19 +116,29 @@ const BrowsePage = () => {
                 </div>
               </div>
               <div className={styles.data_container}>
-                {data.map((el, i) => (
-                  <div key={i} className={styles.card_container}>
-                    <Link to={`/games/${el._id}`}>
-                      <GameCard
-                        image={el.cardImage}
-                        title={el.title}
-                        tagline={el.cardTagline}
-                        price={el.price}
-                        id={el._id}
-                      />
-                    </Link>
+                {data.length ? (
+                  data.map((el, i) => (
+                    <div key={i} className={styles.card_container}>
+                      <Link to={`/games/${el._id}`}>
+                        <GameCard
+                          image={el.cardImage}
+                          title={el.title}
+                          tagline={el.cardTagline}
+                          price={el.price}
+                          id={el._id}
+                        />
+                      </Link>
+                    </div>
+                  ))
+                ) : (
+                  <div className={styles.error}>
+                    <p className={styles.error_main}>No results found</p>
+                    <p className={styles.error_secondary}>
+                      Unfortunately I could not find any resultsmatching your
+                      search.
+                    </p>
                   </div>
-                ))}
+                )}
               </div>
             </div>
             <div className={styles.filters_desktop}>
