@@ -10,7 +10,7 @@
 }
 
 .btn {
-  padding: 8px 16px;
+  padding: 5px 14px;
   border: 1px solid #cccccc;
   height: 40px;
   width: 130px;
@@ -33,7 +33,7 @@
 }
 
 .content {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .image_div {
@@ -42,6 +42,14 @@
 
 .free {
   background-color: var(--main-blue);
+  border-end-start-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 4px 0px;
+  margin-top: -4px;
+  font-size: 12px;
+}
+.coming {
+  background-color: #121212;
   border-end-start-radius: 4px;
   border-bottom-right-radius: 4px;
   padding: 4px 0px;

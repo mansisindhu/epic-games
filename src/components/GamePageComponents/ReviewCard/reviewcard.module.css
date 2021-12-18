@@ -1,0 +1,57 @@
+.name_div {
+  border-bottom: 1px solid #494747;
+  padding-bottom: 20px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.content {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.reviewLink {
+  text-align: center;
+}
+.reviewlink a {
+  color: var(--seconday-text);
+}
+.description {
+  margin-top: 10px;
+  color: var(--seconday-text);
+}
+
+.author {
+  color: var(--seconday-text);
+  margin-top: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .name_div {
+    border-bottom: 1px solid #494747;
+    padding-bottom: 20px;
+  }
+
+  .main {
+    padding: 20px;
+  }
+
+  .content {
+    margin-top: 15px;
+  }
+
+  .description {
+    margin-top: 10px;
+    color: var(--seconday-text);
+  }
+
+  .author {
+    color: var(--seconday-text);
+    margin-top: 6px;
+  }
+}

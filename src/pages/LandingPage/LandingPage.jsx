@@ -1,75 +1,86 @@
-import BrowseLink from "../../components/LandingPageComponents/BrowseLink/BrowseLink";
-import MainCardContainer from "../../components/LandingPageComponents/MainCardContainer/MainCardContainer";
-import Data from "../../Data.json";
-import CardData from "../../Data.json";
-import SecondaryCardContainer from "../../components/LandingPageComponents/SecondaryCardContainer";
+import { useSelector } from "react-redux";
 
+import Data from "../../Data.json";
 import styles from "./landingPage.module.css";
-import {
-  MdOutlineKeyboardArrowRight,
-  MdKeyboardArrowLeft,
-  MdKeyboardArrowRight,
-} from "react-icons/md";
+import MainCardContainer from "../../components/LandingPageComponents/MainCardContainer/MainCardContainer";
+import SecondaryCardContainer from "../../components/LandingPageComponents/SecondaryCardContainer";
 import FreeCardContainer from "../../components/LandingPageComponents/FreeCardContainer";
+import MiniCardContainer from "../../components/LandingPageComponents/MiniCardContainer/MiniCardContainer";
+import BrowseLink from "../../components/LandingPageComponents/BrowseLink/BrowseLink";
+import Header from "../../components/header";
+import SubNavbar from "../../components/SubNavbar";
 
 const LandingPage = () => {
-  const sale = Data;
-  const SecondaryCardData = CardData;
+  const landingPageData = useSelector((state) => state.landingPageData);
+  const saleData = landingPageData.slice(0, 5);
+  const recentlyUpdatedData = landingPageData.slice(5, 10);
+  const mostPopularData = landingPageData.slice(10, 15); // to be changed
+  const newToStoreData = landingPageData.slice(10, 15);
+
+  const secondaryCardData = Data; // to be changed
 
   return (
     <>
+      <Header />
       <div className={styles.main}>
         <div className={styles.landing_container}>
-          {/* Main Card Container Section  */}
-          <div className={styles.mainCardContainer}>
-            <div className={styles.heading_div}>
-              <div className={styles.title}>
-                <p className={styles.heading}>Games on Sale</p>
-                <div className={styles.icon}>
-                  <MdOutlineKeyboardArrowRight />
-                </div>
-              </div>
-
-              <div className={styles.arrowIcon_div}>
-                <div className={styles.arrowicon}>
-                  <MdKeyboardArrowLeft />
-                </div>
-
-                <div className={styles.arrowicon}>
-                  <MdKeyboardArrowRight />
-                </div>
+          <SubNavbar />
+          <div className={styles.main_container}>
+            <div className={styles.mainCardContainer}>
+              <div className={styles.data_cont}>
+                <MainCardContainer data={saleData} />
               </div>
             </div>
 
-            <div className={styles.data_cont}>
-              <MainCardContainer data={sale} />
+            <div className={styles.secondaryCardContainer}>
+              <SecondaryCardContainer
+                data={[secondaryCardData[6], secondaryCardData[14]]}
+              />
             </div>
+
+            <div className={styles.freeCardContainer}>
+              <FreeCardContainer />
+            </div>
+
+            <div className={styles.minicard}>
+              <div className={styles.miniCardContainer}>
+                <MiniCardContainer data={saleData} heading="New Releases" />
+              </div>
+
+              <div className={styles.miniCardContainer}>
+                <MiniCardContainer data={newToStoreData} heading="Top Sellers" />
+              </div>
+
+              <div className={styles.miniCardContainer}>
+                <MiniCardContainer data={mostPopularData} heading="Coming Soon" />
+              </div>
+            </div>
+
+            <div className={styles.secondaryCardContainer}>
+              <SecondaryCardContainer
+                data={[secondaryCardData[2], secondaryCardData[3]]}
+              />
+            </div>
+
+            <div className={styles.mainCardContainer}>
+              <div className={styles.data_cont}>
+                <MainCardContainer data={recentlyUpdatedData} />
+              </div>
+            </div>
+
+            <div className={styles.mainCardContainer}>
+              <div className={styles.data_cont}>
+                <MainCardContainer data={newToStoreData} />
+              </div>
+            </div>
+
+            <div className={styles.secondaryCardContainer}>
+              <SecondaryCardContainer
+                data={[secondaryCardData[4], secondaryCardData[5]]}
+              />
+            </div>
+            <BrowseLink />
           </div>
-
-          {/* Secondary Card Container Section  */}
-
-          <div className={styles.secondaryCardContainer}>
-            <SecondaryCardContainer
-              data={[SecondaryCardData[0], SecondaryCardData[1]]}
-            />
-          </div>
-
-          <div className={styles.freeCardContainer}>
-            <FreeCardContainer />
-          </div>
-
-          {/* <div className={styles.secondaryCardContainer}>
-            <SecondaryCardContainer
-              data={[SecondaryCardData[2], SecondaryCardData[3]]}
-            />
-          </div>
-
-          <div className={styles.secondaryCardContainer}>
-            <SecondaryCardContainer
-              data={[SecondaryCardData[4], SecondaryCardData[5]]}
-            />
-          </div> */}
-          <BrowseLink />
         </div>
       </div>
     </>

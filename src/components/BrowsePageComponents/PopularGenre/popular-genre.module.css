@@ -2,39 +2,6 @@
   margin: 30px 8px 40px;
 }
 
-.top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.heading {
-  font-size: 18px;
-}
-
-.icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-}
-
-.icon {
-  background-color: gray;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 6px;
-  font-size: 20px;
-}
-
-.icon:hover {
-  background-color: #444343;
-  cursor: pointer;
-}
-
 .cards {
   display: flex;
   overflow-x: scroll;
