@@ -73,6 +73,14 @@ const GameCard = ({ data }) => {
               </div>
               <img src={data.images[2]} alt="" />
 
+              <div className={styles.game_features}>
+                {data.gameFeatures.map((e, i) => (
+                  <p className={styles.list} key={i}>
+                    • {e}
+                  </p>
+                ))}
+              </div>
+
               <div className={styles.images_div}>
                 <img src={data.images[3]} alt="" />
                 <img src={data.images[4]} alt="" />
