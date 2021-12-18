@@ -28,7 +28,9 @@ const SubNavbar = () => {
             <IoIosArrowDown className={styles.icon_a} />
           )}
         </div>
-        <MdOutlineCheckCircleOutline className={styles.icon} />
+        <Link to="/wishlist">
+          <MdOutlineCheckCircleOutline className={styles.icon} />
+        </Link>
 
         {isAccordianOpen ? (
           <div className={styles.accordion_modal}>
