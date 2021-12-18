@@ -37,7 +37,7 @@ const App = () => {
           <BrowsePage />
         </Route>
 
-        <Route exact path="/game/:id">
+        <Route exact path="/games/:id">
           <GamePage />
         </Route>
 

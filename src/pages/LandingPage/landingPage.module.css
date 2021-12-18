@@ -41,25 +41,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1200px;
   }
 
   .mainCardContainer {
     padding: 5px;
-    max-width: 1200px;
     margin: auto;
   }
 
   .secondaryCardContainer {
     padding: 5px;
-    max-width: 1200px;
     margin: auto;
     margin-top: 40px;
   }
 
   .freeCardContainer {
     padding: 30px;
-    max-width: 1200px;
     margin: auto;
     margin-top: 40px;
     background-color: var(--light-black);
@@ -96,9 +92,15 @@
 
   .minicard {
     display: flex;
-    max-width: 1200px;
     flex-direction: row;
     margin: auto;
     gap: 40px;
+  }
+}
+
+
+@media (min-width: 1120px) {
+  .landing_container {
+    margin: 0 132px
   }
 }
