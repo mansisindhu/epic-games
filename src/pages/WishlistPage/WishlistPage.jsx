@@ -2,9 +2,9 @@ import React from "react";
 import styles from "./wishlist.module.css";
 import Header from "../../components/header";
 import SubNavbar from "../../components/SubNavbar";
-import NotificationBar from "../../components/WishlistComponent/NotificationBar/NotificationBar";
-import EmptyCard from "../../components/WishlistComponent/EmptyPage/EmptyCard";
-import Card from "../../components/WishlistComponent/Card/Card";
+import NotificationBar from "../../components/WishlistComponent/NotificationBar";
+import EmptyCard from "../../components/WishlistComponent/EmptyPage";
+import Card from "../../components/WishlistComponent/Card";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
