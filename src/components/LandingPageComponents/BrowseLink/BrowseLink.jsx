@@ -16,7 +16,7 @@ const BrowseLink = () => {
           <p className={styles.subheading}>
             Explore our catalog for your next favorite game!
           </p>
-          <button className={styles.btn}>LEARN MORE</button>
+          <button className={styles.btn}>Learn More</button>
         </div>
       </div>
     </>

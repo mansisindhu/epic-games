@@ -754,18 +754,7 @@
       "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-04-1920x1080-0e092337070e.jpg?h=720&resize=1&w=1280",
       "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-05-1920x1080-496606c24ad8.jpg?h=720&resize=1&w=1280",
       "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-07-1920x1080-4c3266991b74.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-08-1920x1080-6b4bd2f44cb3.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-09-1920x1080-553740f3b907.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-10-1920x1080-aace2959621f.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-11-1920x1080-5a44a8f49714.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-12-2-1920x1080-3a10c22e711b.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-12-1920x1080-971d706285f2.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-13-1920x1080-36734e8b5524.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-14-1920x1080-9c99c60af02c.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g2-00-1920x1080-e46421defc46.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g2-03-1920x1080-1edfd84d7b72.jpg?h=720&resize=1&w=1280",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-18-1920x1080-7a20158914e2.jpg",
-      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-19-2-1920x1080-318f60286bd7.jpg?h=720&resize=1&w=1280"
+      "https://cdn2.unrealengine.com/egs-core-manticoregames-g1a-08-1920x1080-6b4bd2f44cb3.jpg"
     ],
 
     "images": [
@@ -910,7 +899,6 @@
     ],
     "heroImages": [
       "https://cdn2.unrealengine.com/multi-sofa-1382x778-7c3f90a5d8c8.png",
-      "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-01-1920x1080-865917f0a2ff.jpg",
       "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-05-1920x1080-45017114f781.jpg",
       "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-06-1920x1080-0b91a2640fad.jpg",
       "https://cdn2.unrealengine.com/egs-unspottable-groschevaux-g1a-04-1920x1080-80c336f7a6b5.jpg",
@@ -1208,6 +1196,77 @@
       "https://cdn1.epicgames.com/spt-assets/ec4f866d28344e018a4d6b01ae7efdc6/street-striker-1gisg.jpg?h=720&resize=1&w=1280",
       "https://cdn1.epicgames.com/spt-assets/ec4f866d28344e018a4d6b01ae7efdc6/street-striker-1nq10.png?h=720&resize=1&w=1280",
       "https://cdn1.epicgames.com/spt-assets/ec4f866d28344e018a4d6b01ae7efdc6/street-striker-1dqk6.jpg?h=720&resize=1&w=1280"
+    ],
+    "rating": {
+      "criticRecommend": 46,
+      "topCriticAverage": 80,
+      "openCriticrating": "Fair"
+    },
+    "reviews": [
+      {
+        "organisation": "IGN",
+        "author": "Mona hemsworth",
+        "rating": 9,
+        "description": "It's shocking how much depth Dead By Daylight packs into its systems.",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "God is a Geek",
+        "author": "Steve Hems",
+        "rating": 9.5,
+        "description": "The tension is high in every match, with jump scares and thrilling chases peppering each encounter with the killer",
+        "link": "https://opencritic.com/"
+      },
+      {
+        "organisation": "Game Rant",
+        "author": "Nina Dobrav",
+        "rating": 6,
+        "description": "After almost five years, Dead by Daylight has grown into an incredible slasher film simulator, and the best asymmetrical multiplayer game around.'.",
+        "link": "https://opencritic.com/"
+      }
+    ]
+  },
+  {
+    "title": "Neon Abyss",
+    "thumbnail": "https://cdn2.unrealengine.com/egs-neonabyss-veewogames-g1a-03-1920x1080-431036924.jpg",
+    "logo": "https://cdn2.unrealengine.com/egs-neonabyss-veewogames-ic1-400x234-431037467.png?h=270&resize=1&w=480",
+    "cardImage": "https://cdn1.epicgames.com/b0ebefb11a9145488af78f6d2488afff/offer/EGS_NeonAbyss_VeewoGames_S2-1200x1600-938641f8dd1d12f01c673524e11866d0.jpg?h=854&resize=1&w=640",
+    "cardTagline": "Veewo Games | Team17 Digital Ltd",
+    "price": {
+      "mainPrice": 1299,
+      "discount": 46
+    },
+    "developer": "Veewo Games",
+    "publisher": "Team17 Digital Ltd",
+    "releaseDate": "April 16, 2016",
+    "platform": ["Windows"],
+    "description": "Neon Abyss is a frantic, roguelike where you run ‘n’ gun your way into the Abyss as part of the ‘Grim Squad’. Featuring unlimited item synergies and a unique dungeon evolution system, each run diversifies the experience and every choice alters the ruleset.",
+    "genres": ["Action", "Survival"],
+    "features": ["multiplayer"],
+    "tags": ["Top Seller", "Most Popular"],
+    "aboutGame": "Combining furious run ‘n’ gun action and deep, roguelike mechanics, Neon Abyss pits you as a member of the ‘Grim Squad’ – a task force set-up by Hades himself to infiltrate the Abyss and defeat the New Gods. Death is not the end as every time you die, you’ll find yourself more empowered than before.",
+    "gameFeatures": [
+      "With each run, you will be able to unlock new rooms, items, bosses, special rules and even new endings! This means each dungeon is unique and expandable, being tailored to your own specific playstyle.",
+      "As you progress through each dungeon, random item drops will be key in helping you infiltrate the Abyss and these passive effects can stack between every item. With no limit to how many can apply; a wide variety of combinations will make each run unique.",
+      "If you need some company on your journey into the depths of the abyss, or just some additional firepower or assistance, eggs can be found which will turn into a random pet that has a special ability and will evolve the longer you survive.",
+      "Take a short break from slaying minions and take part in random mini-games that will also bag you some loot! Jump into Piano Performances, Meditation Challenge, Dance Competitions, and more – staying alive just got a lot more interesting!"
+    ],
+    "heroImages": [
+      "https://cdn2.unrealengine.com/egs-neonabyss-veewogames-g1a-04-1920x1080-431037522.jpg",
+      "https://cdn2.unrealengine.com/egs-neonabyss-veewogames-g1a-02-1920x1080-431036754.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-neonabyss-veewogames-g1a-05-1920x1080-431037289.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-neonabyss-veewogames-g1a-06-1920x1080-431037550.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-neonabyss-veewogames-g1a-07-1920x1080-431037396.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-neonabyss-veewogames-g1a-01-1920x1080-431036717.jpg",
+      "https://cdn2.unrealengine.com/egs-neonabyss-veewogames-g1a-08-1920x1080-431037411.jpg?h=720&resize=1&w=1280"
+    ],
+
+    "images": [
+      "https://cdn2.unrealengine.com/egs-neonabyss-veewogames-g1a-05-1920x1080-431037289.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-neonabyss-veewogames-g1a-06-1920x1080-431037550.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-neonabyss-veewogames-g1a-07-1920x1080-431037396.jpg?h=720&resize=1&w=1280",
+      "https://cdn2.unrealengine.com/egs-neonabyss-veewogames-g1a-01-1920x1080-431036717.jpg",
+      "https://cdn2.unrealengine.com/egs-neonabyss-veewogames-g1a-08-1920x1080-431037411.jpg?h=720&resize=1&w=1280"
     ],
     "rating": {
       "criticRecommend": 46,

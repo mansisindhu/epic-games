@@ -1,0 +1,32 @@
+.price {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 28px;
+}
+
+.blue_button {
+  background-color: var(--main-blue);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 4px 5px;
+  border-radius: 4px;
+  min-width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prev_price {
+  text-decoration: line-through;
+  font-size: 14px;
+  line-height: 20px;
+  color: #cccccc;
+}
+
+.disounted_price {
+  font-size: 16px;
+  line-height: 20px;
+}

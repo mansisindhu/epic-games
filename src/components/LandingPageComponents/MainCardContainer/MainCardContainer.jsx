@@ -1,27 +1,23 @@
+import TopCategorySlider from "../../TopCategorySlider";
 import MainCard from "../MainCard";
 import styles from "./mainCardContainer.module.css";
 
-const MainCardContainer = ({ data, heading }) => {
-  console.log(data);
-
+const MainCardContainer = ({ data }) => {
   return (
     <>
+      <TopCategorySlider text="Games on Sale" />
       <div className={styles.mainCardContainer}>
-        <h1>{heading}</h1>
         <div className={styles.container}>
-          {data.map((el) => {
+          {data.map((el, i) => {
             return (
-              <>
-                <div className={styles.card}>
-                  <MainCard
-                    image={el.cardImage}
-                    title={el.title}
-                    tagline={el.cardTagline}
-                    discount={el.price.discount}
-                    price={el.price.mainPrice}
-                  />
-                </div>
-              </>
+              <div key={i} className={styles.card}>
+                <MainCard
+                  image={el.cardImage}
+                  title={el.title}
+                  tagline={el.cardTagline}
+                  price={el.price}
+                />
+              </div>
             );
           })}
         </div>

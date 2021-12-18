@@ -1,0 +1,12 @@
+.card {
+  /* background-color: deepskyblue; */
+  background-color: var(--main-gray);
+  width: 100%;
+  border-radius: 4px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}

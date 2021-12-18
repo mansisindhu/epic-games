@@ -22,4 +22,8 @@
     gap: 10px;
     width: 100%;
   }
+
+  .mainCardContainer {
+    margin-top: 20px;
+  }
 }

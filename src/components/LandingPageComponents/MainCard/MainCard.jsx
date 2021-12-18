@@ -1,12 +1,14 @@
 import styles from "./mainCard.module.css";
+import PriceComponent from "../PriceComponent";
+
 const MainCard = (props) => {
-  const { image, title, tagline, price, discount } = props;
+  const { image, title, tagline, price } = props;
   console.log(image);
 
   return (
     <>
       <div className={styles.card}>
-        <a className={styles.card} href="">
+        <a className={styles.card} href="#">
           <div className={styles.image_div}>
             <img className={styles.banner} src={image} alt="cardImage" />
             <div className={styles.icon}>
@@ -18,11 +20,8 @@ const MainCard = (props) => {
             <div className={styles.tagline_cont}>
               <p className={styles.tagline}> {tagline}</p>
             </div>
-            <div className={styles.price_div}>
-              <div className={styles.discount}>
-                <p>-{discount}%</p>
-              </div>
-              <p className={styles.mrp}>₹{price}</p>
+            <div className={styles.price}>
+              <PriceComponent price={price} />
             </div>
           </div>
         </a>
