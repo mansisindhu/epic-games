@@ -9,6 +9,7 @@ import GamePage from "./pages/GamePage";
 import SignupOptionsPage from "./pages/SignupOptionsPage";
 import SignupPage from "./pages/SignupPage";
 import { fetchGames, fetchUser } from "./store/actions";
+import { WishlistPage } from "./pages/WishlistPage/WishlistPage";
 
 const App = () => {
   const dispatch = useDispatch();
@@ -42,7 +43,7 @@ const App = () => {
         </Route>
 
         <Route exact path="/wishlist">
-          {/* wishlist */}
+          <WishlistPage />
         </Route>
       </Switch>
     </div>
