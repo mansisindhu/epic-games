@@ -84,6 +84,7 @@ const fetchGames = () => async (dispatch) => {
   }
 };
 
+// filter the games on browse page
 const filterData = (query) => async (dispatch) => {
   try {
     const { data } = await axios.get(
@@ -103,6 +104,42 @@ const sortGames = (data) => (dispatch) => {
   dispatch(getGames(data));
 };
 
+// Add to wishlist
+const addToWishlist = (id) => async (dispatch) => {
+  try {
+    await axios.patch(
+      `${process.env.REACT_APP_BACKEND_URL}/user/add-wishlist`,
+      {
+        gameId: id,
+      },
+      {
+        withCredentials: true,
+      }
+    );
+    dispatch(fetchUser());
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+// Add to wishlist
+const addToOrders = (id) => async (dispatch) => {
+  try {
+    await axios.patch(
+      `${process.env.REACT_APP_BACKEND_URL}/user/add-orders`,
+      {
+        gameId: id,
+      },
+      {
+        withCredentials: true,
+      }
+    );
+    dispatch(fetchUser());
+  } catch (err) {
+    console.log(err);
+  }
+};
+
 export {
   fetchGames,
   getGames,
@@ -113,4 +150,6 @@ export {
   logoutUser,
   filterData,
   sortGames,
+  addToWishlist,
+  addToOrders,
 };
