@@ -1,0 +1,35 @@
+/* @media screen and (min-width: 768px) {
+    .main {
+      max-width: 1600px;
+      margin: auto;
+    }
+  
+    .gamePage_container {
+      margin: 0px 74px;
+    }
+} */
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.title {
+  font-size: 50px;
+  /* line-height: 55px; */
+  color: #F5F5F5;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .title {
+    font-size: 30px;
+    color: #F5F5F5;
+  
+  }
+}
