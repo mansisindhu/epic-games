@@ -20,3 +20,16 @@
   color: #F5F5F5;
 
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .title {
+    font-size: 30px;
+    color: #F5F5F5;
+  
+  }
+}

@@ -13,7 +13,7 @@ export const EmptyCard = () => {
           You haven't added anything to your wishlist yet.
         </p>
 
-        <div>
+        <div className={styles.small__div}>
           <p className={styles.small}>Shop for Apps & Games</p>
         </div>
       </div>
