@@ -3,10 +3,11 @@
     height: 100vh;
     background-color: transparent;
     position: absolute;
+    z-index: 100;
 }
   
   .modalContainer {
-      display: flex;
+    display: flex;
     width: 989px;
     height: 1051px;
     padding: 0px 11px;
@@ -15,7 +16,7 @@
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: auto;
-  }
+ }
   
   .titleCloseBtn button {
     background-color: transparent;
@@ -408,3 +409,50 @@
       color: #FFFFFF;
 
   }
+
+
+  /* @media only screen and (max-width: 768px) {
+
+    .modalBackground {
+        width: 100vw;
+        height: 100vh;
+        background-color: transparent;
+        position: absolute;
+        z-index: 100;
+    }
+
+    .modalContainer {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 1051px;
+        padding: 0px 11px;
+        padding-right: 0%;
+        border-radius: 4px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin: auto;
+     }
+
+     .sectionOne {
+        width: 100%;
+        height: 100%;
+        margin-right: 30px;
+        background-color: #FFFFFF;
+    }
+  
+    .sectionTwo {
+        display: flex;
+        flex-direction: row;
+        min-width: 300px;
+        max-width: 400px;
+        width: 320px;
+        border-radius: 4px;
+        background-color: #F5F5F5;
+    }
+
+    .endDiv {
+        display: none;
+    }
+
+  } */
