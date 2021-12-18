@@ -1,6 +1,10 @@
 import styles from "./signup-options.module.css";
 
 const SignupOptionsPage = () => {
+  const login = () => {
+    window.location.href = `${process.env.REACT_APP_BACKEND_URL}/auth/google`;
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.icon}>
@@ -20,7 +24,10 @@ const SignupOptionsPage = () => {
           <img src="/social-icons/Facebook.svg" alt="logo-img" />
           <p className={styles.text}>SIGN IN WITH FACEBOOK</p>
         </div>
-        <div className={[styles.option, styles.abled].join(" ")}>
+        <div
+          onClick={login}
+          className={[styles.option, styles.abled].join(" ")}
+        >
           <img src="/social-icons/Google.svg" alt="logo-img" />
           <p className={styles.text}>SIGN IN WITH GOOGLE</p>
         </div>
