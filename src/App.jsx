@@ -1,4 +1,6 @@
 import { Switch, Route } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { useEffect } from "react";
 
 import "./index.css";
 import BrowsePage from "./pages/BrowsePage";
@@ -6,8 +8,16 @@ import LandingPage from "./pages/LandingPage";
 import GamePage from "./pages/GamePage";
 import SignupOptionsPage from "./pages/SignupOptionsPage";
 import SignupPage from "./pages/SignupPage";
+import { fetchGames, fetchUser } from "./store/actions";
 
 const App = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchUser());
+    dispatch(fetchGames());
+  }, []);
+
   return (
     <div className="App">
       <Switch>
