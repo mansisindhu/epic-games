@@ -79,11 +79,6 @@ const LandingPage = () => {
               </div>
             </div>
 
-            <div className={styles.secondaryCardContainer}>
-              <SecondaryCardContainer
-                data={[secondaryCardData[4], secondaryCardData[5]]}
-              />
-            </div>
             <BrowseLink />
           </div>
         </div>
