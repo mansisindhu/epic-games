@@ -1,10 +1,10 @@
 import styles from "./paymentCard.module.css";
 import { ImWindows8 } from "react-icons/im";
 import { FaApple } from "react-icons/fa";
+import PriceComponent from "../../PriceComponent";
 
 const PaymentCard = (props) => {
-  const { logo, discount, price, developer, publisher, releaseDate, platform } =
-    props;
+  const { logo, developer, price, publisher, releaseDate, platform } = props;
   return (
     <>
       <div className={styles.main}>
@@ -12,13 +12,12 @@ const PaymentCard = (props) => {
           <img src={logo} alt="logo" />
         </div>
 
-        <div className={styles.basegame}>Base Game</div>
+        <div className={styles.upper}>
+          <div className={styles.basegame}>Base Game</div>
 
-        <div className={styles.price_div}>
-          <div className={styles.discount}>
-            <p>-{discount}%</p>
+          <div className={styles.price}>
+            <PriceComponent price={price} />
           </div>
-          <p className={styles.mrp}>₹{price}</p>
         </div>
 
         <div className={styles.buttons}>

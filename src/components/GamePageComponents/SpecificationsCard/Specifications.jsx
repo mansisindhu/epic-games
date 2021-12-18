@@ -79,25 +79,43 @@ const Specifications = () => {
         </div>
 
         <div className={styles.lang_div}>
-          <p>Languages</p>
+          <p>Languages Supported</p>
           <div className={styles.lang}>
-            <p>
-              AUDIO: English, French, German, Russian, Portuguese (Brazilian),
-              Spanish (LATAM), Japanese // + Spanish in DLCs only
-            </p>
-            TEXT: English, French, Italian, German, Spanish, Polish, Russian,
-            Portuguese (Brazilian), Spanish (LATAM), Japanese, Korean, Chinese
-            (Traditional), Chinese (Simplified), Arabic, Thailand
-            <p></p>
+            <div className={styles.audio}>
+              <p className={styles.lang_heading}>Audio</p>
+              <div className={styles.languages}>
+                <p>English</p> <p>Portuguese</p> <p> French</p> <p>Chinese</p>
+                <p>Spanish</p> <p>Russian</p> <p>Polish</p>
+                <p>German</p>
+                <p>Japanese</p> <p>Italian</p>
+              </div>
+            </div>
+
+            <div className={styles.text}>
+              <p className={styles.lang_heading}>Text</p>
+              <div className={styles.languages}>
+                <p>English</p> <p>Portuguese</p> <p> French</p> <p>Chinese</p>
+                <p>Spanish</p> <p>Russian</p> <p>Polish</p>
+                <p>German</p>
+                <p>Japanese</p> <p>Italian</p>
+              </div>
+            </div>
           </div>
         </div>
 
         <div className={styles.terms}>
-          <p>*CONDITIONS AND RESTRICTIONS APPLY.</p>
+          <p>CONDITIONS AND RESTRICTIONS APPLY.</p>
           <div className={styles.info}>
             <p>
-              SEE
-              https://www.ea.com/games/battlefield/battlefield-2042/disclaimers
+              SEE{" "}
+              <a
+                className={styles.linkweb}
+                href="https://www.epicgames.com/store/en-US/p/"
+                rel="noreferrer"
+              >
+                {" "}
+                EPIC GAMES{" "}
+              </a>
               FOR DETAILS. NO WEAPON, VEHICLE OR GEAR MANUFACTURER IS AFFILIATED
               WITH OR HAS SPONSORED OR ENDORSED THIS GAME.
             </p>

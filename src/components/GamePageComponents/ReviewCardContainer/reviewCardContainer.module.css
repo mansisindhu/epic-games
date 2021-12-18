@@ -1,12 +1,31 @@
 .card {
-  /* background-color: deepskyblue; */
   background-color: var(--main-gray);
   width: 100%;
   border-radius: 4px;
 }
 
 .container {
+  overflow-x: scroll;
   display: flex;
   gap: 20px;
+  width: 100%;
+  align-items: center;
   margin-top: 10px;
+}
+
+.card {
+  flex-shrink: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    overflow-x: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
 }

@@ -106,8 +106,7 @@ const GameCard = ({ data }) => {
           <div className={styles.payment}>
             <PaymentCard
               logo={data.logo}
-              discount={data.price.discount}
-              price={data.price.mainPrice}
+              price={data.price}
               developer={data.developer}
               publisher={data.publisher}
               releaseDate={data.releaseDate}
