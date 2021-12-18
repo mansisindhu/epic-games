@@ -39,18 +39,19 @@
 .name{
     margin-left: 12.5%;
     color: white;
-    margin-top:20px;
+    margin-top:5px;
     font-size: 25px;
 }
 .dropdown{
     display:none;
 }
 .line{
-    width:76%;
+    /* width:450px; */
     height:1px;
     background-color:grey;
     margin-left:12%;
     margin-top:30px;
+    margin-right: 12%;
 }
 .imgbox{
     width: 270px;
@@ -70,26 +71,33 @@
     opacity: 0.3;
   }
 .day{
-    margin-left:450px;
+    margin-left:500px;
     margin-top: -150px;
     color:white;
 }
+.subnav{
+  
+}
 .intro{
-    margin-left: 450px;
+    margin-left: 500px;
     margin-top:10px;
     color:white;
-    width:30%;
+    margin-right:12%;
+   
 }
 .read{
-    margin-left:450px;
+    margin-left:500px;
     color:white;
     margin-top:70px;
+    text-decoration: none;
+
+   
 }
 .bar2{
     width:80px;
     height:3px;
     background-color:grey;
-    margin-left:448px;
+    margin-left:498px;
     border-radius:1px;
 }
 .bar2:hover{
@@ -101,6 +109,15 @@
 .gapping{
     padding:20px;
 }
+/* @media (max-width: 970px){
+.intro{
+    
+        margin-left: 450px;
+        margin-top:10px;
+        color:white;
+        width:230px;      
+    
+} */
 
 @media (max-width: 768px){
     .main{
@@ -114,12 +131,18 @@
        flex-direction: row;
     }
     .search{
-         width:130px;
+         /* width:130px;
         height: 45px;
         border-radius:100px;
         background-color: #202020;
-        margin-top:50px; 
+        margin-top:50px;  */
+
+        display:none;
         
+    }
+    .subnav{
+       margin-left:-14px;  
+        display:block;
     }
     .icon{
         height: 20px;
@@ -145,7 +168,7 @@
     .name{
         margin-left: 6%;
         color: white;
-        margin-top:20px;
+       
         font-size: 25px;
     }
     .line{

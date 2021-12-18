@@ -1,52 +1,62 @@
 import styles from './News.module.css'
-import Footer from '../Footer/Footer'
-export default function News(){
+import Footer from '../../Footer/Footer'
+import { Link } from 'react-router-dom';
+import SubNavbar from '../../SubNavbar';
+const  News = () =>{
     return(
         <div className={styles.main}>
             <div className={styles.topbar}>
-                <div type="text" className={styles.search}>
+
+
+            
+                {/* <div type="text" className={styles.search}>
                     <img className={styles.icon} src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png"></img>
                     <h5 className={styles.searchword}>Search</h5>
                     <div className={styles.dropdown}>
-  <button className={styles.dropbtn}>News</button>
+  {/* <button className={styles.dropbtn}>News</button>
   <div className={styles.dropdowncontent}>
     <a href="#">Discover</a>
     <a href="#">Browse</a>
     <a href="#">News</a>
   </div>
-    </div>
+    </div> */}
+            {/* </div>
 
+              </div> */} 
 
-              </div>
-
-              
-                <div className={styles.tags}>
+      
+                {/* <div className={styles.tags}>
                     <a>Discovered</a>
                     <a>Browse</a>
                     <a>News</a>
-                </div>
+                </div> */}
+
+                <div className={styles.subnav}>
+                     <SubNavbar/>
+                        </div>  
+
+
                 </div>
 
           <div className={styles.name}>News</div>
 
-
-                <div className={styles.line}></div>
+                {/* <div className={styles.line}></div> */}
                 <div className={styles.container}>
                <img className={styles.imgbox} src="https://cdn2.unrealengine.com/of-bird-and-cage-live-now-on-epic-games-store-1920x1080-922da1725def.png?h=480&resize=1&w=854"></img>
                </div>
                <div className={styles.day}>1H AGO</div>
-               <div className={styles.intro}>Experience metal music fused with an emotional<br></br> game in Of Bird and Cage</div>
-               <div className={styles.read}>Read more</div>
+               <div className={styles.intro}>Experience metal music fused with an emotional game in Of Bird and Cage</div>
+               <div className={styles.read} style = {{textDecoration: "none",color: "white"}}><Link to={"/Readmore"}>Read more</Link></div>
                <div className={styles.bar2}></div>
 
 
                <div className={styles.line}></div>
                 <div className={styles.container}>
-               <img className={styles.imgbox} src="https://cdn2.unrealengine.com/the-epic-games-store-shopping-cart-is-here-1920x1080-0a7549b472a9.png?h=480&resize=1&w=854"></img>
+               <img className={styles.imgbox} src="https://cdn2.unrealengine.com/jurassic-world-evolution-2-early-cretaceous-pack-1920x1080-e999ad26e304.jpg?h=480&resize=1&w=854"></img>
                </div>
                <div className={styles.day}>1D AGO</div>
-               <div className={styles.intro}>Introducing the Epic Games Store Shopping Cart</div>
-               <div className={styles.read}>Read more</div>
+               <div className={styles.intro}>Discover a stunning array of Cretaceous animals with Jurassic World Evolution 2: Early Cretaceous Pack</div>
+               <div className={styles.read}><Link to={"/Readmorejurassic"}>Read more</Link></div>
                <div className={styles.bar2}></div>
 
                <div className={styles.line}></div>
@@ -60,10 +70,10 @@ export default function News(){
 
                <div className={styles.line}></div>
                 <div className={styles.container}>
-               <img className={styles.imgbox} src="https://cdn2.unrealengine.com/prison-architect-free-on-epic-games-until-december-16-2560x1440-c08bcc581d49.jpg?h=480&resize=1&w=854"></img>
+                <img className={styles.imgbox} src="https://cdn2.unrealengine.com/prison-architect-free-on-epic-games-until-december-16-2560x1440-c08bcc581d49.jpg?h=480&resize=1&w=854"></img>
                </div>
                <div className={styles.day}>2D AGO</div>
-               <div className={styles.intro}>Getting Started with Prison Architect: 10 Tips <br></br>and Tricks to Being the World’s Best Warden</div>
+               <div className={styles.intro}>Getting Started with Prison Architect: 10 Tips and Tricks to Being the World’s Best Warden</div>
                <div className={styles.read}>Read more</div>
                <div className={styles.bar2}></div>
 
@@ -90,7 +100,7 @@ export default function News(){
                <img className={styles.imgbox} src="https://cdn2.unrealengine.com/godfall-challenger-edition-free-this-week-on-epic-games-store-1920x1080-5cc681fc44e7.png?h=480&resize=1&w=854"></img>
                </div>
                <div className={styles.day}>4D AGO</div>
-               <div className={styles.intro}>The brand new Godfall: Challenger Edition is the free <br></br> game of the week!</div>
+               <div className={styles.intro}>The brand new Godfall: Challenger Edition is the free game of the week!</div>
                <div className={styles.read}>Read more</div>
                <div className={styles.bar2}></div>
 
@@ -99,7 +109,7 @@ export default function News(){
                <img className={styles.imgbox} src="https://cdn2.unrealengine.com/wolfstride-versus-1598x896-4f3d29f4c328.png?h=480&resize=1&w=854"></img>
                </div>
                <div className={styles.day}>4D AGO</div>
-               <div className={styles.intro}>Wolfstride comes screaming out of Brazil and onto the <br></br>Epic Games Store today</div>
+               <div className={styles.intro}>Wolfstride comes screaming out of Brazil and onto the Epic Games Store today</div>
                <div className={styles.read}>Read more</div>
                <div className={styles.bar2}></div>
 
@@ -108,7 +118,7 @@ export default function News(){
                <img className={styles.imgbox} src="https://cdn2.unrealengine.com/dying-light-2-stay-human-gameplay-2-1920x1080-64fb3eeadbf5.jpg?h=480&resize=1&w=854"></img>
                </div>
                <div className={styles.day}>5D AGO</div>
-               <div className={styles.intro}>New Dying Light 2 Stay Human Video Walks You Through<br></br> 15 Minutes of Gameplay</div>
+               <div className={styles.intro}>New Dying Light 2 Stay Human Video Walks You Through 15 Minutes of Gameplay</div>
                <div className={styles.read}>Read more</div>
                <div className={styles.bar2}></div>
 
@@ -154,3 +164,5 @@ export default function News(){
         
     );
 }
+
+export default News;
