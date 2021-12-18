@@ -1,0 +1,410 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    position: absolute;
+}
+  
+  .modalContainer {
+      display: flex;
+    width: 989px;
+    height: 1051px;
+    padding: 0px 11px;
+    padding-right: 0%;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  /*  */
+
+  .sectionOne {
+      width: 687px;
+      height: 100%;
+      margin-right: 30px;
+      background-color: #FFFFFF;
+  }
+
+  .sectionTwo {
+      display: flex;
+      flex-direction: column;
+      width: 264px;
+      height: 100%;
+      border-radius: 4px;
+      background-color: #F5F5F5;
+  }
+
+  .topBox {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      width: 343px;
+      height: 80px;
+      background-color: #FFFFFF;
+      box-shadow: inset 0px -2px 0px;
+      border-bottom: 2px solid #0078F2;
+  }
+
+  .topBox p {
+      color: #000000;
+      font-size: 22px;
+  }
+
+  .others {
+      height: 25px;
+      width: 204px;
+      margin: 10px 0px;
+  }
+
+  .others p {
+      font-size: 16px;
+      color: #4E4E4E;
+
+  }
+
+  .mainBox {
+      width: 687px;
+      border-radius: 4px;
+
+  }
+
+  .creditBoxSmall {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 44px;
+    background-color: #F5F5F5;
+    padding: 10px;
+    margin: 10px 0px;
+  }
+
+  .mainBox div:nth-child(2) {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 44px;
+      background-color: #F5F5F5;
+      padding: 10px;
+      margin: 10px 0px;
+
+  }
+
+  [type="radio"] {
+
+      width: 24px;
+      height: 24px;
+      margin-left: 10px;
+      margin-right: 20px;
+  }
+
+  .mainBox p {
+      font-size: 16px;
+      color: #4E4E4E;
+      margin-left: 10px;
+  }
+
+  .mainBox img {
+      margin-right: 10px;
+  }
+
+  .orderName {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      height: 80px;
+
+  }
+
+  .imagebox__div {
+      width: 224px;
+      height: 310px;
+      border-radius: 4px;
+      margin: 4px 0px;
+  }
+
+  .imagebox__div img {
+      width: 224px;
+      height:310px;
+      border-radius: 4px;
+  }
+
+
+  .orderName p {
+      color: #121212;
+      font-weight: 500;
+      font-size: 14px;
+      margin: 0px 0px;
+  }
+
+  .calc {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: 22px;
+      font-size: 16px;
+      color: #616161;
+      margin-top: 10px;
+
+  }
+
+  .red {
+      color: red;
+  }
+
+  .gameTitle {
+      color: #121212;
+      font-size: 22px;
+      font-weight: 500;
+      margin-top: 10px;
+  }
+
+  .input__div {
+      width: 100%;
+      margin: 10px 0px;
+  }
+
+  .input__div input {
+      width: 100%;
+      background: #F5F5F5;
+      border: none;
+      border: 1px solid #616161;
+      height: 35px;
+      border-radius: 4px;
+      padding: 10px;
+
+  }
+
+  .input__div input::placeholder {
+      color: #616161;
+      font-size: 12px;
+      margin-left: 20px;
+  }
+
+  .display__flex {
+      display: flex;
+  }
+
+  .needHelp {
+      display: flex;
+      margin-top: 20px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+  }
+
+  .checkBox__div {
+      display: flex;
+      width:100%;
+      margin-top: 10px;
+  }
+
+  .checkBox__div [type="checkbox"] {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+        margin-top: 2px;
+  }
+
+  .weigth__bold {
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 20px;
+  }
+
+  .gameOwner {
+      color: #121212;
+  }
+
+
+  /* credit box */
+
+  .creditBoxLarge {
+      display: flex;
+      flex-direction: column;
+      width: 687px;
+      height: 340px;
+      background-color: #F5F5F5;
+      border: 4px;
+      border: 1px solid #0078F2;
+      padding: 8px 8px;
+
+  }
+
+  .display__flex {
+      display: flex;
+      align-items: center;
+  }
+
+  #topDetails {
+      display: flex;
+      height: 25px;
+      width: 600px;
+      align-items: center;
+      justify-content: space-between;
+
+  }
+
+  .topDetails p {
+      color: #4E4E4E;
+      font-size: 10px;
+
+  }
+
+  .cardNumber input {
+      width: 600px;
+      height: 54px;
+      border-radius: 2px;
+      box-sizing: border-box;
+      border: 1px solid #CCCCCC;
+      padding: 16px 16px 16px 10px;
+
+  }
+
+  .cardNumber ::-webkit-input-placeholder{
+      color: #CCCCCC;
+  }
+
+  .imageBox_credit {
+      display: flex;
+  }
+  
+  .twilite {
+      display: flex;
+      width: 600px;
+      margin-left: 10px;
+      margin-top: 20px;
+
+  }
+
+  .twilite input {
+    width: 295px;
+    height: 54px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    padding: 16px 16px 16px 10px;
+  }
+
+  .twilite input:nth-child(1){
+      margin-right: 10px
+  }
+
+  .info {
+      margin-top: 30px;
+      font-size: 9px;
+      color: #2A2A2A;
+      text-align: left;
+  }
+
+  .finalCheck {
+      display: flex;
+      width: 600px;
+      align-items: center;
+      justify-content: flex-start;
+      margin-left: 10px;
+      margin-top: 20px;
+  }
+
+  .finalCheck small {
+      color: #2A2A2A;
+      font-size: 12px;
+  }
+
+  [type="checkbox"] {
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+  }
+
+  .amount__div {
+      margin-top: 20px;
+  }
+
+  #vat {
+      margin-bottom: 10px;
+  }
+
+  .needHelp__div {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+
+  }
+
+  .description {
+      /* text-align: left; */
+      margin-left: 10px;
+      color: #4E4E4E;
+      font-size: 12px;
+  }
+
+  .description span {
+      font-weight: 500;
+      line-height: 20px;
+      font-size: 12px;
+  }
+
+  .needHelp__blue{
+      color: #0078F2;
+      font-size: 14px;
+      margin-right: 3px;
+
+  }
+
+  .needHelp__grey {
+      color: #4E4E4E;
+      font-size: 14px;
+  }
+
+  .endDiv {
+      display: flex;
+      flex-direction: column;
+      width: 264px;
+      height: 158px;
+      box-shadow: 0px -2px 7px rgba(0, 0, 0, 0.16);
+      padding: 20px;
+
+  }
+
+  .topSection {
+      width: 100%;
+      height: 893px;
+      padding: 0px 20px;
+      overflow-y: scroll;
+  }
+
+  .topSection::-webkit-scrollbar {
+      display: none;
+  }
+
+  .agreement {
+      font-size: 10px;
+      color: #000000;
+      line-height: 20px;
+
+  }
+
+  .agreement span {
+      font-size: 10px;
+      color: #0078F2;
+      line-height: 20px;
+  }
+
+  .endDiv button {
+      width: 100%;
+      height: 48px;
+      border: none;
+      border-radius: 4px;
+      background-color: #0078F2;
+      color: #FFFFFF;
+
+  }
