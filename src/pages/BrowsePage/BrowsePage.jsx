@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import { IoFilterSharp } from "react-icons/io5";
+import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 import PopularGenre from "../../components/BrowsePageComponents/PopularGenre";
 import styles from "./browse-page.module.css";
-import Data from "../../Data.json";
 import GameCard from "../../components/BrowsePageComponents/GameCard";
 import FilterModal from "../../components/BrowsePageComponents/Filters/FilterModal";
 import Header from "../../components/header";
@@ -11,6 +12,7 @@ import SubNavbar from "../../components/SubNavbar";
 
 const BrowsePage = () => {
   const [sortingModal, setSortingModalState] = useState(false);
+  const data = useSelector((state) => state.games);
 
   const closeSortingModal = () => {
     setSortingModalState((prev) => !prev);
@@ -26,6 +28,26 @@ const BrowsePage = () => {
     }
   }, [filterModal]);
 
+  const sortGames = (sortBy) => {
+    if (sortBy === "alphabetical") {
+      data.sort((a, b) => a.title.localeCompare(b.title));
+    } else if (sortBy === "highToLow") {
+      data.sort((a, b) => b.price.mainPrice - a.price.mainPrice);
+    } else if (sortBy === "lowToHigh") {
+      data.sort((a, b) => a.price.mainPrice - b.price.mainPrice);
+    } else if (sortBy === "newRelease") {
+      data.sort((date1, date2) => {
+        date1 = new Date(date1.releaseDate);
+        date2 = new Date(date2.releaseDate);
+        return date2 - date1;
+      });
+    }
+  };
+
+  const [activeSort, setActiveSort] = useState("New Release");
+
+  console.log(data);
+
   return (
     <>
       <Header />
@@ -39,20 +61,48 @@ const BrowsePage = () => {
                 <div className={styles.sorting}>
                   <p className={styles.sorting_para}>
                     Sort By:{" "}
-                    <span onClick={closeSortingModal}>New release</span>
+                    <span onClick={closeSortingModal}>{activeSort}</span>
                   </p>
                   {sortingModal ? (
                     <div
                       onClick={closeSortingModal}
                       className={styles.sorting_modal}
                     >
-                      <p className={styles.sorting_option}>New Release</p>
-                      <p className={styles.sorting_option}>Alphabetical</p>
-                      <p className={styles.sorting_option}>
+                      <p
+                        onClick={() => {
+                          sortGames("newRelease");
+                          setActiveSort("New Release");
+                        }}
+                        className={styles.sorting_option}
+                      >
+                        New Release
+                      </p>
+                      <p
+                        onClick={() => {
+                          sortGames("alphabetical");
+                          setActiveSort("Alphabetical");
+                        }}
+                        className={styles.sorting_option}
+                      >
+                        Alphabetical
+                      </p>
+                      <p
+                        onClick={() => {
+                          sortGames("lowToHigh");
+                          setActiveSort("Price: Low to High");
+                        }}
+                        className={styles.sorting_option}
+                      >
                         Price: Low to High
                       </p>
-                      <p className={styles.sorting_option}>
-                        Price: Hight to Low
+                      <p
+                        onClick={() => {
+                          sortGames("highToLow");
+                          setActiveSort("Price: High to Low");
+                        }}
+                        className={styles.sorting_option}
+                      >
+                        Price: High to Low
                       </p>
                     </div>
                   ) : null}
@@ -66,14 +116,17 @@ const BrowsePage = () => {
                 </div>
               </div>
               <div className={styles.data_container}>
-                {Data.map((el, i) => (
+                {data.map((el, i) => (
                   <div key={i} className={styles.card_container}>
-                    <GameCard
-                      image={el.cardImage}
-                      title={el.title}
-                      tagline={el.cardTagline}
-                      price={el.price}
-                    />
+                    <Link to={`/games/${el._id}`}>
+                      <GameCard
+                        image={el.cardImage}
+                        title={el.title}
+                        tagline={el.cardTagline}
+                        price={el.price}
+                        id={el._id}
+                      />
+                    </Link>
                   </div>
                 ))}
               </div>

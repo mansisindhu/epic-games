@@ -115,6 +115,32 @@
   font-size: 12px;
 }
 
+.logout_modal {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 55px;
+  z-index: 9999;
+  right: 125px;
+  padding: 19px;
+  width: 134px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  gap: 12px;
+  color: var(--gray-text);
+  background-color: #2a2a2a;
+}
+
+.logout_modal > a {
+  color: var(--gray-text);
+}
+
+.logout_modal > *:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 768px) {
   .display__none {
     display: none;

@@ -3,6 +3,7 @@ import { BiSearch } from "react-icons/bi";
 import { MdOutlineCheckCircleOutline } from "react-icons/md";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 import styles from "./sub-navbar.module.css";
 
@@ -10,6 +11,8 @@ const SubNavbar = () => {
   const [accoridanText, setAccoridanText] = useState("Discover");
 
   const [isAccordianOpen, setAccordianState] = useState(false);
+  const user = useSelector((state) => state.user);
+
   return (
     <>
       <div className={styles.main}>
@@ -84,9 +87,11 @@ const SubNavbar = () => {
             <div className={styles.option_desktop}>News</div>
           </Link>
         </div>
-        <Link to="/wishlist">
-          <div className={styles.wishlist}>Wishlist</div>
-        </Link>
+        {user.displayName ? (
+          <Link to="/wishlist">
+            <div className={styles.wishlist}>Wishlist</div>
+          </Link>
+        ) : null}
       </div>
     </>
   );

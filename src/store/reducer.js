@@ -1,4 +1,9 @@
-import { GET_USER, FETCH_GAMES, FETCH_LANDING_PAGE_DATA } from "./actionTypes";
+import {
+  GET_USER,
+  FETCH_GAMES,
+  FETCH_LANDING_PAGE_DATA,
+  FILTER_DATA,
+} from "./actionTypes";
 
 const initState = {
   user: {},
@@ -26,6 +31,13 @@ const reducer = (state = initState, { type, payload }) => {
       return {
         ...state,
         landingPageData: [...payload],
+      };
+    }
+
+    case FILTER_DATA: {
+      return {
+        ...state,
+        games: [...payload],
       };
     }
 
