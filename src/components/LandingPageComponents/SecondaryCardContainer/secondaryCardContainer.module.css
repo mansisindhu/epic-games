@@ -3,7 +3,9 @@
   display: flex;
   gap: 20px;
   width: 100%;
-  align-items: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .card {
@@ -21,7 +23,6 @@
     display: flex;
     gap: 30px;
     width: 100%;
-    margin-bottom: 0px;
-    /* background-color: papayawhip; */
+    align-items: flex-start;
   }
 }

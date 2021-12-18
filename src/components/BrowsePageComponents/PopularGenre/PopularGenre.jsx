@@ -1,5 +1,4 @@
-import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
-
+import TopCategorySlider from "../../TopCategorySlider";
 import styles from "./popular-genre.module.css";
 
 const Card = ({ title, img }) => {
@@ -14,17 +13,7 @@ const Card = ({ title, img }) => {
 const PopularGenre = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.top}>
-        <p className={styles.heading}>Popular Genres</p>
-        <div className={styles.icons}>
-          <div className={styles.icon}>
-            <RiArrowLeftSLine />
-          </div>
-          <div className={styles.icon}>
-            <RiArrowRightSLine />
-          </div>
-        </div>
-      </div>
+      <TopCategorySlider text="Popular Genre" />
       <div className={styles.cards}>
         <Card title="Action Games" img="/genre/action_games.svg" />
         <Card title="Casual Games" img="/genre/casual_games.svg" />

@@ -12,27 +12,27 @@ const LinksCard = () => {
   return (
     <>
       <div className={styles.main}>
-        <div>
+        <div className={styles.icon}>
           <FaDiscord />
         </div>
 
-        <div>
+        <div className={styles.icon}>
           <FaFacebookSquare />
         </div>
 
-        <div>
+        <div className={styles.icon}>
           <FaGlobeAsia />
         </div>
 
-        <div>
+        <div className={styles.icon}>
           <FaInstagram />
         </div>
 
-        <div>
+        <div className={styles.icon}>
           <FaTwitter />
         </div>
 
-        <div>
+        <div className={styles.icon}>
           <FaYoutube />
         </div>
       </div>
