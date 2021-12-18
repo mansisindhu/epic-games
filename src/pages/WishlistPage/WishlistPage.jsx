@@ -1,22 +1,32 @@
 import React from "react";
 import styles from "./wishlist.module.css";
-import { Card } from "../../components/Wishlist/Card";
-import { NotificationCard } from "../../components/Wishlist/NotificationCard";
-import { EmptyCard } from "../../components/Wishlist/EmptyCard";
+import Header from "../../components/header";
+import SubNavbar from "../../components/SubNavbar";
+import NotificationBar from "../../components/WishlistComponent/NotificationBar/NotificationBar";
+import EmptyCard from "../../components/WishlistComponent/EmptyPage/EmptyCard";
+import Card from "../../components/WishlistComponent/Card/Card";
 
-export const WishlistPage = () => {
-  const data = {
-    wishlist: [],
-  };
+const WishListPage = () => {
   return (
-    <div className={styles.container}>
-      <div>
-        <p className={styles.title}>Wishlist</p>
+    <>
+      <Header />
+      <div className={styles.main}>
+        <div className={styles.containter}>
+          <SubNavbar />
+
+          <div className={styles.main_container}>
+            <p>Wishlist </p>
+
+            <NotificationBar />
+
+            {/* <EmptyCard /> */}
+            <Card />
+            <Card />
+          </div>
+        </div>
       </div>
-
-      <NotificationCard />
-
-      {!data.wishlist.length ? <EmptyCard /> : <Card />}
-    </div>
+    </>
   );
 };
+
+export default WishListPage;
