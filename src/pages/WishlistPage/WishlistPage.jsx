@@ -6,7 +6,7 @@ import { EmptyCard } from "../../components/Wishlist/EmptyCard";
 
 export const WishlistPage = () => {
   const data = {
-    wishlist: [],
+    wishlist: [1],
   };
   return (
     <div className={styles.container}>

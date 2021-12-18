@@ -1,8 +1,10 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import styles from "./paymentModal.module.css";
+import { PaymentContext } from "../../contexts/PaymentContext";
 
-export const PaymentModal = ({ setOpenModal }) => {
+export const PaymentModal = () => {
+  const { handleOpen } = useContext(PaymentContext);
   const [toggle, setToggle] = useState(false);
 
   const handleChange = () => {
@@ -85,7 +87,7 @@ export const PaymentModal = ({ setOpenModal }) => {
               <div className={styles.titleCloseBtn}>
                 <button
                   onClick={() => {
-                    setOpenModal(false);
+                    handleOpen(false);
                   }}
                 >
                   X

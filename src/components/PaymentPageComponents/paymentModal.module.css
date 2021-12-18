@@ -45,7 +45,7 @@
   .topBox {
       display: flex;
       align-items: center;
-      justify-content: start;
+      justify-content: flex-start;
       width: 343px;
       height: 80px;
       background-color: #FFFFFF;

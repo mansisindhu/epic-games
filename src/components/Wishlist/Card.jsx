@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import styles from "./card.module.css";
+import { PaymentContext } from "../../contexts/PaymentContext";
 
 export const Card = () => {
+  const { handleOpen } = useContext(PaymentContext);
+
   return (
     <div className={styles.container}>
       <div className={styles.imageBox}>
@@ -32,7 +35,7 @@ export const Card = () => {
 
         <div>
           <p>Remove</p>
-          <button>Buy Now</button>
+          <button onClick={() => handleOpen(true)}>Buy Now</button>
         </div>
       </div>
     </div>
