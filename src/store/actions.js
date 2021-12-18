@@ -4,9 +4,12 @@ import { FETCH_GAMES, GET_USER, FETCH_LANDING_PAGE_DATA } from "./actionTypes";
 
 const fetchUser = () => async (dispatch) => {
   try {
-    const { data } = await axios.get(`http://localhost:2930/user`, {
-      withCredentials: true,
-    });
+    const { data } = await axios.get(
+      `${process.env.REACT_APP_BACKEND_URL}/user`,
+      {
+        withCredentials: true,
+      }
+    );
     dispatch(getUser(data.user));
   } catch (err) {
     console.log(err);
@@ -18,6 +21,17 @@ const getUser = (data) => {
     type: GET_USER,
     payload: data,
   };
+};
+
+const logoutUser = () => async (dispatch) => {
+  try {
+    await axios.get(`${process.env.REACT_APP_BACKEND_URL}/logout`, {
+      withCredentials: true,
+    });
+    dispatch(getUser({}));
+  } catch (err) {
+    console.log(err);
+  }
 };
 
 const postUser = (data) => async (dispatch) => {
@@ -70,4 +84,5 @@ export {
   fetchUser,
   getLandingPageData,
   postUser,
+  logoutUser,
 };
