@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { IoFilterSharp } from "react-icons/io5";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 import PopularGenre from "../../components/BrowsePageComponents/PopularGenre";
 import styles from "./browse-page.module.css";
@@ -117,12 +118,15 @@ const BrowsePage = () => {
               <div className={styles.data_container}>
                 {data.map((el, i) => (
                   <div key={i} className={styles.card_container}>
-                    <GameCard
-                      image={el.cardImage}
-                      title={el.title}
-                      tagline={el.cardTagline}
-                      price={el.price}
-                    />
+                    <Link to={`/games/${el._id}`}>
+                      <GameCard
+                        image={el.cardImage}
+                        title={el.title}
+                        tagline={el.cardTagline}
+                        price={el.price}
+                        id={el._id}
+                      />
+                    </Link>
                   </div>
                 ))}
               </div>
