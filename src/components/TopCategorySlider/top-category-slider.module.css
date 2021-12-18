@@ -30,3 +30,20 @@
   background-color: #444343;
   cursor: pointer;
 }
+
+.heading_cont {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.arrow {
+  padding-top: 2px;
+  transition: 0.3s;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+.arrow:hover {
+  transform: translate(10px, 0);
+}

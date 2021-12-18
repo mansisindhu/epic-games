@@ -94,13 +94,13 @@
     display: flex;
     flex-direction: row;
     margin: auto;
-    gap: 40px;
+
+    justify-content: space-between;
   }
 }
 
-
 @media (min-width: 1120px) {
   .landing_container {
-    margin: 0 132px
+    margin: 0 132px;
   }
 }

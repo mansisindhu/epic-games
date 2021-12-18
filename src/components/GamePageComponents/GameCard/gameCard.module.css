@@ -1,7 +1,11 @@
 .container {
   display: flex;
   gap: 40px;
-  flex-direction: column;
+  flex-direction: column-reverse;
+}
+
+.main {
+  padding: 10px;
 }
 
 .card {
@@ -18,8 +22,34 @@
   display: flex;
   gap: 20px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
+.game_heading {
+  margin-bottom: 20px;
+}
+
+.about_game {
+  margin-bottom: 20px;
+  color: var(--seconday-text);
+  line-height: 25px;
+}
+
+.game_features {
+  color: var(--seconday-text);
+}
+
+.list {
+  margin-bottom: 10px;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.reviews {
+  margin-top: 20px;
+}
 .features_title {
   margin-bottom: 10px;
   color: var(--seconday-text);
@@ -50,6 +80,10 @@
 
 .specifications {
   margin-top: 20px;
+}
+
+.specifications_heading {
+  border-bottom: 1px solid #494747;
 }
 
 @media screen and (min-width: 768px) {
@@ -131,15 +165,10 @@
 
   .about_images {
     margin-top: 40px;
-    width: 80%;
-  }
-  .about_images img {
-    width: 101%;
-    border-radius: 4px;
   }
 
   .images_div img {
-    width: 50%;
+    width: 49%;
   }
 
   .images_div {

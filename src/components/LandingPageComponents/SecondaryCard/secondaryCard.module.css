@@ -104,36 +104,28 @@
     margin-bottom: 5px;
   }
 
-  .price_div {
-    margin: 15px 0px;
-    display: flex;
-    gap: 10px;
-  }
-
-  .discount {
-    width: 50px;
-    height: 25px;
-    background-color: #0078f2;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    letter-spacing: 2px;
-    border-radius: 4px;
-    font-size: 10px;
-    text-align: center;
-  }
-
-  .mrp {
-    text-decoration: line-through;
-    color: var(--gray-text);
-  }
-
   .banner {
     width: 100%;
     border-radius: 20px;
   }
+
+  .image_div {
+    background: rgb(255, 255, 255);
+    height: 326px;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+
+  .banner {
+    object-fit: cover;
+    opacity: 1;
+  }
+
+  .banner:hover {
+    object-fit: cover;
+    opacity: 0.8;
+  }
+
   .image_div {
     position: relative;
     display: inline-block;
@@ -155,13 +147,13 @@
     top: 0;
   }
 
-  .icon img {
+  .icon {
     color: #fff;
-    display: none;
+    /* display: none; */
   }
 
-  .icon img:hover {
+  .icon:hover {
     color: #fff;
-    display: block;
+    display: none;
   }
 }

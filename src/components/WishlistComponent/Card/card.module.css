@@ -1,0 +1,162 @@
+.container {
+  width: 100%;
+  background: #202020;
+  padding: 8px 15px;
+  display: flex;
+  gap: 10px;
+  margin: 20px 0px;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.img_div {
+  width: 15%;
+}
+
+.img_div img {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  justify-content: space-between;
+}
+
+.price_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.payment {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.btn_buy {
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  background: #0078f2;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  order: 1;
+}
+
+.platform_heading {
+  display: none;
+}
+
+.btn_remove {
+  width: 20px;
+  height: 18px;
+  background: none;
+  border-radius: 4px;
+  border: none;
+  text-decoration: underline;
+  color: #cccccc;
+  font-size: 12px;
+}
+
+.btn_div {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.title_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.base {
+  background-color: #3d3d3d;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 4px 5px;
+  border-radius: 4px;
+  min-width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    /* width: 1080px; */
+    width: 100%;
+    background: #202020;
+    padding: 8px 15px;
+    height: 180px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .img_div {
+    width: 15%;
+  }
+
+  .img_div img {
+    height: 100%;
+  }
+
+  .content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .price_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .payment {
+    justify-content: flex-end;
+    display: flex;
+  }
+
+  .btn_buy {
+    width: 184px;
+    height: 48px;
+    font-size: 16px;
+    background: #0078f2;
+    border-radius: 4px;
+    border: none;
+    color: white;
+  }
+
+  .btn_remove {
+    width: 54px;
+    height: 48px;
+    background: none;
+    border-radius: 4px;
+    border: none;
+    text-decoration: underline;
+    color: #cccccc;
+    padding-top: 25px;
+    font-size: 16px;
+  }
+
+  .btn_div {
+    display: flex;
+    gap: 40px;
+  }
+}

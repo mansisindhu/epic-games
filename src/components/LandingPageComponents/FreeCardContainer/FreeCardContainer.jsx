@@ -73,7 +73,7 @@ const FreeCardContainer = () => {
             </div>
 
             <div className={styles.content}>
-              <p className={styles.heading}>Godfall Challenger Edition</p>
+              <p className={styles.heading}>Corruption 2029 New Edition</p>
               <p className={styles.subheading}>Coming soon - 11 Jan</p>
             </div>
           </div>

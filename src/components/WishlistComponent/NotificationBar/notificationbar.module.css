@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.externalLink {
+  display: flex;
+  gap: 10px;
+  border-bottom: 0.5px solid #ffffffa6;
+}
+
+.icon {
+  font-size: 16px;
+  padding-top: 3px;
+}
+
+.heading {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .externalLink {
+    display: flex;
+    gap: 10px;
+    border-bottom: 0.5px solid #ffffffa6;
+  }
+
+  .icon {
+    font-size: 16px;
+    padding-top: 3px;
+  }
+}
