@@ -45,25 +45,51 @@
 .checkboxes {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 9px;
+  font-size: 14px;
 }
 
 .checkbox {
-  padding: 12px 0px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  height: 100%;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 12px;
   border-radius: 4px;
 }
 
-.checkbox > label {
-  border: solid 2px transparent;
+.input ~ div {
+  background-color: var(--main-black);
 }
 
-/* .checkbox > input {
-  display: none;
-  z-index: 99;
-} */
+.input:checked ~ div {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
 
-.checkbox > input:checked + label {
-  background-color: #fff;
+.input:checked .checkbox {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.check {
+  opacity: 0;
+  font-size: 20px;
+}
+
+.input:checked ~ div > .check {
+  opacity: 1;
 }
 
 @media (min-width: 768px) {

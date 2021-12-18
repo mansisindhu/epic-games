@@ -7,7 +7,6 @@ import SubNavbar from "../../SubNavbar/SubNavbar";
 import Slider from "../Silder/Slider";
 
 const GameCard = ({ data }) => {
-  console.log(data);
   return (
     <>
       <div className={styles.main}>
@@ -73,14 +72,6 @@ const GameCard = ({ data }) => {
               </div>
               <img src={data.images[2]} alt="" />
 
-              <div className={styles.game_features}>
-                {data.gameFeatures.map((e, i) => (
-                  <p className={styles.list} key={i}>
-                    • {e}
-                  </p>
-                ))}
-              </div>
-
               <div className={styles.images_div}>
                 <img src={data.images[3]} alt="" />
                 <img src={data.images[4]} alt="" />
@@ -114,7 +105,8 @@ const GameCard = ({ data }) => {
           <div className={styles.payment}>
             <PaymentCard
               logo={data.logo}
-              price={data.price}
+              discount={data.price.discount}
+              price={data.price.mainPrice}
               developer={data.developer}
               publisher={data.publisher}
               releaseDate={data.releaseDate}
