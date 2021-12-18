@@ -12,7 +12,9 @@ const EmptyCard = () => {
         You haven't added anything to your wishlist yet.
       </p>
 
-      <Link className={styles.link}>Shop for Apps & Games</Link>
+      <Link to="/browse" className={styles.link}>
+        Shop for Apps & Games
+      </Link>
     </div>
   );
 };
