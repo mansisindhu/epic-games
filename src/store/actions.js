@@ -98,6 +98,11 @@ const filterData = (query) => async (dispatch) => {
   }
 };
 
+// sorting the games
+const sortGames = (data) => (dispatch) => {
+  dispatch(getGames(data));
+};
+
 export {
   fetchGames,
   getGames,
@@ -107,4 +112,5 @@ export {
   postUser,
   logoutUser,
   filterData,
+  sortGames,
 };
