@@ -8,7 +8,7 @@ const MainCard = (props) => {
   return (
     <>
       <div className={styles.card}>
-        <a className={styles.card} href="#">
+        <a className={styles.card} href="https://www.epicgames.com">
           <div className={styles.image_div}>
             <img className={styles.banner} src={image} alt="cardImage" />
             <div className={styles.icon}>

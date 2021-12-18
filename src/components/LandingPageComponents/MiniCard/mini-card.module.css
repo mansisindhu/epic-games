@@ -6,14 +6,17 @@
   align-items: center;
   margin-bottom: 20px;
   gap: 20px;
+  padding: 20px;
 }
-
+.main:hover {
+  background-color: #3d3d3d;
+}
 .price {
   margin-top: 5px;
 }
 
 .image_div img {
-  width: 80px;
+  width: 65px;
 }
 
 .content {

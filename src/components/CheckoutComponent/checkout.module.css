@@ -22,18 +22,18 @@
   align-items: center;
   gap: 20px;
 }
-/* .modal {
+.modal {
   height: 616px;
-  width: 492px;
+  max-width: 492px;
   align-items: center;
-} */
+}
 
 .lower {
-  /* height: 338px;
+  height: 338px;
   padding: 50px;
-  width: 425px; */
-  width: 330px;
-  height: 300px;
+  max-width: 425px;
+  /* width: 330px;
+  height: 300px; */
   padding: 30px;
   text-align: center;
   border-radius: 0px;
@@ -48,4 +48,23 @@
 
 .subheading {
   font-size: 14px;
+}
+
+.closeIcon {
+  position: absolute;
+  right: 11px;
+  top: 13px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 8px;
+  transition: 0.5s;
+}
+.closeIcon:hover {
+  width: 30px;
+  height: 30px;
+  background-color: #3d3d3d;
+  padding-top: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
 }

@@ -1,6 +1,7 @@
 import styles from "./paymentCard.module.css";
 import { ImWindows8 } from "react-icons/im";
 import { FaApple } from "react-icons/fa";
+
 const PaymentCard = (props) => {
   const { logo, discount, price, developer, publisher, releaseDate, platform } =
     props;

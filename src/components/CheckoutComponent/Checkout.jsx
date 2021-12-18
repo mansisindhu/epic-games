@@ -4,9 +4,11 @@ import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
+
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "../CustomTheme";
+
+import { MdOutlineClose } from "react-icons/md";
 
 import styles from "./checkout.module.css";
 
@@ -44,6 +46,13 @@ const Checkout = ({ title }) => {
         >
           <Fade in={open}>
             <Box sx={style} className={styles.modal}>
+              <div
+                closeAfterTransition
+                onClick={handleClose}
+                className={styles.closeIcon}
+              >
+                <MdOutlineClose />
+              </div>
               <div className={styles.upper}>
                 <img src="./icons/Epic_games_store_logo.svg" alt="logo" />
                 <p>THANK YOU FOR BUYING</p>
