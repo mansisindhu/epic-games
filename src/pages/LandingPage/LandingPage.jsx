@@ -1,23 +1,22 @@
+import { useSelector } from "react-redux";
+
 import Data from "../../Data.json";
 import styles from "./landingPage.module.css";
-
 import MainCardContainer from "../../components/LandingPageComponents/MainCardContainer/MainCardContainer";
-
 import SecondaryCardContainer from "../../components/LandingPageComponents/SecondaryCardContainer";
-
 import FreeCardContainer from "../../components/LandingPageComponents/FreeCardContainer";
-
 import MiniCardContainer from "../../components/LandingPageComponents/MiniCardContainer/MiniCardContainer";
-
 import BrowseLink from "../../components/LandingPageComponents/BrowseLink/BrowseLink";
-
 import Header from "../../components/header";
 import SubNavbar from "../../components/SubNavbar";
 
 const LandingPage = () => {
-  const sale = Data;
-  const secondaryCardData = Data;
-  const miniCardData = Data;
+  const landingPageData = useSelector((state) => state.landingPageData);
+  const saleData = landingPageData.slice(0, 5);
+  const recentlyUpdatedData = landingPageData.slice(5, 10);
+  const mostPopularData = landingPageData.slice(10, 15); // to be changed
+  const newToStoreData = landingPageData.slice(10, 15);
+  const secondaryCardData = Data; // to be changed
 
   return (
     <>
@@ -28,7 +27,7 @@ const LandingPage = () => {
           <div className={styles.main_container}>
             <div className={styles.mainCardContainer}>
               <div className={styles.data_cont}>
-                <MainCardContainer data={sale} />
+                <MainCardContainer data={saleData} />
               </div>
             </div>
 
@@ -44,15 +43,21 @@ const LandingPage = () => {
 
             <div className={styles.minicard}>
               <div className={styles.miniCardContainer}>
-                <MiniCardContainer data={miniCardData} heading="New Releases" />
+                <MiniCardContainer data={saleData} heading="New Releases" />
               </div>
 
               <div className={styles.miniCardContainer}>
-                <MiniCardContainer data={miniCardData} heading="Top Sellers" />
+                <MiniCardContainer
+                  data={newToStoreData}
+                  heading="Top Sellers"
+                />
               </div>
 
               <div className={styles.miniCardContainer}>
-                <MiniCardContainer data={miniCardData} heading="Coming Soon" />
+                <MiniCardContainer
+                  data={mostPopularData}
+                  heading="Coming Soon"
+                />
               </div>
             </div>
 
@@ -60,6 +65,18 @@ const LandingPage = () => {
               <SecondaryCardContainer
                 data={[secondaryCardData[2], secondaryCardData[3]]}
               />
+            </div>
+
+            <div className={styles.mainCardContainer}>
+              <div className={styles.data_cont}>
+                <MainCardContainer data={recentlyUpdatedData} />
+              </div>
+            </div>
+
+            <div className={styles.mainCardContainer}>
+              <div className={styles.data_cont}>
+                <MainCardContainer data={newToStoreData} />
+              </div>
             </div>
 
             <div className={styles.secondaryCardContainer}>
