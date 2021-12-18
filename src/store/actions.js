@@ -2,6 +2,7 @@ import axios from "axios";
 
 import { FETCH_GAMES, GET_USER, FETCH_LANDING_PAGE_DATA } from "./actionTypes";
 
+// User fetching in useEffect
 const fetchUser = () => async (dispatch) => {
   try {
     const { data } = await axios.get(
@@ -16,6 +17,7 @@ const fetchUser = () => async (dispatch) => {
   }
 };
 
+// updating user state
 const getUser = (data) => {
   return {
     type: GET_USER,
@@ -23,6 +25,7 @@ const getUser = (data) => {
   };
 };
 
+// logout user and clearinh user from state
 const logoutUser = () => async (dispatch) => {
   try {
     await axios.get(`${process.env.REACT_APP_BACKEND_URL}/logout`, {
@@ -34,6 +37,7 @@ const logoutUser = () => async (dispatch) => {
   }
 };
 
+// user data post on signup-display-name page
 const postUser = (data) => async (dispatch) => {
   try {
     await axios.post(
@@ -48,6 +52,7 @@ const postUser = (data) => async (dispatch) => {
   }
 };
 
+// browse page games
 const getGames = (data) => {
   return {
     type: FETCH_GAMES,
@@ -55,6 +60,7 @@ const getGames = (data) => {
   };
 };
 
+// landing page data
 const getLandingPageData = (data) => {
   return {
     type: FETCH_LANDING_PAGE_DATA,
@@ -62,6 +68,7 @@ const getLandingPageData = (data) => {
   };
 };
 
+// fetching games in useEffect for landing page and browse page
 const fetchGames = () => async (dispatch) => {
   try {
     const { data } = await axios.get(
@@ -77,6 +84,20 @@ const fetchGames = () => async (dispatch) => {
   }
 };
 
+const filterData = (query) => async (dispatch) => {
+  try {
+    const { data } = await axios.get(
+      `${process.env.REACT_APP_BACKEND_URL}/games/filters?${query}`,
+      {
+        withCredentials: true,
+      }
+    );
+    dispatch(getGames(data.data));
+  } catch (err) {
+    console.log(err);
+  }
+};
+
 export {
   fetchGames,
   getGames,
@@ -85,4 +106,5 @@ export {
   getLandingPageData,
   postUser,
   logoutUser,
+  filterData,
 };
