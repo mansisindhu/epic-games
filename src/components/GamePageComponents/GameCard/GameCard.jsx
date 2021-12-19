@@ -99,6 +99,8 @@ const GameCard = ({ data }) => {
               releaseDate={data.releaseDate}
               platform={data.platform}
               id={data._id}
+              image={data.cardImage}
+              title={data.title}
             />
           </div>
         </div>

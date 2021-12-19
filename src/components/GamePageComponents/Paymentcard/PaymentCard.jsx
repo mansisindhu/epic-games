@@ -6,10 +6,20 @@ import { useEffect, useState } from "react";
 import styles from "./paymentCard.module.css";
 import PriceComponent from "../../PriceComponent";
 import { addToOrders, addToWishlist } from "../../../store/actions";
+import PaymentPage from "../../../pages/PaymentPage";
 
 const PaymentCard = (props) => {
-  const { logo, developer, price, publisher, releaseDate, platform, id } =
-    props;
+  const {
+    logo,
+    developer,
+    price,
+    publisher,
+    releaseDate,
+    platform,
+    id,
+    image,
+    title,
+  } = props;
 
   const user = useSelector((state) => state.user);
   const wishlist = user.wishlist;
@@ -30,16 +40,32 @@ const PaymentCard = (props) => {
 
   const dispatch = useDispatch();
 
-  const placeOrder = () => {
-    dispatch(addToOrders(id));
-  };
-
   const wishlistGame = () => {
     dispatch(addToWishlist(id));
     setWishlistedStatus(true);
   };
 
-  console.log(isWishlisted, isOrdered);
+  const [isModalOpen, setModalState] = useState(false);
+
+  const closeModal = () => {
+    setModalState((prev) => !prev);
+  };
+
+  useEffect(() => {
+    if (isModalOpen) {
+      document.body.setAttribute("class", "overflow-hidden");
+    } else {
+      document.body.removeAttribute("class", "overflow-hidden");
+    }
+  }, [isModalOpen]);
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000);
+  }, [isModalOpen]);
 
   return (
     <>
@@ -64,7 +90,9 @@ const PaymentCard = (props) => {
             </button>
           ) : (
             <>
-              <button className={styles.buy_btn}>BUY NOW</button>
+              <button onClick={closeModal} className={styles.buy_btn}>
+                BUY NOW
+              </button>
               {isWishlisted ? (
                 <button className={styles.wishlist_btn}>
                   <img src="/icons/Already_in_Wishlist.svg" alt="logo" />
@@ -117,6 +145,27 @@ const PaymentCard = (props) => {
           </div>
         </div>
       </div>
+      {isModalOpen ? (
+        <div className={styles.modal_overlay}>
+          <div className={styles.modal_container}>
+            {loading ? (
+              <div className={styles.loading}>
+                <img src="/icons/Epic_Games_Dark.svg" alt="" />
+                <p>Loading your order...</p>
+              </div>
+            ) : (
+              <PaymentPage
+                developer={developer}
+                image={image}
+                price={price}
+                title={title}
+                id={id}
+                closeModal={closeModal}
+              />
+            )}
+          </div>
+        </div>
+      ) : null}
     </>
   );
 };

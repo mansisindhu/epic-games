@@ -11,7 +11,7 @@ const SecondaryCard = (props) => {
           <div className={styles.image_div}>
             <img className={styles.banner} src={image} alt="cardImage" />
             <div className={styles.icon}>
-              <img src="./icons/Add_to_Wishlist.svg" alt="wishlistIcon" />
+              <img src="/icons/Add_to_Wishlist.svg" alt="wishlistIcon" />
             </div>
           </div>
           <div className={styles.content}>

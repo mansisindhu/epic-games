@@ -6,7 +6,7 @@ const FreeCardContainer = () => {
       <div className={styles.container}>
         <div className={styles.upper}>
           <div className={styles.icon_div}>
-            <img src="./icons/gift.svg" alt="giftIcon" />
+            <img src="/icons/gift.svg" alt="giftIcon" />
             <p>Free Games</p>
           </div>
 

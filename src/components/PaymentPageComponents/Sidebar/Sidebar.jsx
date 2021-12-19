@@ -1,56 +1,66 @@
 import styles from "./sidebar.module.css";
 import { MdOutlineClose } from "react-icons/md";
+import { useDispatch } from "react-redux";
+
 import Checkbox from "@mui/material/Checkbox";
 import PaymentCard from "../PaymentCard";
+import { addToOrders } from "../../../store/actions";
 
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
-const Sidebar = () => {
+const Sidebar = (props) => {
+  const { developer, price, id, image, title, closeModal } = props;
+  const discountedPrice =
+    price.mainPrice - Math.floor(price.mainPrice * (price.discount / 100));
+
+  const dispatch = useDispatch();
+
+  const placeOrder = () => {
+    dispatch(addToOrders(id));
+    closeModal();
+  };
+
   return (
     <>
       <div className={styles.container}>
         <div className={styles.main}>
           <div className={styles.header}>
             <p className={styles.sidebar_title}>Order Summary</p>
-            <div className={styles.closeIcon}>
+            <div onClick={closeModal} className={styles.closeIcon}>
               <MdOutlineClose />
             </div>
           </div>
 
           <div className={styles.content}>
             <div className={styles.image_div}>
-              <img
-                src="https://cdn1.epicgames.com/spt-assets/1d1ceda7b1ba4e7893a36a1166ac3e41/download-dark-deity-offer-1p2y4.jpg?h=1280&resize=1&w=960"
-                alt="banner"
-              />
+              <img src={image} alt="banner" />
             </div>
             <div>
-              <p className={styles.game_title}>The Dark and Deity</p>
-              <p className={styles.game_developer}>Toplitz Production GmbH</p>
+              <p className={styles.game_title}>{title}</p>
+              <p className={styles.game_developer}>{developer}</p>
             </div>
 
             <div className={styles.price_info}>
               <div className={styles.price}>
-                <p>List Price</p> <p>₹2999.00</p>
+                <p>List Price</p> <p>₹ {price.mainPrice}</p>
               </div>
               <div className={styles.price}>
-                <p>Price</p> <p>₹2999.00</p>
+                <p>Price</p> <p>₹ {discountedPrice}</p>
               </div>
 
               <div className={styles.price}>
-                <p>Discount</p> <p> -29%</p>
+                <p>Discount</p> <p> - {price.discount}%</p>
               </div>
 
               <p className={styles.vat}>VAT included if applicable</p>
               <div className={styles.price}>
-                <p>Total</p> <p>₹2999.00</p>
+                <p>Total</p> <p>₹ {discountedPrice}</p>
               </div>
             </div>
 
             <div class="row">
               <div>
                 <div class="right-inner-addon input-container">
-                  {/* <i class="fa fa-info-circle"></i> */}
                   <input
                     type="text"
                     className={styles.input}
@@ -65,10 +75,11 @@ const Sidebar = () => {
 
               <div>
                 <p>
-                  Click here to share your email with Toplitz Productions GmbH.
-                  Toplitz Productions GmbH will use your email address in
-                  accordance with its privacy policy, so we encourge you to read
-                  it.
+                  Click here to share your email with{" "}
+                  <span className={styles.span}>{developer}</span>.
+                  <span className={styles.span}> {developer}</span> will use
+                  your email address in accordance with its privacy policy, so
+                  we encourge you to read it.
                 </p>
               </div>
             </div>
@@ -91,7 +102,9 @@ const Sidebar = () => {
                 End User Licence Agreement
               </span>
             </p>
-            <button className={styles.btn}>Place Order</button>
+            <button onClick={placeOrder} className={styles.btn}>
+              Place Order
+            </button>
           </div>
         </div>
       </div>

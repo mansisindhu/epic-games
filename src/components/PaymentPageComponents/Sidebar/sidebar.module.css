@@ -70,6 +70,10 @@
   padding-bottom: 5px;
 }
 
+.sidebar_title {
+  font-weight: 600;
+}
+
 .price_info {
   color: #616161;
   margin-top: 20px;
@@ -77,6 +81,7 @@
   flex-direction: column;
   gap: 15px;
   margin-bottom: 20px;
+  font-size: 14px;
 }
 
 .price {
@@ -99,6 +104,11 @@
 
 .input {
   border-radius: 4px;
+}
+
+.span {
+  color: #383636;
+  font-weight: 500;
 }
 
 .input-container {
@@ -132,6 +142,10 @@
 .payment {
   padding: unset;
   margin-top: 20px;
+}
+
+.closeIcon {
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
