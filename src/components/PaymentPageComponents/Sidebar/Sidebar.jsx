@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 
 import Checkbox from "@mui/material/Checkbox";
 import PaymentCard from "../PaymentCard";
-import { addToOrders } from "../../../store/actions";
+import { addToOrders, removeFromWishlist } from "../../../store/actions";
 
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
@@ -17,6 +17,7 @@ const Sidebar = (props) => {
 
   const placeOrder = () => {
     dispatch(addToOrders(id));
+    dispatch(removeFromWishlist(id));
     handleModal();
     closeModal();
   };

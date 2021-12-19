@@ -1,6 +1,5 @@
 import { useSelector } from "react-redux";
 
-import Data from "../../Data.json";
 import styles from "./landingPage.module.css";
 import MainCardContainer from "../../components/LandingPageComponents/MainCardContainer/MainCardContainer";
 import SecondaryCardContainer from "../../components/LandingPageComponents/SecondaryCardContainer";
