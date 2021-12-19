@@ -33,9 +33,9 @@ const BrowsePage = () => {
     if (sortBy === "alphabetical") {
       data.sort((a, b) => a.title.localeCompare(b.title));
     } else if (sortBy === "highToLow") {
-      data.sort((a, b) => a.price.mainPrice - b.price.mainPrice);
+      data.sort((a, b) => b.price.discountedPrice - a.price.discountedPrice);
     } else if (sortBy === "lowToHigh") {
-      data.sort((a, b) => b.price.mainPrice - a.price.mainPrice);
+      data.sort((a, b) => a.price.discountedPrice - b.price.discountedPrice);
     } else if (sortBy === "newRelease") {
       data.sort((date1, date2) => {
         date1 = new Date(date1.releaseDate);
