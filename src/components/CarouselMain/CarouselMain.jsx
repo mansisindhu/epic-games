@@ -12,7 +12,7 @@ import LoadingPage from "../LoadingPage";
 const CarouselMain = () => {
   const data = useSelector((state) => state.landingPageData);
   const carouselData = [];
-  for (let i = 5; i < 11; i++) {
+  for (let i = 0; i < 6; i++) {
     carouselData.push(data[i]);
   }
 
