@@ -5,7 +5,7 @@ const MainCard = (props) => {
   return (
     <div className={styles.card}>
       <div className={styles.image_div}>
-        <img src={props.image} alt={props.title} />
+        <img className={styles.banner} src={props.image} alt={props.title} />
         <div className={styles.icon}>
           <img src="/icons/Add_to_Wishlist.svg" alt="" />
         </div>

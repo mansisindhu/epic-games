@@ -1,5 +1,11 @@
-.main {
-  padding: 10px;
+.main_container {
+  margin: 0 15px;
+}
+
+.sub_navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 @media (min-width: 768px) {
