@@ -10,6 +10,7 @@ import BrowseLink from "../../components/LandingPageComponents/BrowseLink/Browse
 import Header from "../../components/header";
 import SubNavbar from "../../components/SubNavbar";
 import CarouselMain from "../../components/CarouselMain";
+import Footer from "../../components/Footer";
 
 const LandingPage = () => {
   const landingPageData = useSelector((state) => state.landingPageData);
@@ -85,6 +86,7 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
