@@ -51,9 +51,9 @@ const BrowsePage = () => {
   return (
     <>
       <Header />
+      <SubNavbar />
       <div className={styles.main}>
         <div className={styles.containter}>
-          <SubNavbar />
           <PopularGenre />
           <div className={styles.main_container}>
             <div className={styles.data_wrapper}>

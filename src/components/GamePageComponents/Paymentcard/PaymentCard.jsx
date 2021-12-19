@@ -5,6 +5,7 @@ import PriceComponent from "../../PriceComponent";
 
 const PaymentCard = (props) => {
   const { logo, developer, price, publisher, releaseDate, platform } = props;
+  console.log(price);
   return (
     <>
       <div className={styles.main}>

@@ -3,14 +3,12 @@ import styles from "./gameCard.module.css";
 import LinksCard from "../LinksCard";
 import Specifications from "../SpecificationsCard/Specifications";
 import ReviewCardContainer from "../ReviewCardContainer/ReviewCardContainer";
-import SubNavbar from "../../SubNavbar/SubNavbar";
 import Slider from "../Silder/Slider";
 
 const GameCard = ({ data }) => {
   return (
     <>
       <div className={styles.main}>
-        <SubNavbar />
         <p className={styles.heading}>{data.title}</p>
         <div className={styles.container}>
           <div className={styles.card}>
@@ -78,17 +76,6 @@ const GameCard = ({ data }) => {
               </div>
             </div>
 
-            {/* <div className={styles.accordion}>
-              <Accordion
-                image1={data.images[0]}
-                image2={data.images[1]}
-                image3={data.images[2]}
-                image4={data.images[3]}
-                image5={data.images[4]}
-                image6={data.images[5]}
-              />
-            </div> */}
-
             <div className={styles.links}>
               <LinksCard />
             </div>
@@ -106,7 +93,7 @@ const GameCard = ({ data }) => {
             <PaymentCard
               logo={data.logo}
               discount={data.price.discount}
-              price={data.price.mainPrice}
+              price={data.price}
               developer={data.developer}
               publisher={data.publisher}
               releaseDate={data.releaseDate}

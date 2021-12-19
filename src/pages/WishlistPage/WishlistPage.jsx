@@ -20,11 +20,10 @@ const WishListPage = () => {
   return (
     <>
       <Header />
+      <SubNavbar />
       <div className={styles.main}>
         <div className={styles.containter}>
-          <div className={styles.sub_navbar}>
-            <SubNavbar />
-          </div>
+          <div className={styles.sub_navbar}></div>
 
           <div className={styles.main_container}>
             <p>Wishlist </p>
