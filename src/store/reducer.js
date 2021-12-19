@@ -6,9 +6,9 @@ import {
 } from "./actionTypes";
 
 const initState = {
-  user: {},
-  games: [],
-  landingPageData: [],
+  user: {}, // user details
+  games: [], // browse page data, will be included filters
+  landingPageData: [], // data will be divided in deifferent sections
 };
 
 const reducer = (state = initState, { type, payload }) => {
