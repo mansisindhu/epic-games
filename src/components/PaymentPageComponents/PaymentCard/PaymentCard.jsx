@@ -45,7 +45,7 @@ const PaymentCard = () => {
         <div className={styles.icon}>
           <img
             className={styles.paypal}
-            src="./icons/paypalicon.svg"
+            src="/icons/paypalicon.svg"
             alt="paypal"
           />
         </div>

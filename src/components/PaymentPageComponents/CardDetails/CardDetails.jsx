@@ -11,10 +11,10 @@ const CardDetails = () => {
         <div className={styles.header}>
           <p className={styles.heading}>CARD DETAILS</p>
           <div className={styles.icons}>
-            <img src="./icons/visaicon.svg" alt="visa" />
-            <img src="./icons/mastericon.svg" alt="master" />
-            <img src="./icons/eloicon.svg" alt="master" />
-            <img src="./icons/jcbicon.svg" alt="master" />
+            <img src="/icons/visaicon.svg" alt="visa" />
+            <img src="/icons/mastericon.svg" alt="master" />
+            <img src="/icons/eloicon.svg" alt="master" />
+            <img src="/icons/jcbicon.svg" alt="master" />
           </div>
         </div>
 
