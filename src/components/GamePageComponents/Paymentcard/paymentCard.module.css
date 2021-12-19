@@ -2,7 +2,6 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* background-color: rgb(51, 51, 51); */
 }
 
 .basegame {
@@ -24,14 +23,16 @@
   border: none;
   color: #fff;
   margin-top: 10px;
+  font-weight: 500;
+  cursor: pointer;
 }
+
 .buy_btn:hover {
   background-color: #1085fa;
 }
 
-.wishlist_btn {
-  height: 32px;
-  /* width: 310px; */
+.in_library_btn {
+  height: 46px;
   width: 100%;
   padding: 5px, 16px, 5px, 16px;
   border: 1px solid #cccccc;
@@ -41,17 +42,52 @@
   margin-top: 10px;
   font-size: 12px;
   letter-spacing: 0.04em;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  align-items: center;
+  font-weight: 500;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.in_library_btn > img {
+  color: white;
+}
+
+.wishlist_btn {
+  font-weight: 500;
+  cursor: pointer;
+  height: 32px;
+  width: 100%;
+  padding: 5px, 16px, 5px, 16px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background: none;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  align-items: center;
+}
+
+.wishlist_btn > img {
+  height: 20px;
 }
 
 .wishlist_btn:hover {
   border: 1px solid #cccccc;
-  /* border: none; */
   color: white;
   background-color: rgba(255, 255, 255, 0.226);
 }
+
 .game_info {
   margin-top: 15px;
 }
+
 .game_details {
   display: flex;
   gap: 40px;
