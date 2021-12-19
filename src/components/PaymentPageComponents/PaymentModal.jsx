@@ -2,7 +2,6 @@ import React from "react";
 import { useState, useContext } from "react";
 import styles from "./paymentModal.module.css";
 import { PaymentContext } from "../../contexts/PaymentContext";
-import { MobilePaymentModal } from "./MobilePaymentModal";
 
 export const PaymentModal = () => {
   const { handleOpen } = useContext(PaymentContext);
@@ -185,16 +184,6 @@ export const PaymentModal = () => {
                   <button>PLACE ORDER</button>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className={styles.mobile}>
-        <div className={styles.modalBackground}>
-          <div className={styles.modalContainer}>
-            <div className={styles.mobile}>
-              <MobilePaymentModal />
             </div>
           </div>
         </div>
