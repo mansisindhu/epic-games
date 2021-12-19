@@ -20,7 +20,6 @@
 - Games will be found in library after purchasing.
 - User can not see wishlist without logged in.
 
-#
 #### Landing Page
 
 ![localhost_3000_](https://user-images.githubusercontent.com/76626095/146686910-58b2799e-22a9-4239-9677-a268ef656c56.png)
@@ -34,8 +33,12 @@
 #### Game Page
 ![localhost_3000_games_61bf4b4691f7ad461854b3e5 (1)](https://user-images.githubusercontent.com/76626095/146687343-be43130e-b774-45f8-8b3b-aafd79945004.png)
 
+#
+
+#### Checkout Page
 ![image](https://user-images.githubusercontent.com/76626095/146687324-e95bb1b6-e2c5-4bcf-9a32-d1d34790da44.png)
 
+#### Wishlist Page
 ![localhost_3000_wishlist (3)](https://user-images.githubusercontent.com/76626095/146687441-d1efab8a-0856-408d-ae13-151e5d41c298.png)
 
 #### Team Members
@@ -43,3 +46,8 @@
 - Sheetal Sindhu
 - Rajnish
 - Abhishek
+
+#
+#### Backend Repo
+[Backend repository link](https://github.com/mansisindhu/epic-games-backend)
+
