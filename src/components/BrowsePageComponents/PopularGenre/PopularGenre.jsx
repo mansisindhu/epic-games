@@ -19,7 +19,7 @@ const PopularGenre = () => {
         <Card title="Casual Games" img="/genre/casual_games.svg" />
         <Card title="Indie" img="/genre/indie_games.svg" />
         <Card title="Multiplayer" img="/genre/multiplayer_games.svg" />
-        <Card title="Action Games" img="/genre/action_games.svg" />
+        <Card title="Strategy" img="/genre/open_games.svg" />
       </div>
     </div>
   );

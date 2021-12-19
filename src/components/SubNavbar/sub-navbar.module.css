@@ -3,8 +3,11 @@
   align-items: center;
   justify-content: space-between;
   height: 80px;
-  margin: 8px;
-  position: relative;
+  padding: 8px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: var(--main-black);
 }
 
 .accordion {
@@ -61,7 +64,6 @@
 
   .main_desktop {
     color: var(--gray-text);
-    padding: 35px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,6 +74,7 @@
     top: 0;
     background-color: var(--main-black);
     z-index: 10;
+    padding: 35px 74px;
   }
 
   .search_box {
@@ -118,5 +121,11 @@
 
   .option_desktop:hover {
     color: #fff;
+  }
+}
+
+@media (min-width: 1120px) {
+  .main_desktop {
+    padding: 35px 132px;
   }
 }

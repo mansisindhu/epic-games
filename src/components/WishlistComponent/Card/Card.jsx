@@ -1,24 +1,34 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+
 import styles from "./card.module.css";
 import PriceComponent from "../../PriceComponent";
+import { removeFromWishlist } from "../../../store/actions";
 
 const Card = (props) => {
-  const price = { mainPrice: 234, discount: 21 };
+  const dispatch = useDispatch();
+
+  const buyNow = (e) => {
+    e.preventDefault();
+    console.log(props.id);
+  };
+
+  const removeItem = (e) => {
+    e.preventDefault();
+    dispatch(removeFromWishlist(props.id));
+  };
 
   return (
     <div className={styles.container}>
       <div className={styles.img_div}>
-        <img
-          src="https://cdn1.epicgames.com/spt-assets/1d1ceda7b1ba4e7893a36a1166ac3e41/download-dark-deity-offer-1p2y4.jpg?h=1920&resize=1&w=1440"
-          alt="banner"
-        />
+        <img src={props.cardImage} alt="banner" />
       </div>
 
       <div className={styles.content}>
         <div className={styles.title_div}>
           <div>
             <div className={styles.base}>Base Game</div>
-            <p className={styles.title}>The Dark City</p> {/*  title */}
+            <p className={styles.title}>{props.title}</p> {/*  title */}
           </div>
 
           <div className={styles.platform}>
@@ -30,13 +40,17 @@ const Card = (props) => {
         <div className={styles.price_div}>
           <div className={styles.payment}>
             <div className={styles.price}>
-              <PriceComponent price={price} />
+              <PriceComponent price={props.price} />
             </div>
           </div>
 
           <div className={styles.btn_div}>
-            <p className={styles.btn_remove}>Remove</p>
-            <button className={styles.btn_buy}>BUY NOW</button>
+            <p onClick={removeItem} className={styles.btn_remove}>
+              Remove
+            </p>
+            <button onClick={buyNow} className={styles.btn_buy}>
+              BUY NOW
+            </button>
           </div>
         </div>
       </div>
