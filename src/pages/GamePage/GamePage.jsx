@@ -6,6 +6,7 @@ import styles from "./gamePage.module.css";
 import GameCard from "../../components/GamePageComponents/GameCard";
 import Header from "../../components/header";
 import SubNavbar from "../../components/SubNavbar";
+import LoadingPage from "../../components/LoadingPage";
 
 const GamePage = () => {
   const { id } = useParams();
@@ -27,14 +28,14 @@ const GamePage = () => {
   useEffect(() => {
     getGameData();
   }, []);
-  
+
   return (
     <>
       <Header />
       <SubNavbar />
       <div className={styles.main}>
         <div className={styles.gamePage_container}>
-          {!gameData.title ? <p>Loading...</p> : <GameCard data={gameData} />}
+          {!gameData.title ? <LoadingPage /> : <GameCard data={gameData} />}
         </div>
       </div>
     </>

@@ -92,7 +92,9 @@ const Specifications = () => {
             </div>
 
             <div className={styles.text}>
-              <p className={styles.lang_heading}>Text</p>
+              <p style={{ fontSize: "12px" }} className={styles.lang_heading}>
+                Text
+              </p>
               <div className={styles.languages}>
                 <p>English</p> <p>Portuguese</p> <p> French</p> <p>Chinese</p>
                 <p>Spanish</p> <p>Russian</p> <p>Polish</p>

@@ -1,7 +1,6 @@
 .main {
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
   gap: 40px;
   margin: auto;
   background-color: var(--main-gray);
@@ -26,9 +25,6 @@
 }
 
 .heading {
-  /* background-color: greenyellow; */
-  padding-top: 40px;
-  padding-bottom: 30px;
   border-bottom: 1px solid #494747;
 }
 
@@ -112,16 +108,13 @@
   }
   .content {
     display: flex;
-    gap: 200px;
+    gap: 48px;
     padding-bottom: 40px;
     border-bottom: 1px solid #494747;
     flex-direction: row;
   }
 
   .heading {
-    /* background-color: greenyellow; */
-    padding-top: 40px;
-    padding-bottom: 30px;
     border-bottom: 1px solid #494747;
   }
 
@@ -161,4 +154,8 @@
     gap: 27px;
     margin-top: 30px;
   }
+}
+
+.lang_heading {
+  font-size: 12px;
 }
