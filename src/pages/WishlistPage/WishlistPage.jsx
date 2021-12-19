@@ -3,7 +3,7 @@ import styles from "./wishlist.module.css";
 import Header from "../../components/header";
 import SubNavbar from "../../components/SubNavbar";
 import NotificationBar from "../../components/WishlistComponent/NotificationBar/NotificationBar";
-import EmptyCard from "../../components/WishlistComponent/EmptyPage/EmptyCard";
+
 import Card from "../../components/WishlistComponent/Card/Card";
 
 const WishListPage = () => {
@@ -19,7 +19,6 @@ const WishListPage = () => {
 
             <NotificationBar />
 
-            {/* <EmptyCard /> */}
             <Card />
             <Card />
           </div>
