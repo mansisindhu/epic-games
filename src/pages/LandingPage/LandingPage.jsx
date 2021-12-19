@@ -11,14 +11,15 @@ import Header from "../../components/header";
 import SubNavbar from "../../components/SubNavbar";
 import CarouselMain from "../../components/CarouselMain";
 import Footer from "../../components/Footer";
+import LoadingPage from "../../components/LoadingPage";
+import { useState } from "react";
 
 const LandingPage = () => {
   const landingPageData = useSelector((state) => state.landingPageData);
   const saleData = landingPageData.slice(0, 5);
   const recentlyUpdatedData = landingPageData.slice(5, 10);
-  const mostPopularData = landingPageData.slice(10, 15); // to be changed
+  const mostPopularData = landingPageData.slice(10, 15);
   const newToStoreData = landingPageData.slice(15, 20);
-  const secondaryCardData = Data; // to be changed
 
   return (
     <>
@@ -27,62 +28,73 @@ const LandingPage = () => {
       <div className={styles.main}>
         <div className={styles.landing_container}>
           <div className={styles.main_container}>
-            <CarouselMain />
-            <div className={styles.mainCardContainer}>
-              <div className={styles.data_cont}>
-                <MainCardContainer data={saleData} title="Game On Sale"/>
-              </div>
-            </div>
+            {!landingPageData.length ? (
+              <LoadingPage />
+            ) : (
+              <>
+                <CarouselMain />
+                <div className={styles.mainCardContainer}>
+                  <div className={styles.data_cont}>
+                    <MainCardContainer data={saleData} title="Game On Sale" />
+                  </div>
+                </div>
 
-            <div className={styles.secondaryCardContainer}>
-              <SecondaryCardContainer
-                data={[landingPageData[24], landingPageData[25]]}
-              />
-            </div>
+                <div className={styles.secondaryCardContainer}>
+                  <SecondaryCardContainer
+                    data={[landingPageData[24], landingPageData[25]]}
+                  />
+                </div>
 
-            <div className={styles.freeCardContainer}>
-              <FreeCardContainer />
-            </div>
+                <div className={styles.freeCardContainer}>
+                  <FreeCardContainer />
+                </div>
 
-            <div className={styles.minicard}>
-              <div className={styles.miniCardContainer}>
-                <MiniCardContainer data={saleData} heading="New Releases" />
-              </div>
+                <div className={styles.minicard}>
+                  <div className={styles.miniCardContainer}>
+                    <MiniCardContainer data={saleData} heading="New Releases" />
+                  </div>
 
-              <div className={styles.miniCardContainer}>
-                <MiniCardContainer
-                  data={newToStoreData}
-                  heading="Top Sellers"
-                />
-              </div>
+                  <div className={styles.miniCardContainer}>
+                    <MiniCardContainer
+                      data={newToStoreData}
+                      heading="Top Sellers"
+                    />
+                  </div>
 
-              <div className={styles.miniCardContainer}>
-                <MiniCardContainer
-                  data={mostPopularData}
-                  heading="Holiday Sale"
-                />
-              </div>
-            </div>
+                  <div className={styles.miniCardContainer}>
+                    <MiniCardContainer
+                      data={mostPopularData}
+                      heading="Holiday Sale"
+                    />
+                  </div>
+                </div>
 
-            <div className={styles.secondaryCardContainer}>
-              <SecondaryCardContainer
-                data={[landingPageData[20], landingPageData[19]]}
-              />
-            </div>
+                <div className={styles.secondaryCardContainer}>
+                  <SecondaryCardContainer
+                    data={[landingPageData[20], landingPageData[19]]}
+                  />
+                </div>
 
-            <div className={styles.mainCardContainer}>
-              <div className={styles.data_cont}>
-                <MainCardContainer data={recentlyUpdatedData} title="Recently Updated"/>
-              </div>
-            </div>
+                <div className={styles.mainCardContainer}>
+                  <div className={styles.data_cont}>
+                    <MainCardContainer
+                      data={recentlyUpdatedData}
+                      title="Recently Updated"
+                    />
+                  </div>
+                </div>
 
-            <div className={styles.mainCardContainer}>
-              <div className={styles.data_cont}>
-                <MainCardContainer data={newToStoreData} title="Holiday Sale Spotlight"/>
-              </div>
-            </div>
-
-            <BrowseLink />
+                <div className={styles.mainCardContainer}>
+                  <div className={styles.data_cont}>
+                    <MainCardContainer
+                      data={newToStoreData}
+                      title="Holiday Sale Spotlight"
+                    />
+                  </div>
+                </div>
+                <BrowseLink />
+              </>
+            )}
           </div>
         </div>
       </div>

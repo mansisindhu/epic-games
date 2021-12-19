@@ -7,7 +7,6 @@ import { logoutUser } from "../../store/actions";
 
 const Header = () => {
   const user = useSelector((state) => state.user);
-  console.log(user.displayName);
 
   const [toggle, setToggle] = useState(false);
 

@@ -47,8 +47,6 @@ const BrowsePage = () => {
 
   const [activeSort, setActiveSort] = useState("New Release");
 
-  console.log(data);
-
   return (
     <>
       <Header />

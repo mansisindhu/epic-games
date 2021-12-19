@@ -10,7 +10,6 @@ const Card = (props) => {
 
   const buyNow = (e) => {
     e.preventDefault();
-    console.log(props.id);
   };
 
   const removeItem = (e) => {

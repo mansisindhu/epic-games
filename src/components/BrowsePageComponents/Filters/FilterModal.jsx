@@ -25,7 +25,6 @@ const FilterModal = () => {
 
   const sorting = (e) => {
     const { name, value, id, checked } = e.target;
-    console.log({ name, value, id, checked });
 
     setObj((prev) => {
       if (name === "price") {
