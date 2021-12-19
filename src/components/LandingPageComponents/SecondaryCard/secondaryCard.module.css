@@ -106,34 +106,37 @@
 
   .banner {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
   }
 
   .image_div {
     background: rgb(255, 255, 255);
     height: 326px;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 13px;
   }
 
+  /* .image_div:hover {
+  }
+   */
   .banner {
-    object-fit: cover;
     opacity: 1;
+    /* border: 0px solid rgba(153, 153, 153, 0); */
+    transition: 0.3s;
   }
 
   .banner:hover {
-    object-fit: cover;
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
-  .image_div {
+  /* .image_div {
     position: relative;
     display: inline-block;
-  }
+  } */
 
-  .image_div img {
+  /* .image_div img {
     width: 100%;
-  }
+  } */
 
   .image_div .icon {
     display: block;

@@ -134,6 +134,26 @@
   display: none;
 }
 
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  gap: 12px;
+}
+
+.error_main {
+  font-size: 30px;
+  text-align: center;
+}
+
+.error_secondary {
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .card_container {
     width: calc(33.333% - 16px);

@@ -3,15 +3,12 @@ import styles from "./gameCard.module.css";
 import LinksCard from "../LinksCard";
 import Specifications from "../SpecificationsCard/Specifications";
 import ReviewCardContainer from "../ReviewCardContainer/ReviewCardContainer";
-import SubNavbar from "../../SubNavbar/SubNavbar";
 import Slider from "../Silder/Slider";
 
 const GameCard = ({ data }) => {
-  console.log(data);
   return (
     <>
       <div className={styles.main}>
-        <SubNavbar />
         <p className={styles.heading}>{data.title}</p>
         <div className={styles.container}>
           <div className={styles.card}>
@@ -73,30 +70,11 @@ const GameCard = ({ data }) => {
               </div>
               <img src={data.images[2]} alt="" />
 
-              <div className={styles.game_features}>
-                {data.gameFeatures.map((e, i) => (
-                  <p className={styles.list} key={i}>
-                    • {e}
-                  </p>
-                ))}
-              </div>
-
               <div className={styles.images_div}>
                 <img src={data.images[3]} alt="" />
                 <img src={data.images[4]} alt="" />
               </div>
             </div>
-
-            {/* <div className={styles.accordion}>
-              <Accordion
-                image1={data.images[0]}
-                image2={data.images[1]}
-                image3={data.images[2]}
-                image4={data.images[3]}
-                image5={data.images[4]}
-                image6={data.images[5]}
-              />
-            </div> */}
 
             <div className={styles.links}>
               <LinksCard />
@@ -114,11 +92,15 @@ const GameCard = ({ data }) => {
           <div className={styles.payment}>
             <PaymentCard
               logo={data.logo}
+              discount={data.price.discount}
               price={data.price}
               developer={data.developer}
               publisher={data.publisher}
               releaseDate={data.releaseDate}
               platform={data.platform}
+              id={data._id}
+              image={data.cardImage}
+              title={data.title}
             />
           </div>
         </div>

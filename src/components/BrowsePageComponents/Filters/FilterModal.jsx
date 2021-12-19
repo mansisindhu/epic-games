@@ -7,7 +7,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { ThemeProvider } from "@mui/material/styles";
 import { BiSearch } from "react-icons/bi";
 import { useDispatch } from "react-redux";
-import querystring from "querystring";
+import { BiCheck } from "react-icons/bi";
 
 import theme from "../../CustomTheme";
 import styles from "./filters.module.css";
@@ -133,16 +133,22 @@ const FilterModal = () => {
                   PRICE
                 </Typography>
               </AccordionSummary>
-              <AccordionDetails>
+              <AccordionDetails style={{ padding: "8px 6px 16px" }}>
                 <div className={styles.checkboxes}>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       value="1"
                       type="radio"
                       name="price"
                       onChange={sorting}
                     />
-                    <label htmlFor="price">Free</label>
+                    <div className={styles.label}>
+                      <span>Free</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                   <div className={styles.checkbox}>
                     <input
@@ -150,35 +156,59 @@ const FilterModal = () => {
                       type="radio"
                       name="price"
                       onChange={sorting}
+                      className={styles.input}
                     />
-                    <label htmlFor="price">Under Rs. 750.00</label>
+                    <div className={styles.label}>
+                      <span>Under Rs. 750.00</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       value="1500"
                       type="radio"
                       name="price"
                       onChange={sorting}
                     />
-                    <label htmlFor="price">Under Rs. 1,500.00</label>
+                    <div className={styles.label}>
+                      <span>Under Rs. 1,500.00</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       value="2500"
                       type="radio"
                       name="price"
                       onChange={sorting}
                     />
-                    <label htmlFor="price">Under Rs. 2,500.00</label>
+                    <div className={styles.label}>
+                      <span>Under Rs. 2,500.00</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       value="1099"
                       type="radio"
                       name="price"
                       onChange={sorting}
                     />
-                    <label htmlFor="price">Rs. 1,099.00 and above</label>
+                    <div className={styles.label}>
+                      <span>Rs. 1,099.00 and above</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                 </div>
               </AccordionDetails>
@@ -208,88 +238,142 @@ const FilterModal = () => {
                   GENRE
                 </Typography>
               </AccordionSummary>
-              <AccordionDetails>
+              <AccordionDetails style={{ padding: "8px 6px 16px" }}>
                 <div className={styles.checkboxes}>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       type="checkbox"
                       id="genre"
                       onChange={sorting}
                       value="Action"
                     />
-                    <label htmlFor="genre">Action</label>
+                    <div className={styles.label}>
+                      <span>Action</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       type="checkbox"
                       id="genre"
                       onChange={sorting}
                       value="Adventure"
                     />
-                    <label htmlFor="genre">Adventure</label>
+                    <div className={styles.label}>
+                      <span>Adventure</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       type="checkbox"
                       id="genre"
                       onChange={sorting}
                       value="Strategy"
                     />
-                    <label htmlFor="genre">Strategy</label>
+                    <div className={styles.label}>
+                      <span>Strategy</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       type="checkbox"
                       id="genre"
                       onChange={sorting}
                       value="Shooter"
                     />
-                    <label htmlFor="genre">Shooter</label>
+                    <div className={styles.label}>
+                      <span>Shooter</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       type="checkbox"
                       id="genre"
                       onChange={sorting}
                       value="Puzzle"
                     />
-                    <label htmlFor="genre">Puzzle</label>
+                    <div className={styles.label}>
+                      <span>Puzzle</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       type="checkbox"
                       id="genre"
                       onChange={sorting}
                       value="Indie"
                     />
-                    <label htmlFor="genre">Indie</label>
+                    <div className={styles.label}>
+                      <span>Indie</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       type="checkbox"
                       id="genre"
                       onChange={sorting}
                       value="Casual"
                     />
-                    <label htmlFor="genre">Casual</label>
+                    <div className={styles.label}>
+                      <span>Casual</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       type="checkbox"
                       id="genre"
                       onChange={sorting}
                       value="Survival"
                     />
-                    <label htmlFor="genre">Survival</label>
+                    <div className={styles.label}>
+                      <span>Survival</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       type="checkbox"
                       id="genre"
                       onChange={sorting}
                       value="Horror"
                     />
-                    <label htmlFor="genre">Horror</label>
+                    <div className={styles.label}>
+                      <span>Horror</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                 </div>
               </AccordionDetails>
@@ -320,57 +404,87 @@ const FilterModal = () => {
                   FEATURES
                 </Typography>
               </AccordionSummary>
-              <AccordionDetails>
+              <AccordionDetails style={{ padding: "8px 6px 16px" }}>
                 <div className={styles.checkboxes}>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       type="checkbox"
                       name="features"
                       id="features"
                       onChange={sorting}
                       value="single-player"
                     />
-                    <label htmlFor="features">Single Player</label>
+                    <div className={styles.label}>
+                      <span>Single Player</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       type="checkbox"
                       name="features"
                       id="features"
                       onChange={sorting}
                       value="controller-support"
                     />
-                    <label htmlFor="features">Controller Support</label>
+                    <div className={styles.label}>
+                      <span>Controller Support</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       type="checkbox"
                       name="features"
                       id="features"
                       onChange={sorting}
                       value="multiplayer"
                     />
-                    <label htmlFor="features">Mutiplayer</label>
+                    <div className={styles.label}>
+                      <span>Multiplayer</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       type="checkbox"
                       name="features"
                       id="features"
                       onChange={sorting}
                       value="co-op"
                     />
-                    <label htmlFor="features">Co-op</label>
+                    <div className={styles.label}>
+                      <span>Co Op</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       type="checkbox"
                       name="features"
                       id="features"
                       onChange={sorting}
                       value="competitive"
                     />
-                    <label htmlFor="features">Competitive</label>
+                    <div className={styles.label}>
+                      <span>Competitive</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                 </div>
               </AccordionDetails>
@@ -401,16 +515,22 @@ const FilterModal = () => {
                   PLATFORM
                 </Typography>
               </AccordionSummary>
-              <AccordionDetails>
+              <AccordionDetails style={{ padding: "8px 6px 16px" }}>
                 <div className={styles.checkboxes}>
                   <div className={styles.checkbox}>
                     <input
+                      className={styles.input}
                       onChange={sorting}
                       value="Windows"
                       type="checkbox"
                       id="platforms"
                     />
-                    <label htmlFor="platform">Windows</label>
+                    <div className={styles.label}>
+                      <span>Windows</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                   <div className={styles.checkbox}>
                     <input
@@ -418,8 +538,14 @@ const FilterModal = () => {
                       value="Mac"
                       type="checkbox"
                       id="platforms"
+                      className={styles.input}
                     />
-                    <label htmlFor="platform">Mac OS</label>
+                    <div className={styles.label}>
+                      <span>Mac Os</span>
+                      <span className={styles.check}>
+                        <BiCheck />
+                      </span>
+                    </div>
                   </div>
                 </div>
               </AccordionDetails>

@@ -22,10 +22,9 @@ const LandingPage = () => {
   return (
     <>
       <Header />
-
+      <SubNavbar />
       <div className={styles.main}>
         <div className={styles.landing_container}>
-          <SubNavbar />
           <div className={styles.main_container}>
             <div className={styles.mainCardContainer}>
               <div className={styles.data_cont}>

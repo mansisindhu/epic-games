@@ -5,7 +5,7 @@ import axios from "axios";
 import styles from "./gamePage.module.css";
 import GameCard from "../../components/GamePageComponents/GameCard";
 import Header from "../../components/header";
-import Footer from "../../components/Footer";
+import SubNavbar from "../../components/SubNavbar";
 
 const GamePage = () => {
   const { id } = useParams();
@@ -28,20 +28,15 @@ const GamePage = () => {
     getGameData();
   }, []);
 
-  if (!gameData.title) {
-    return <p>Loading...</p>;
-  }
-
   return (
     <>
       <Header />
+      <SubNavbar />
       <div className={styles.main}>
         <div className={styles.gamePage_container}>
-          <GameCard data={gameData} />
+          {!gameData.title ? <p>Loading...</p> : <GameCard data={gameData} />}
         </div>
       </div>
-
-      {/* <Footer /> */}
     </>
   );
 };

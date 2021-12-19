@@ -54,7 +54,7 @@ const Checkout = ({ title }) => {
                 <MdOutlineClose />
               </div>
               <div className={styles.upper}>
-                <img src="./icons/Epic_games_store_logo.svg" alt="logo" />
+                <img src="/icons/Epic_games_store_logo.svg" alt="logo" />
                 <p>THANK YOU FOR BUYING</p>
                 <h4 className={styles.title}>Battlefield 2042</h4>
                 <h4 className={styles.title}>{title}</h4>

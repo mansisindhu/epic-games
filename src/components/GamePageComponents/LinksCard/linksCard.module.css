@@ -2,8 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
-  max-width: 1200px;
+  gap: 40px 20px;
   margin: auto;
   height: 100px;
   background-color: var(--main-gray);

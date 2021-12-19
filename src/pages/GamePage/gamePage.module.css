@@ -8,3 +8,9 @@
     margin: 0px 74px;
   }
 }
+
+@media (min-width: 1120px) {
+  .gamePage_container {
+    margin: 0px 132px;
+  }
+}

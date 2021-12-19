@@ -1,10 +1,72 @@
-import styles from "./paymentCard.module.css";
 import { ImWindows8 } from "react-icons/im";
 import { FaApple } from "react-icons/fa";
+import { useSelector, useDispatch } from "react-redux";
+import { useEffect, useState } from "react";
+
+import styles from "./paymentCard.module.css";
 import PriceComponent from "../../PriceComponent";
+import { addToOrders, addToWishlist } from "../../../store/actions";
+import PaymentPage from "../../../pages/PaymentPage";
 
 const PaymentCard = (props) => {
-  const { logo, developer, price, publisher, releaseDate, platform } = props;
+  const {
+    logo,
+    developer,
+    price,
+    publisher,
+    releaseDate,
+    platform,
+    id,
+    image,
+    title,
+  } = props;
+
+  const user = useSelector((state) => state.user);
+  const wishlist = user.wishlist;
+  const orders = user.orders;
+
+  const [isWishlisted, setWishlistedStatus] = useState(false);
+  const [isOrdered, setOrderedStatus] = useState(false);
+
+  useEffect(() => {
+    if (wishlist?.includes(id)) {
+      setWishlistedStatus(true);
+    }
+
+    if (orders?.includes(id)) {
+      setOrderedStatus(true);
+    }
+  }, []);
+
+  const dispatch = useDispatch();
+
+  const wishlistGame = () => {
+    dispatch(addToWishlist(id));
+    setWishlistedStatus(true);
+  };
+
+  const [isModalOpen, setModalState] = useState(false);
+
+  const closeModal = () => {
+    setModalState((prev) => !prev);
+  };
+
+  useEffect(() => {
+    if (isModalOpen) {
+      document.body.setAttribute("class", "overflow-hidden");
+    } else {
+      document.body.removeAttribute("class", "overflow-hidden");
+    }
+  }, [isModalOpen]);
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000);
+  }, [isModalOpen]);
+
   return (
     <>
       <div className={styles.main}>
@@ -21,8 +83,29 @@ const PaymentCard = (props) => {
         </div>
 
         <div className={styles.buttons}>
-          <button className={styles.buy_btn}>BUY NOW</button>
-          <button className={styles.wishlist_btn}>ADD TO WISHLIST</button>
+          {isOrdered ? (
+            <button className={styles.in_library_btn}>
+              <img src="/icons/Library.svg" alt="" />
+              <p>IN LIBRARY</p>
+            </button>
+          ) : (
+            <>
+              <button onClick={closeModal} className={styles.buy_btn}>
+                BUY NOW
+              </button>
+              {isWishlisted ? (
+                <button className={styles.wishlist_btn}>
+                  <img src="/icons/Already_in_Wishlist.svg" alt="logo" />
+                  <p>ADDED TO WISHLIST</p>
+                </button>
+              ) : (
+                <button onClick={wishlistGame} className={styles.wishlist_btn}>
+                  <img src="/icons/Add_to_Wishlist.svg" alt="logo" />
+                  <p>ADD TO WISHLIST</p>
+                </button>
+              )}
+            </>
+          )}
         </div>
 
         <div className={styles.game_info}>
@@ -62,6 +145,27 @@ const PaymentCard = (props) => {
           </div>
         </div>
       </div>
+      {isModalOpen ? (
+        <div className={styles.modal_overlay}>
+          <div className={styles.modal_container}>
+            {loading ? (
+              <div className={styles.loading}>
+                <img src="/icons/Epic_Games_Dark.svg" alt="" />
+                <p>Loading your order...</p>
+              </div>
+            ) : (
+              <PaymentPage
+                developer={developer}
+                image={image}
+                price={price}
+                title={title}
+                id={id}
+                closeModal={closeModal}
+              />
+            )}
+          </div>
+        </div>
+      ) : null}
     </>
   );
 };
