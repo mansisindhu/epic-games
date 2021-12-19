@@ -126,5 +126,7 @@
 @media (min-width: 1120px) {
   .main_desktop {
     padding: 35px 132px;
+    max-width: 1600px;
+    margin: auto;
   }
 }
