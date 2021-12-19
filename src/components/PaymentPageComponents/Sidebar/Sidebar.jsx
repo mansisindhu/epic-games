@@ -1,6 +1,7 @@
 import styles from "./sidebar.module.css";
 import { MdOutlineClose } from "react-icons/md";
 import Checkbox from "@mui/material/Checkbox";
+import PaymentCard from "../PaymentCard";
 
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
@@ -70,6 +71,10 @@ const Sidebar = () => {
                   it.
                 </p>
               </div>
+            </div>
+
+            <div className={styles.payment}>
+              <PaymentCard />
             </div>
 
             <p className={styles.text}>
