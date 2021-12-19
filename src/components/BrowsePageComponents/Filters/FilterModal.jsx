@@ -203,7 +203,7 @@ const FilterModal = () => {
                       onChange={sorting}
                     />
                     <div className={styles.label}>
-                      <span>Rs. 1,099.00 and above</span>
+                      <span>Rs. 1,099.00 and below</span>
                       <span className={styles.check}>
                         <BiCheck />
                       </span>
