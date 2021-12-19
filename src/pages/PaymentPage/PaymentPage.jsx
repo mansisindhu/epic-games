@@ -4,7 +4,7 @@ import PaymentCard from "../../components/PaymentPageComponents/PaymentCard";
 import Sidebar from "../../components/PaymentPageComponents/Sidebar";
 
 const PaymentPage = (props) => {
-  const { developer, price, id, image, title, closeModal } = props;
+  const { developer, price, id, image, title, closeModal, handleModal } = props;
   return (
     <>
       <div className={styles.main}>
@@ -23,6 +23,7 @@ const PaymentPage = (props) => {
             title={title}
             id={id}
             closeModal={closeModal}
+            handleModal={handleModal}
           />
         </div>
       </div>

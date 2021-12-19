@@ -7,6 +7,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 15;
+  backdrop-filter: blur(5px);
 }
 
 .modal_container {
@@ -32,6 +34,7 @@
 }
 .btn:hover {
   background-color: #1085fa;
+  cursor: pointer;
 }
 
 .title {

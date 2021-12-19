@@ -2,11 +2,13 @@ import { ImWindows8 } from "react-icons/im";
 import { FaApple } from "react-icons/fa";
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect, useState } from "react";
+import { useHistory } from "react-router-dom";
 
 import styles from "./paymentCard.module.css";
 import PriceComponent from "../../PriceComponent";
-import { addToOrders, addToWishlist } from "../../../store/actions";
+import { addToWishlist } from "../../../store/actions";
 import PaymentPage from "../../../pages/PaymentPage";
+import Checkout from "../../Checkout";
 
 const PaymentCard = (props) => {
   const {
@@ -39,8 +41,13 @@ const PaymentCard = (props) => {
   }, []);
 
   const dispatch = useDispatch();
+  const history = useHistory();
 
   const wishlistGame = () => {
+    if (!user.displayName) {
+      history.push("/signup");
+      return;
+    }
     dispatch(addToWishlist(id));
     setWishlistedStatus(true);
   };
@@ -48,16 +55,12 @@ const PaymentCard = (props) => {
   const [isModalOpen, setModalState] = useState(false);
 
   const closeModal = () => {
+    if (!user.displayName) {
+      history.push("/signup");
+      return;
+    }
     setModalState((prev) => !prev);
   };
-
-  useEffect(() => {
-    if (isModalOpen) {
-      document.body.setAttribute("class", "overflow-hidden");
-    } else {
-      document.body.removeAttribute("class", "overflow-hidden");
-    }
-  }, [isModalOpen]);
 
   const [loading, setLoading] = useState(true);
 
@@ -66,6 +69,20 @@ const PaymentCard = (props) => {
       setLoading(false);
     }, 4000);
   }, [isModalOpen]);
+
+  const [thankyouModal, setThankyouModal] = useState(false);
+
+  const handleModal = () => {
+    setThankyouModal((prev) => !prev);
+  };
+
+  useEffect(() => {
+    if (isModalOpen) {
+      document.body.setAttribute("class", "overflow-hidden");
+    } else {
+      document.body.removeAttribute("class", "overflow-hidden");
+    }
+  }, [thankyouModal]);
 
   return (
     <>
@@ -155,6 +172,7 @@ const PaymentCard = (props) => {
               </div>
             ) : (
               <PaymentPage
+                handleModal={handleModal}
                 developer={developer}
                 image={image}
                 price={price}
@@ -165,6 +183,9 @@ const PaymentCard = (props) => {
             )}
           </div>
         </div>
+      ) : null}
+      {thankyouModal ? (
+        <Checkout handleModal={handleModal} title={title} />
       ) : null}
     </>
   );

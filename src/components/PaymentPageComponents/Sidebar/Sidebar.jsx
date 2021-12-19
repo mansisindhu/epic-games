@@ -9,7 +9,7 @@ import { addToOrders } from "../../../store/actions";
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
 const Sidebar = (props) => {
-  const { developer, price, id, image, title, closeModal } = props;
+  const { developer, price, id, image, title, closeModal, handleModal } = props;
   const discountedPrice =
     price.mainPrice - Math.floor(price.mainPrice * (price.discount / 100));
 
@@ -17,6 +17,7 @@ const Sidebar = (props) => {
 
   const placeOrder = () => {
     dispatch(addToOrders(id));
+    handleModal();
     closeModal();
   };
 
