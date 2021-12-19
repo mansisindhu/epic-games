@@ -2,8 +2,6 @@ import SecondaryCard from "../SecondaryCard/SecondaryCard";
 import styles from "./secondaryCardContainer.module.css";
 
 const SecondaryCardContainer = ({ data }) => {
-  console.log(data);
-
   return (
     <>
       <div className={styles.container}>

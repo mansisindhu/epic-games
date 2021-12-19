@@ -6,7 +6,7 @@ const SecondaryCard = (props) => {
 
   return (
     <>
-      <a className={styles.card} href="https://www.epicgames.com/store/en-US/">
+      <a className={styles.card} href="#">
         <div className={styles.card}>
           <div className={styles.image_div}>
             <img className={styles.banner} src={image} alt="cardImage" />

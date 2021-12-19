@@ -11,7 +11,6 @@
 
 .card {
   width: 300px;
-  color: var(--seconday-text);
   text-decoration: none;
 }
 
@@ -22,7 +21,7 @@
 }
 
 .description {
-  color: var(--secondary-text);
+  color: var(--gray-text);
   font-size: 12px;
   margin-bottom: 5px;
   line-height: 20px;
@@ -116,27 +115,14 @@
     border-radius: 13px;
   }
 
-  /* .image_div:hover {
-  }
-   */
   .banner {
     opacity: 1;
-    /* border: 0px solid rgba(153, 153, 153, 0); */
     transition: 0.3s;
   }
 
   .banner:hover {
     opacity: 0.9;
   }
-
-  /* .image_div {
-    position: relative;
-    display: inline-block;
-  } */
-
-  /* .image_div img {
-    width: 100%;
-  } */
 
   .image_div .icon {
     display: block;

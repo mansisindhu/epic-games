@@ -133,10 +133,6 @@
     border: 0px solid rgba(255, 255, 255, 0);
   }
 
-  .image_div:hover {
-    border: 0.1px solid rgba(153, 153, 153, 0.041);
-  }
-
   .banner {
     opacity: 1;
   }

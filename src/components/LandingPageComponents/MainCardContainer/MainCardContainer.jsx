@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import TopCategorySlider from "../../TopCategorySlider";
 import MainCard from "../MainCard";
 import styles from "./mainCardContainer.module.css";
+import GameCard from "../../BrowsePageComponents/GameCard";
 
 const MainCardContainer = ({ data }) => {
   return (
@@ -12,16 +13,17 @@ const MainCardContainer = ({ data }) => {
         <div className={styles.container}>
           {data.map((el, i) => {
             return (
-              <Link key={i} to={`/games/${el._id}`}>
-                <div className={styles.card}>
-                  <MainCard
+              <div className={styles.card}>
+                <Link key={i} to={`/games/${el._id}`}>
+                  <GameCard
                     image={el.cardImage}
                     title={el.title}
                     tagline={el.cardTagline}
                     price={el.price}
+                    id={el._id}
                   />
-                </div>
-              </Link>
+                </Link>
+              </div>
             );
           })}
         </div>

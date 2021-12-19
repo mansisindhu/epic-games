@@ -1,14 +1,13 @@
 .container {
-  overflow-x: scroll;
   display: flex;
-  gap: 20px;
-  width: 100%;
-  align-items: center;
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
 .card {
-  flex-shrink: 0;
-  align-items: center;
+  width: calc(50% - 16px);
+  margin-bottom: 28px;
 }
 
 ::-webkit-scrollbar {
@@ -21,10 +20,15 @@
     display: flex;
     gap: 10px;
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .mainCardContainer {
     margin-top: 20px;
+  }
+
+  .card {
+    width: calc(20% - 16px);
+    margin-bottom: 28px;
   }
 }
