@@ -59,7 +59,7 @@ const CarouselMain = () => {
                         <span>
                           <img
                             className="wishlist__icon"
-                            src="/icons/Add_to_wishlist.svg"
+                            src="/icons/Add_to_Wishlist.svg"
                             alt=""
                           />
                         </span>{" "}

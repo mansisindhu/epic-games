@@ -94,7 +94,7 @@ const SignupPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.icon}>
-        <img src="/icons/Epic_games_white.svg" alt="logo" />
+        <img src="/icons/Epic_Games_white.svg" alt="logo" />
       </div>
       <div className={styles.form}>
         <p>Sign Up</p>
