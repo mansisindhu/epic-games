@@ -1,0 +1,43 @@
+.main {
+  display: flex;
+  gap: 18px;
+  margin: 0 4px;
+}
+
+.bars {
+  display: none;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+  padding: 12px;
+  border-radius: 10px;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.bar > img {
+  width: 40px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.bar:hover {
+  background: #3d3d3d;
+}
+
+@media (min-width: 1100px) {
+  .main {
+    margin: 0 40px;
+  }
+
+  .bars {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
