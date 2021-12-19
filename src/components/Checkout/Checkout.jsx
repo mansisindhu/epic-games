@@ -1,5 +1,4 @@
 import React from "react";
-import { MdOutlineClose } from "react-icons/md";
 import { useHistory } from "react-router-dom";
 
 import styles from "./checkout.module.css";
@@ -15,9 +14,6 @@ const Checkout = ({ title, handleModal }) => {
   return (
     <div className={styles.modal_overlay}>
       <div className={styles.modal_container}>
-        <div onClick={handleModal} className={styles.closeIcon}>
-          <MdOutlineClose />
-        </div>
         <div className={styles.main}>
           <div className={styles.upper}>
             <img src="/icons/Epic_games_store_logo.svg" alt="logo" />

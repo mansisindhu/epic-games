@@ -5,10 +5,10 @@ import MainCard from "../MainCard";
 import styles from "./mainCardContainer.module.css";
 import GameCard from "../../BrowsePageComponents/GameCard";
 
-const MainCardContainer = ({ data }) => {
+const MainCardContainer = ({ data, title }) => {
   return (
     <>
-      <TopCategorySlider text="Games on Sale" />
+      <TopCategorySlider text={title} />
       <div className={styles.mainCardContainer}>
         <div className={styles.container}>
           {data.map((el, i) => {

@@ -12,6 +12,12 @@
 
 .icon {
   font-size: 20px;
+  color: var(--gray-text);
+}
+
+.icon:hover {
+  color: #fff;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {

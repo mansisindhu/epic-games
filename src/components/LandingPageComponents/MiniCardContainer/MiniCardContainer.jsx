@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import styles from "./mini-card-container.module.css";
 import MiniCard from "../MiniCard";
 
@@ -10,13 +12,15 @@ const MiniCardContainer = ({ data, heading }) => {
 
           {data.map((el, i) => {
             return (
-              <div key={i} className={styles.card}>
-                <MiniCard
-                  banner={el.cardImage}
-                  title={el.title}
-                  price={el.price}
-                />
-              </div>
+              <Link to={`/games/${el._id}`}>
+                <div key={i} className={styles.card}>
+                  <MiniCard
+                    banner={el.cardImage}
+                    title={el.title}
+                    price={el.price}
+                  />
+                </div>
+              </Link>
             );
           })}
         </div>

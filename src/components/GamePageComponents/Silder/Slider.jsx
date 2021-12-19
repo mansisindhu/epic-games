@@ -5,7 +5,7 @@ import "./slider.css";
 
 const Slider = ({ data }) => {
   return (
-    <Carousel autoPlay showStatus={false}>
+    <Carousel autoPlay showStatus={false} stopOnHover={false}>
       {data.map((el, i) => {
         return (
           <div key={i}>

@@ -2,6 +2,7 @@
   background-color: var(--main-gray);
   width: 100%;
   border-radius: 4px;
+  flex-shrink: 0;
 }
 
 .container {
@@ -9,12 +10,7 @@
   display: flex;
   gap: 20px;
   width: 100%;
-  align-items: center;
   margin-top: 10px;
-}
-
-.card {
-  flex-shrink: 0;
 }
 
 ::-webkit-scrollbar {
@@ -27,5 +23,9 @@
     display: flex;
     gap: 30px;
     justify-content: center;
+  }
+
+  .card {
+    flex-shrink: 1;
   }
 }

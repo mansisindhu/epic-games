@@ -10,9 +10,7 @@ const SecondaryCard = (props) => {
         <div className={styles.card}>
           <div className={styles.image_div}>
             <img className={styles.banner} src={image} alt="cardImage" />
-            <div className={styles.icon}>
-              <img src="/icons/Add_to_Wishlist.svg" alt="wishlistIcon" />
-            </div>
+            
           </div>
           <div className={styles.content}>
             <p className={styles.title}>{title} Available Now.</p>

@@ -30,7 +30,7 @@ const LandingPage = () => {
             <CarouselMain />
             <div className={styles.mainCardContainer}>
               <div className={styles.data_cont}>
-                <MainCardContainer data={saleData} />
+                <MainCardContainer data={saleData} title="Game On Sale"/>
               </div>
             </div>
 
@@ -72,13 +72,13 @@ const LandingPage = () => {
 
             <div className={styles.mainCardContainer}>
               <div className={styles.data_cont}>
-                <MainCardContainer data={recentlyUpdatedData} />
+                <MainCardContainer data={recentlyUpdatedData} title="Recently Updated"/>
               </div>
             </div>
 
             <div className={styles.mainCardContainer}>
               <div className={styles.data_cont}>
-                <MainCardContainer data={newToStoreData} />
+                <MainCardContainer data={newToStoreData} title="Holiday Sale Spotlight"/>
               </div>
             </div>
 
