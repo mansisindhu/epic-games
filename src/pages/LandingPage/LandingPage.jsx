@@ -9,6 +9,7 @@ import MiniCardContainer from "../../components/LandingPageComponents/MiniCardCo
 import BrowseLink from "../../components/LandingPageComponents/BrowseLink/BrowseLink";
 import Header from "../../components/header";
 import SubNavbar from "../../components/SubNavbar";
+import Footer from "../../components/Footer";
 
 const LandingPage = () => {
   const landingPageData = useSelector((state) => state.landingPageData);
@@ -21,6 +22,7 @@ const LandingPage = () => {
   return (
     <>
       <Header />
+
       <div className={styles.main}>
         <div className={styles.landing_container}>
           <SubNavbar />
@@ -83,6 +85,8 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };

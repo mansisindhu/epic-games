@@ -5,6 +5,7 @@ import axios from "axios";
 import styles from "./gamePage.module.css";
 import GameCard from "../../components/GamePageComponents/GameCard";
 import Header from "../../components/header";
+import Footer from "../../components/Footer";
 
 const GamePage = () => {
   const { id } = useParams();
@@ -39,6 +40,8 @@ const GamePage = () => {
           <GameCard data={gameData} />
         </div>
       </div>
+
+      {/* <Footer /> */}
     </>
   );
 };

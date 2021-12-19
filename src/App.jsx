@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 
 import "./index.css";
-
+import BrowsePage from "./pages/BrowsePage";
 import LandingPage from "./pages/LandingPage";
 import GamePage from "./pages/GamePage";
 import SignupOptionsPage from "./pages/SignupOptionsPage";

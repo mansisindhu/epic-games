@@ -9,6 +9,7 @@ import GameCard from "../../components/BrowsePageComponents/GameCard";
 import FilterModal from "../../components/BrowsePageComponents/Filters/FilterModal";
 import Header from "../../components/header";
 import SubNavbar from "../../components/SubNavbar";
+import Footer from "../../components/Footer";
 
 const BrowsePage = () => {
   const [sortingModal, setSortingModalState] = useState(false);
@@ -137,6 +138,8 @@ const BrowsePage = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
 
       {filterModal ? (
         <div className={styles.modal_overlay}>
