@@ -1,76 +1,80 @@
-import styles from './Footer.module.css'
+import styles from "./Footer.module.css";
 
-// import "../../..//icons/facebook.svg"
-export default function Footer(){
-    return(
-       <>
-       
-           <div className={styles.footer1}>
-               <div className={styles.footer2}>
-                   <img  className={styles.img1} src="./icons/facebook.svg"></img>
-                   <img  className={styles.img2} src="./icons/twitter.svg"></img>
-                   <img  className={styles.img3} src="./icons/youtube.svg"></img>
-              </div>
-              <div className={styles.footerright}>
-                   <img  className={styles.img4} src="./icons/Vector7.svg"></img>
-                   </div>
-                   <div className={styles.footer12}>
-               <p>Resources</p>
-           </div>
-                <div className={styles.footerwar}>
-                <div className={styles.para}>
-                    <p>Support-A-Creator</p>
-                    <p>Publish on Epic Games</p>
-                    <p>Careers</p>
-                    </div>
-                    <div className={styles.para}>
-                    <p>Company</p>
-                    <p>Fan Art Policy</p>
-                    <p>UX Research</p>
-                    </div>
-                    <div className={styles.para}>
-                    <p>Store EULA</p>
-                    <p>Online Services</p>
-                    <p>Community Rules</p>
-                    </div>
+const Footer = () => {
+  return (
+    <>
+      <div className={styles.footer}>
+        <div className={styles.main}>
+          <div className={styles.icon_header}>
+            <div className={styles.social_links}>
+              <img src="/icons/fbwhite.svg" alt="facebooc" />
+              <img src="/icons/twitterwhite.svg" alt="twitter" />
+              <img src="/icons/utubewhite.svg" alt="youtube" />
+            </div>
+
+            <div className={styles.arrow}>
+              <a href="#header">
+                {" "}
+                <img src="/icons/arrow.svg" alt="arrow" />
+              </a>
+            </div>
+          </div>
+
+          <div className={styles.lang_div}>
+            <div className={styles.cont}>
+              <div className={styles.resources}>
+                <p className={styles.footer_heading}>Resources</p>
+                <div className={styles.links}>
+                  <p>Support-A-Creator</p> <p>Company</p>
+                  <p>Store EULA </p>
+                  <p>Publish on Epic Games</p>
+                  <p>Fan art Policy</p>
+                  <p>Russian</p> <p>Polish</p>
+                  <p>Online Services</p>
+                  <p>Careers</p> <p>UX Research</p>
+                  <p>Community Rules</p>
                 </div>
+              </div>
 
-                <div className={styles.footer12}>
-               <p>Made By Epic Games</p>
-           </div>
+              <div className={styles.epicgames}>
+                <p className={styles.footer_heading}>Made By Epic Games</p>
+                <div className={styles.links}>
+                  <p>Battle Breakers</p> <p>Shadow Complex</p> <p> Fortnite</p>
+                  <p>Spyjinx</p>
+                  <p>Wolfstride</p> <p>Unspottable</p> <p>Shadow tactics</p>
+                  <p>Dead by daylight</p>
+                  <p>ChromaGun</p> <p>Chivalry</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-           <div className={styles.footerwar}>
-                <div className={styles.para}>
-                    <p>Battle Breakers</p>
-                    <p>Fortnite</p>
-                    <p>Infinity Blade</p>
-                    <p>Robo Recall</p>
-                    </div>
-                    <div className={styles.para}>
-                    <p>Shadow Complex</p>
-                    <p>Spyjinx</p>
-                    <p>Unreal Tournament</p>
-                    </div>
-                     </div>
-                        <div className={styles.line}></div>
+          <p className={styles.bottom_text}>
+            © 2021, Epic Games, Inc. All rights reserved. Epic, Epic Games, the
+            Epic Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine,
+            the Unreal Engine logo, Unreal Tournament, and the Unreal Tournament
+            logo are trademarks or registered trademarks of Epic Games, Inc. in
+            the United States of America and elsewhere. Other brands or product
+            names are the trademarks of their respective owners. Non-US
+            transactions through Epic Games International, S.à r.l.
+          </p>
 
-                        <div className={styles.paragraph}>
-                            <p>© 2021, Epic Games, Inc. All rights reserved. Epic, Epic Games, the Epic Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine, the Unreal Engine logo, Unreal Tournament, and the Unreal Tournament logo are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere. Other brands or product names are the trademarks of their respective owners. Non-US transactions through Epic Games International, S.à r.l.   </p>
-                        </div>
+          <div className={styles.bottom_footer}>
+            <div className={styles.left}>
+              <p>Terms of Service</p>
+              <p>Privacy Policy</p>
+              <p>Store Refund Policy</p>
+            </div>
 
-                        <div className={styles.threeline}>
-                           <a>Terms of Service</a>
-                           <a>Privacy Policy</a>
-                           <a>Store Refund Policy</a>
-                        </div>
+            <div className={styles.right}>
+              <img src="/icons/Epic_Games_white.svg" alt="epicGamesLogo" />
+              <img src="/icons/Unreal_Engine_Logo.svg" alt="unreal" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
-                        <div className={styles.lastimg}>
-                            <img src="./icons/Epic_games_white.svg"></img>
-                            <img src="./icons/unreal_Engine_Logo.svg"></img>
-                        </div>
-           </div>
-         
-            
-       </> 
-    )
-}
+export default Footer;
