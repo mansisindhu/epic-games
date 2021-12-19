@@ -7,12 +7,17 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./carousel.css";
 import "./card.module.css";
 import styles from "./card.module.css";
+import LoadingPage from "../LoadingPage";
 
 const CarouselMain = () => {
   const data = useSelector((state) => state.landingPageData);
   const carouselData = [];
   for (let i = 5; i < 11; i++) {
     carouselData.push(data[i]);
+  }
+
+  if (!carouselData[0]) {
+    return <LoadingPage />;
   }
 
   return (
