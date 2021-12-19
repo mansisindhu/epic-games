@@ -10,6 +10,7 @@ import SignupOptionsPage from "./pages/SignupOptionsPage";
 import SignupPage from "./pages/SignupPage";
 import { fetchGames, fetchUser } from "./store/actions";
 import WishlistPage from "./pages/WishlistPage";
+import PaymentPage from "./pages/PaymentPage";
 
 const App = () => {
   const dispatch = useDispatch();

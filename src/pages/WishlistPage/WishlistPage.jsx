@@ -53,3 +53,4 @@ const WishListPage = () => {
 };
 
 export default WishListPage;
+
