@@ -17,7 +17,7 @@ const LandingPage = () => {
   const saleData = landingPageData.slice(0, 5);
   const recentlyUpdatedData = landingPageData.slice(5, 10);
   const mostPopularData = landingPageData.slice(10, 15); // to be changed
-  const newToStoreData = landingPageData.slice(10, 15);
+  const newToStoreData = landingPageData.slice(15, 20);
   const secondaryCardData = Data; // to be changed
 
   return (
@@ -36,7 +36,7 @@ const LandingPage = () => {
 
             <div className={styles.secondaryCardContainer}>
               <SecondaryCardContainer
-                data={[secondaryCardData[6], secondaryCardData[14]]}
+                data={[landingPageData[24], landingPageData[25]]}
               />
             </div>
 
@@ -59,14 +59,14 @@ const LandingPage = () => {
               <div className={styles.miniCardContainer}>
                 <MiniCardContainer
                   data={mostPopularData}
-                  heading="Coming Soon"
+                  heading="Holiday Sale"
                 />
               </div>
             </div>
 
             <div className={styles.secondaryCardContainer}>
               <SecondaryCardContainer
-                data={[secondaryCardData[2], secondaryCardData[3]]}
+                data={[landingPageData[20], landingPageData[19]]}
               />
             </div>
 
