@@ -26,7 +26,7 @@ const Sidebar = (props) => {
         <div className={styles.main}>
           <div className={styles.header}>
             <p className={styles.sidebar_title}>Order Summary</p>
-            <div className={styles.closeIcon}>
+            <div onClick={closeModal} className={styles.closeIcon}>
               <MdOutlineClose />
             </div>
           </div>
@@ -61,7 +61,6 @@ const Sidebar = (props) => {
             <div class="row">
               <div>
                 <div class="right-inner-addon input-container">
-                  {/* <i class="fa fa-info-circle"></i> */}
                   <input
                     type="text"
                     className={styles.input}
