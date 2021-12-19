@@ -35,7 +35,7 @@ const Header = () => {
   };
 
   return (
-    <div className={styles.header__main__div}>
+    <div id="header" className={styles.header__main__div}>
       <div className={styles.header__first}>
         <Link to="/">
           <div className={styles.header__logo}>
