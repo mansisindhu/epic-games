@@ -1,19 +1,23 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
+import { MdOutlineClose } from "react-icons/md";
 
 import styles from "./checkout.module.css";
 
-const Checkout = ({ title, handleModal }) => {
+const Checkout = ({ title, handleModal, id }) => {
   const history = useHistory();
 
   const confirmation = () => {
     handleModal();
-    history.push("/");
+    history.push(`/games/${id}`);
   };
 
   return (
     <div className={styles.modal_overlay}>
       <div className={styles.modal_container}>
+        <div onClick={confirmation} className={styles.closeIcon}>
+          <MdOutlineClose style={{ fontSize: "24px" }} />
+        </div>
         <div className={styles.main}>
           <div className={styles.upper}>
             <img src="/icons/Epic_games_store_logo.svg" alt="logo" />
