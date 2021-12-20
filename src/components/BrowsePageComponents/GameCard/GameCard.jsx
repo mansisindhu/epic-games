@@ -17,7 +17,7 @@ const GameCard = (props) => {
     if (wishlist?.includes(props.id)) {
       setStatus(true);
     }
-  }, []);
+  }, [user.displayName]);
 
   const history = useHistory();
   const add = (e) => {
