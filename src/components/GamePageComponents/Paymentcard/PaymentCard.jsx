@@ -38,7 +38,7 @@ const PaymentCard = (props) => {
     if (orders?.includes(id)) {
       setOrderedStatus(true);
     }
-  }, []);
+  }, [user.orders]);
 
   const dispatch = useDispatch();
   const history = useHistory();
@@ -185,7 +185,7 @@ const PaymentCard = (props) => {
         </div>
       ) : null}
       {thankyouModal ? (
-        <Checkout handleModal={handleModal} title={title} />
+        <Checkout handleModal={handleModal} title={title} id={id} />
       ) : null}
     </>
   );

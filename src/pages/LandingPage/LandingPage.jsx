@@ -11,7 +11,6 @@ import SubNavbar from "../../components/SubNavbar";
 import CarouselMain from "../../components/CarouselMain";
 import Footer from "../../components/Footer";
 import LoadingPage from "../../components/LoadingPage";
-import { useState } from "react";
 
 const LandingPage = () => {
   const landingPageData = useSelector((state) => state.landingPageData);
