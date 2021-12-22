@@ -6,7 +6,7 @@ import SecondaryCardContainer from "../../components/LandingPageComponents/Secon
 import FreeCardContainer from "../../components/LandingPageComponents/FreeCardContainer";
 import MiniCardContainer from "../../components/LandingPageComponents/MiniCardContainer/MiniCardContainer";
 import BrowseLink from "../../components/LandingPageComponents/BrowseLink/BrowseLink";
-import Header from "../../components/Header";
+import Header from "../../components/header";
 import SubNavbar from "../../components/SubNavbar";
 import CarouselMain from "../../components/LandingPageComponents/CarouselMain";
 import Footer from "../../components/Footer";

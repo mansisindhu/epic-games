@@ -4,7 +4,7 @@ import axios from "axios";
 
 import styles from "./gamePage.module.css";
 import GameCard from "../../components/GamePageComponents/GameCard";
-import Header from "../../components/Header";
+import Header from "../../components/header";
 import SubNavbar from "../../components/SubNavbar";
 import LoadingPage from "../../components/LoadingPage";
 

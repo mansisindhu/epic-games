@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./wishlist.module.css";
-import Header from "../../components/Header";
+import Header from "../../components/header";
 import SubNavbar from "../../components/SubNavbar";
 import NotificationBar from "../../components/WishlistComponent/NotificationBar";
 import EmptyCard from "../../components/WishlistComponent/EmptyPage";
