@@ -30,9 +30,9 @@ const WishListPage = () => {
             <NotificationBar />
 
             {wishlist.length ? (
-              wishlist.map((el) => {
+              wishlist.map((el, i) => {
                 return (
-                  <Link to={`/games/${el._id}`}>
+                  <Link key={i} to={`/games/${el._id}`}>
                     <Card
                       id={el._id}
                       title={el.title}
@@ -53,4 +53,3 @@ const WishListPage = () => {
 };
 
 export default WishListPage;
-

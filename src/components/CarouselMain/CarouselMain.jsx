@@ -34,8 +34,8 @@ const CarouselMain = () => {
       >
         {carouselData.map((el, i) => {
           return (
-            <Link to={`/games/${el?._id}`}>
-              <div key={i}>
+            <Link to={`/games/${el?._id}`} key={i}>
+              <div>
                 <img src={el?.thumbnail} alt="" className="image" />
                 <div className="legend" id="legend">
                   {el?.price.discount > 0 ? (
@@ -76,7 +76,7 @@ const CarouselMain = () => {
       <div className={styles.bars}>
         {carouselData.map((el, i) => {
           return (
-            <div className={styles.bar}>
+            <div className={styles.bar} key={i}>
               <img src={el?.thumbnail} alt="" />
               <p>{el?.title}</p>
             </div>

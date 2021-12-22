@@ -1,8 +1,7 @@
-import styles from "./cardDetails.module.css";
-import FormGroup from "@mui/material/FormGroup";
-import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
 import TextField from "@mui/material/TextField";
+
+import styles from "./cardDetails.module.css";
 
 const CardDetails = () => {
   return (
