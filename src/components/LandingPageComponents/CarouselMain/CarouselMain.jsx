@@ -8,12 +8,23 @@ import "./carousel.css";
 import "./card.module.css";
 import styles from "./card.module.css";
 
+const titles = [
+  "Ancestors: The Humankind Odyssey",
+  "Manifold Garden",
+  "Prey",
+  "Rebel Galaxy",
+  "Wolfenstein: The Old Blood",
+  "Battlefield™ 2042",
+];
+
 const CarouselMain = () => {
   const data = useSelector((state) => state.landingPageData);
-  const carouselData = [];
-  for (let i = 0; i < 6; i++) {
-    carouselData.push(data[i]);
-  }
+  const carouselData = data.filter((el) => {
+    if (titles.includes(el.title)) {
+      return el;
+    }
+    return false;
+  });
 
   return (
     <div className={styles.main}>

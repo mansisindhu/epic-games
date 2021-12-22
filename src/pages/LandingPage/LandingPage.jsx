@@ -19,6 +19,20 @@ const LandingPage = () => {
   const mostPopularData = landingPageData.slice(10, 15);
   const newToStoreData = landingPageData.slice(15, 20);
 
+  const secondaryCardData1 = landingPageData.filter((el) => {
+    if (el.title === "Corruption 2029" || el.title === "Anno 1701") {
+      return el;
+    }
+    return false;
+  });
+
+  const secondaryCardData2 = landingPageData.filter((el) => {
+    if (el.title === "Tribes of Midgard" || el.title === "One Hand Clapping") {
+      return el;
+    }
+    return false;
+  });
+
   return (
     <>
       <Header />
@@ -38,9 +52,7 @@ const LandingPage = () => {
                 </div>
 
                 <div className={styles.secondaryCardContainer}>
-                  <SecondaryCardContainer
-                    data={[landingPageData[24], landingPageData[25]]}
-                  />
+                  <SecondaryCardContainer data={secondaryCardData1} />
                 </div>
 
                 <div className={styles.freeCardContainer}>
@@ -68,9 +80,7 @@ const LandingPage = () => {
                 </div>
 
                 <div className={styles.secondaryCardContainer}>
-                  <SecondaryCardContainer
-                    data={[landingPageData[20], landingPageData[19]]}
-                  />
+                  <SecondaryCardContainer data={secondaryCardData2} />
                 </div>
 
                 <div className={styles.mainCardContainer}>
