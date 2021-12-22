@@ -71,10 +71,12 @@ const CarouselMain = () => {
       <div className={styles.bars}>
         {carouselData.map((el, i) => {
           return (
-            <div className={styles.bar} key={i}>
-              <img src={el?.thumbnail} alt="" />
-              <p>{el?.title}</p>
-            </div>
+            <Link key={i} to={`/games/${el?._id}`}>
+              <div className={styles.bar}>
+                <img src={el?.thumbnail} alt="" />
+                <p>{el?.title}</p>
+              </div>
+            </Link>
           );
         })}
       </div>
