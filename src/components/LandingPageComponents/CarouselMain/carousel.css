@@ -122,9 +122,10 @@
 .main__carousel__tag {
   font-size: 12px;
   color: #f5f5f5;
+  text-transform: uppercase;
 }
 
-.main__carousel__decspriction {
+.main__carousel__description {
   font-size: 18px;
   color: #f5f5f5;
   margin-top: 15px;

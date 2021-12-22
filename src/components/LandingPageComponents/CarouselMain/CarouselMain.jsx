@@ -39,7 +39,7 @@ const CarouselMain = () => {
                     </p>
                   ) : null}
 
-                  <p className="main__carousel__decspriction">
+                  <p className="main__carousel__description">
                     {el?.gameFeatures[0]}
                   </p>
 

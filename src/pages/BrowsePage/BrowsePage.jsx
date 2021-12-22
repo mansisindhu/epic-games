@@ -7,7 +7,7 @@ import PopularGenre from "../../components/BrowsePageComponents/PopularGenre";
 import styles from "./browse-page.module.css";
 import GameCard from "../../components/BrowsePageComponents/GameCard";
 import FilterModal from "../../components/BrowsePageComponents/Filters/FilterModal";
-import Header from "../../components/header";
+import Header from "../../components/Header";
 import SubNavbar from "../../components/SubNavbar";
 import Footer from "../../components/Footer";
 
