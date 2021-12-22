@@ -1,7 +1,7 @@
 
 ![image](https://user-images.githubusercontent.com/76626095/146687466-25df9180-7b56-4e8f-a02d-1a045bf1edf0.png)
 
-**Epic games is a gaming platform where user can buy and get different kinds of games. Website is fully responsive and all interfaces are build focusing on looks or style with proper functionality. Our Website having easy filtering of games and includes sorting according to low to high, alphabatically and new released games.**
+**Epic games is a gaming platform where users can buy and get different kinds of games. The website is fully responsive and all interfaces are built focusing on looks or style with proper functionality. Our Website has easy filtering of games and includes sorting according to low to high, alphabetically and newly released games.**
 
 
 #
@@ -12,13 +12,13 @@
  ```
 
 #### Features
-- Google Authetication
-- User can browse games on browse page
-- User can sort & filter different kind of games according to genres, features, platform, price.
-- Games categories for most popular, new releases, top selling games.
-- User can add games in wishlist and make payments using credit card.
-- Games will be found in library after purchasing.
-- User can not see wishlist without logged in.
+- Google Authentication
+- User can browse games on the browse page
+- Users can sort & filter different kinds of games according to genres, features, platform, price.
+- Games categories for most popular, new releases, top-selling games.
+- Users can add games to the wishlist and make payments using a credit card.
+- Games will be found in the library after purchasing.
+- User can not see the wishlist without logging in.
 
 #### Landing Page
 
