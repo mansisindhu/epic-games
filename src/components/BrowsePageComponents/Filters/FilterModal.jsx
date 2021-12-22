@@ -47,6 +47,7 @@ const FilterModal = () => {
               if (el !== value) {
                 return el;
               }
+              return false;
             }),
           };
         }
@@ -65,6 +66,7 @@ const FilterModal = () => {
               if (el !== value) {
                 return el;
               }
+              return false;
             }),
           };
         }
@@ -83,6 +85,7 @@ const FilterModal = () => {
               if (el !== value) {
                 return el;
               }
+              return false;
             }),
           };
         }

@@ -15,6 +15,7 @@ const WishListPage = () => {
     if (user.wishlist?.includes(el._id)) {
       return el;
     }
+    return false;
   });
 
   return (
