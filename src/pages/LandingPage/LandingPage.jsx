@@ -8,7 +8,7 @@ import MiniCardContainer from "../../components/LandingPageComponents/MiniCardCo
 import BrowseLink from "../../components/LandingPageComponents/BrowseLink/BrowseLink";
 import Header from "../../components/header";
 import SubNavbar from "../../components/SubNavbar";
-import CarouselMain from "../../components/CarouselMain";
+import CarouselMain from "../../components/LandingPageComponents/CarouselMain";
 import Footer from "../../components/Footer";
 import LoadingPage from "../../components/LoadingPage";
 

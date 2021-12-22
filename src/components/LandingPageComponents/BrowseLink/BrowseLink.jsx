@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import styles from "./browseLink.module.css";
 
 const BrowseLink = () => {
@@ -16,7 +18,9 @@ const BrowseLink = () => {
           <p className={styles.subheading}>
             Explore our catalog for your next favorite game!
           </p>
-          <button className={styles.btn}>Learn More</button>
+          <Link to="/browse">
+            <button className={styles.btn}>Learn More</button>
+          </Link>
         </div>
       </div>
     </>

@@ -85,5 +85,6 @@
     margin-top: 30px;
     font-weight: 400;
     border: none;
+    cursor: pointer;
   }
 }
