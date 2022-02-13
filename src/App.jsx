@@ -1,4 +1,4 @@
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, useLocation } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 
@@ -13,6 +13,12 @@ import WishlistPage from "./pages/WishlistPage";
 
 const App = () => {
   const dispatch = useDispatch();
+  const {pathname} = useLocation();
+
+  useEffect(() => {
+    console.log(pathname)
+    window.scrollTo(0, 0)
+  }, [pathname])
 
   useEffect(() => {
     dispatch(fetchUser());
