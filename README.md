@@ -1,7 +1,7 @@
 
 ![image](https://user-images.githubusercontent.com/76626095/146687466-25df9180-7b56-4e8f-a02d-1a045bf1edf0.png)
 
-**Epic games is a gaming platform where users can buy and get different kinds of games. The website is fully responsive and all interfaces are built focusing on looks or style with proper functionality. Our Website has easy filtering of games and includes sorting according to low to high, alphabetically and newly released games.**
+**Epic games is a gaming platform where users can buy PC games. It's a responsive website with utmost focus on UI and functionality. Our Website has easy filtering of games and includes sorting according to low to high, alphabetically and newly released games.**
 
 
 #
